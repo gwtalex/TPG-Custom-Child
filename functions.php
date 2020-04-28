@@ -140,9 +140,20 @@ add_action( 'widgets_init', 'register_widget_areas' );
 
 // Side Menu
 
-function cssmenumaker_scripts_styles() {
-   wp_enqueue_style( 'cssmenu-styles', get_stylesheet_directory_uri() . '/inc/side-menu/styles.css');
+function side_menu_css() {
+   wp_enqueue_style( 'side-menu-css', get_stylesheet_directory_uri() . '/inc/side-menu/styles.css');
 }
 
 
-add_action('wp_enqueue_scripts', 'cssmenumaker_scripts_styles' );
+add_action('wp_enqueue_scripts', 'side_menu_css' );
+
+//Side Menu Jquery
+function side_menu_js() {
+    wp_enqueue_script(
+        'side-menu-js',
+        get_stylesheet_directory_uri() . '/js/script.js',
+        array( 'jquery' )
+    );
+}
+
+add_action( 'wp_enqueue_scripts', 'side_menu_js' );
