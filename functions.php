@@ -147,13 +147,9 @@ function side_menu_css() {
 
 add_action('wp_enqueue_scripts', 'side_menu_css' );
 
-//Side Menu Jquery
+//Side Menu Javascript
 function side_menu_js() {
-    wp_enqueue_script(
-        'side-menu-js',
-        get_stylesheet_directory_uri() . '/js/script.js',
-        array( 'jquery' )
-    );
+    wp_enqueue_script( 'side-menu-js', get_stylesheet_directory_uri() . '/inc/side-menu/script.js', array(), false, true);
 }
 
 add_action( 'wp_enqueue_scripts', 'side_menu_js' );

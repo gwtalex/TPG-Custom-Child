@@ -34,10 +34,11 @@ Template Post Type: payroll
 							<div class="">
 						<?php wp_nav_menu( array(
 							'theme_location' 	=> 'payroll-menu',
-							'depth'           	=> 2,
+							'fallback_cb'    => '__return_false',
+							'depth'           	=> 0,
 							'container'     	=> 'div',
-							'container_class' 	=> 'tree',
-							 //'walker'			=> new Nfr_Menu_Walker,
+							'container_class' 	=> 'side-menu',
+							'walker'			=> new Walker_Nav_Side(),
 						) ); ?>
 							</div>
 					</div>

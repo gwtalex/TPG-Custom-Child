@@ -44,6 +44,7 @@ Template Post Type: insurance
 					if(has_category('personal')) {
   							wp_nav_menu( array(
   							'theme_location' 	=> 'personal-insurance-menu',
+							'fallback_cb'    => '__return_false',
   							'depth'           	=> 2,
   							'container'     	=> 'div',
   							'container_class' 	=> 'tree',

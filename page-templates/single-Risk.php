@@ -34,9 +34,10 @@ Template Post Type: risk
 							<div class="">
 						<?php wp_nav_menu( array(
 							'theme_location' 	=> 'risk-menu',
-							'depth'           	=> 2,
-							'container'     	=> '',
-							'container_class' 	=> '',
+							'fallback_cb'    => '__return_false',
+							'depth'           	=> 0,
+							'container'     	=> 'div',
+							'container_class' 	=> 'side-menu',
 							'walker'			=> new Walker_Nav_Side(),
 						) ); ?>
 							</div>

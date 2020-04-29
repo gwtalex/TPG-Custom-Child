@@ -11708,6 +11708,21 @@ figure.woocommerce-product-gallery__wrapper {
 
 /*
 * ====================================
+* Side Menu Styling
+* ====================================
+*/
+.side-menu .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .side-menu .menu .menu-item a span {
+    color: black; }
+  .side-menu .menu .menu-item .side-menu {
+    list-style: none;
+    padding-left: 10px; }
+
+/*
+* ====================================
 * Risk Template Styling
 * ====================================
 */
