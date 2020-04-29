@@ -11722,6 +11722,23 @@ figure.woocommerce-product-gallery__wrapper {
     list-style: none;
     padding-left: 10px; }
 
+.side-menu-insurance .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .side-menu-insurance .menu .menu-item a span {
+    color: black;
+    font-size: 15px; }
+  .side-menu-insurance .menu .menu-item a[title="insurance"] span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0086ba; }
+  .side-menu-insurance .menu .menu-item i {
+    color: #0086ba; }
+  .side-menu-insurance .menu .menu-item .side-menu {
+    list-style: none;
+    padding-left: 10px; }
+
 .side-menu #menu-risk-menu {
   list-style: none;
   padding: 0;

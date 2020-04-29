@@ -45,19 +45,20 @@ Template Post Type: insurance
   							wp_nav_menu( array(
   							'theme_location' 	=> 'personal-insurance-menu',
 							'fallback_cb'    => '__return_false',
-  							'depth'           	=> 2,
-  							'container'     	=> 'div',
-  							'container_class' 	=> 'tree',
-  							 //'walker'			=> new Nfr_Menu_Walker,
+							'depth'           	=> 0,
+							'container'     	=> 'div',
+							'container_class' 	=> 'side-menu-insurance',
+							'walker'			=> new Walker_Nav_Side(),
   							) );
 
 					} else(has_category('commercial')) {
 						  wp_nav_menu( array(
-						  'theme_location' 	=> 'commercial-insurance-menu',
-						  'depth'           	=> 2,
-						  'container'     	=> 'div',
-						  'container_class' 	=> 'tree',
-						   //'walker'			=> new Nfr_Menu_Walker,
+						  	'theme_location' 	=> 'commercial-insurance-menu',
+						  	'fallback_cb'    => '__return_false',
+  							'depth'           	=> 0,
+  							'container'     	=> 'div',
+  							'container_class' 	=> 'side-menu-insurance',
+  							'walker'			=> new Walker_Nav_Side(),
 					   ) )
 
 				   } ?>

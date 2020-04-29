@@ -34,7 +34,7 @@ Template Post Type: payroll
 							<div class="">
 						<?php wp_nav_menu( array(
 							'theme_location' 	=> 'payroll-menu',
-							'fallback_cb'    => '__return_false',
+							'fallback_cb'    	=> '__return_false',
 							'depth'           	=> 0,
 							'container'     	=> 'div',
 							'container_class' 	=> 'side-menu',
