@@ -175,13 +175,14 @@
 	}
 }
 
-// Risk 
+// Risk
 .side-menu {
-	.menu {
+	#menu-risk-menu {
 		list-style: none;
 		padding: 0;
 		margin: 0;
 		.menu-item{
+			// Risk Menu Items
 			a {
 				span {
 					color: black;
@@ -197,6 +198,51 @@
 					color: $risk-primary;
 				}
 			}
+
+			// Risk Icons
+			i {
+				color: $risk-primary;
+			}
+
+
+			.side-menu {
+				list-style: none;
+				padding-left: 10px;;
+			}
+		}
+
+	}
+}
+
+// payroll
+.side-menu {
+	#menu-payroll {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		.menu-item{
+			// Risk Menu Items
+			a {
+				span {
+					color: black;
+					font-size: 15px;
+				}
+			}
+
+			// Risk Title
+			a[title="payroll"] {
+				span {
+					font-weight: bold;
+					font-size: 20px;
+					color: $payroll-primary;
+				}
+			}
+
+			// Risk Icons
+			i {
+				color: $payroll-primary;
+			}
+
 
 			.side-menu {
 				list-style: none;

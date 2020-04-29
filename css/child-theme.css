@@ -11722,18 +11722,37 @@ figure.woocommerce-product-gallery__wrapper {
     list-style: none;
     padding-left: 10px; }
 
-.side-menu .menu {
+.side-menu #menu-risk-menu {
   list-style: none;
   padding: 0;
   margin: 0; }
-  .side-menu .menu .menu-item a span {
+  .side-menu #menu-risk-menu .menu-item a span {
     color: black;
     font-size: 15px; }
-  .side-menu .menu .menu-item a[title="risk"] span {
+  .side-menu #menu-risk-menu .menu-item a[title="risk"] span {
     font-weight: bold;
     font-size: 20px;
     color: #E14F42; }
-  .side-menu .menu .menu-item .side-menu {
+  .side-menu #menu-risk-menu .menu-item i {
+    color: #E14F42; }
+  .side-menu #menu-risk-menu .menu-item .side-menu {
+    list-style: none;
+    padding-left: 10px; }
+
+.side-menu #menu-payroll {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .side-menu #menu-payroll .menu-item a span {
+    color: black;
+    font-size: 15px; }
+  .side-menu #menu-payroll .menu-item a[title="payroll"] span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #00a65c; }
+  .side-menu #menu-payroll .menu-item i {
+    color: #00a65c; }
+  .side-menu #menu-payroll .menu-item .side-menu {
     list-style: none;
     padding-left: 10px; }
 
