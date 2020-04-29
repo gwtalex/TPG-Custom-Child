@@ -1,12 +1,13 @@
 <?php
+
 if( function_exists('acf_add_local_field_group') ):
 
 acf_add_local_field_group(array(
-	'key' => 'group_5e9f30a11cb68',
+	'key' => 'group_5ea9f51a2b557',
 	'title' => 'Insurance',
 	'fields' => array(
 		array(
-			'key' => 'field_5e9f30a12bc94',
+			'key' => 'field_5ea9f51a370bb',
 			'label' => 'Banner Image',
 			'name' => 'banner_image',
 			'type' => 'image',
@@ -30,7 +31,7 @@ acf_add_local_field_group(array(
 			'mime_types' => '',
 		),
 		array(
-			'key' => 'field_5e9f30a12be77',
+			'key' => 'field_5ea9f51a374b3',
 			'label' => 'Banner Title',
 			'name' => 'banner_title',
 			'type' => 'text',
@@ -49,7 +50,7 @@ acf_add_local_field_group(array(
 			'maxlength' => '',
 		),
 		array(
-			'key' => 'field_5e9f30a12c3f8',
+			'key' => 'field_5ea9f51a378a5',
 			'label' => 'Banner Text',
 			'name' => 'banner_text',
 			'type' => 'text',
@@ -68,7 +69,7 @@ acf_add_local_field_group(array(
 			'maxlength' => '',
 		),
 		array(
-			'key' => 'field_5e9f381e1b643',
+			'key' => 'field_5ea9f51a37c7f',
 			'label' => 'Slider',
 			'name' => 'slider',
 			'type' => 'text',
@@ -87,7 +88,7 @@ acf_add_local_field_group(array(
 			'maxlength' => '',
 		),
 		array(
-			'key' => 'field_5e9f30a12cbc2',
+			'key' => 'field_5ea9f51a38063',
 			'label' => 'Footer Image',
 			'name' => 'footer_image',
 			'type' => 'image',
@@ -111,7 +112,7 @@ acf_add_local_field_group(array(
 			'mime_types' => '',
 		),
 		array(
-			'key' => 'field_5e9f30a12ce18',
+			'key' => 'field_5ea9f51a38459',
 			'label' => 'Footer Title',
 			'name' => 'footer_title',
 			'type' => 'text',
@@ -130,7 +131,7 @@ acf_add_local_field_group(array(
 			'maxlength' => '',
 		),
 		array(
-			'key' => 'field_5e9f30a12d397',
+			'key' => 'field_5ea9f51a3882f',
 			'label' => 'Footer Text',
 			'name' => 'footer_text',
 			'type' => 'text',
@@ -147,6 +148,21 @@ acf_add_local_field_group(array(
 			'prepend' => '',
 			'append' => '',
 			'maxlength' => '',
+		),
+		array(
+			'key' => 'field_5ea9f51a38c1a',
+			'label' => 'Get A Quote URL',
+			'name' => 'get_a_quote_url',
+			'type' => 'link',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'return_format' => 'url',
 		),
 	),
 	'location' => array(

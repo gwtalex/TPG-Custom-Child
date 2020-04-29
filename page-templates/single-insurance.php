@@ -92,16 +92,17 @@ Template Post Type: insurance
 	<div class="container-fluid">
 		<div class="row w-100">
 			<div class="col-md-12">
+				<?php $link = get_field('get_a_quote_url'); ?>
 				<h2>Ready To Get Started?</h2>
-				<button type="button" class="btn btn-md">Get A Quote</button>
+				<a href="<?php echo esc_url( $link ); ?>" role="button" class="btn btn-md">Get A Quote</a>
 			</div>
 			<div class="col-md-6">
 				<p>Visit Our Contact Us Page...</p>
-				<button type="button" class="btn btn-md">Contact Us</button>
+				<a href="/contact-us/" role="button" class="btn btn-md">Contact Us</a>
 			</div>
 			<div class="col-md-6">
 				<p>Or Talk To A Specialist</p>
-				<button type="button" class="btn btn-md">Call Now</button>
+				<a href="tel:8558744677" role="button" class="btn btn-md">Call Now</a>
 			</div>
 		</div>
 		</div>
