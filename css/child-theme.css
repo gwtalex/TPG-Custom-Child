@@ -11716,7 +11716,23 @@ figure.woocommerce-product-gallery__wrapper {
   padding: 0;
   margin: 0; }
   .side-menu .menu .menu-item a span {
-    color: black; }
+    color: black;
+    font-size: 15px; }
+  .side-menu .menu .menu-item .side-menu {
+    list-style: none;
+    padding-left: 10px; }
+
+.side-menu .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .side-menu .menu .menu-item a span {
+    color: black;
+    font-size: 15px; }
+  .side-menu .menu .menu-item a[title="risk"] span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #E14F42; }
   .side-menu .menu .menu-item .side-menu {
     list-style: none;
     padding-left: 10px; }

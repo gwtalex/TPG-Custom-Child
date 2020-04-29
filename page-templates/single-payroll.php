@@ -25,7 +25,7 @@ Template Post Type: payroll
 
 
 <!--- Main Content --->
-		<div id="payroll-content-container"class="container">
+		<div id="payroll-content-container"class="container-fluid">
 			<section class="page-wrap">
 				<div class="row">
 				<div class="col-3">

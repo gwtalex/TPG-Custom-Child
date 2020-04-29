@@ -163,6 +163,7 @@
 			a {
 				span {
 					color: black;
+					font-size: 15px;
 				}
 			}
 			.side-menu {
@@ -170,6 +171,39 @@
 				padding-left: 10px;;
 			}
 		}
+
+	}
+}
+
+// Risk 
+.side-menu {
+	.menu {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		.menu-item{
+			a {
+				span {
+					color: black;
+					font-size: 15px;
+				}
+			}
+
+			// Risk Title
+			a[title="risk"] {
+				span {
+					font-weight: bold;
+					font-size: 20px;
+					color: $risk-primary;
+				}
+			}
+
+			.side-menu {
+				list-style: none;
+				padding-left: 10px;;
+			}
+		}
+
 	}
 }
 

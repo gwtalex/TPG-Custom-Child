@@ -25,7 +25,7 @@ Template Post Type: risk
 
 
 <!--- Main Content --->
-		<div id="risk-content-container"class="container">
+		<div id="risk-content-container"class="container-fluid">
 			<section class="page-wrap">
 				<div class="row">
 				<div class="col-3">
