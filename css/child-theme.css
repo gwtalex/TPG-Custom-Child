@@ -11770,6 +11770,59 @@ figure.woocommerce-product-gallery__wrapper {
 
 /*
 * ====================================
+* Button Classes
+* ====================================
+*/
+.btn-insurance {
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0px;
+  border: 5px solid;
+  background-color: #0086ba;
+  border-color: #0086ba; }
+  .btn-insurance:focus {
+    background-color: Transparent;
+    border: 5px solid #0086ba;
+    color: #0086ba; }
+  .btn-insurance:hover {
+    background-color: Transparent;
+    border: 5px solid #0086ba;
+    color: #0086ba; }
+
+.btn-risk {
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0px;
+  border: 5px solid;
+  background-color: #E14F42;
+  border-color: #E14F42; }
+  .btn-risk:focus {
+    background-color: Transparent;
+    border: 5px solid #E14F42;
+    color: #E14F42; }
+  .btn-risk:hover {
+    background-color: Transparent;
+    border: 5px solid #E14F42;
+    color: #E14F42; }
+
+.btn-payroll {
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0px;
+  border: 5px solid;
+  background-color: #00a65c;
+  border-color: #00a65c; }
+  .btn-payroll:focus {
+    background-color: Transparent;
+    border: 5px solid #00a65c;
+    color: #00a65c; }
+  .btn-payroll:hover {
+    background-color: Transparent;
+    border: 5px solid #00a65c;
+    color: #00a65c; }
+
+/*
+* ====================================
 * Risk Template Styling
 * ====================================
 */
