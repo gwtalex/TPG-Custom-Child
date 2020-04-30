@@ -23,10 +23,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 <div class="wrapper" id="single-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+	<div class="container-fluid" id="content" tabindex="-1">
 
 		<div class="row">
-			<div class="col-md-9">
+			<div id="blog-widget-area" class="col-md-3">
+				<?php
+				  if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('blog-sidebar') )
+				?>
+			</div>
+			<div class="col w-100">
 				<main class="site-main" id="main">
 
 					<?php while ( have_posts() ) : the_post(); ?>
@@ -49,12 +54,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 			<!-- Do the right sidebar check -->
-			<div id="blog-widget-area" class="col-md-3">
-				<?php
-				  if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('blog-sidebar') )
-				?>
-			</div>
-			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
+
 
 		</div><!-- .row -->
 
