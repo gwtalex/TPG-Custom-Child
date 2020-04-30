@@ -18,43 +18,45 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div id="blog-header" class="container-fluid" style="background-image:">
 	<div class="container-fluid">
 		<div class="container">
-			<h1>MyTPG Blog</h1>
-			<p>Welcome to our Blog and Resource section!</p>
+			<h1>MyTPG.com Blog</h1>
+			<p>At TPG we equip our clients with the information you need to be successful in your business.</p>
 		</div>
 	</div>
 </div>
 <div class="wrapper" id="archive-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+	<div class="container-fluid" id="blog-content" tabindex="-1">
 
 		<div class="row">
 			<div class="col-md-9">
-				<main class="blog-site-main" id="main">
+				<div class="d-flex flex-wrap">
 
-					<?php if ( have_posts() ) : ?>
+						<?php if ( have_posts() ) : ?>
 
-						<?php /* Start the Loop */ ?>
-						<?php while ( have_posts() ) : the_post(); ?>
+							<?php /* Start the Loop */ ?>
+							<?php while ( have_posts() ) : the_post(); ?>
 
-							<?php
+								<?php
 
-							/*
-							 * Include the Post-Format-specific template for the content.
-							 * If you want to override this in a child theme, then include a file
-							 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-							 */
-							get_template_part( 'loop-templates/content', get_post_format() );
-							?>
+								/*
+								 * Include the Post-Format-specific template for the content.
+								 * If you want to override this in a child theme, then include a file
+								 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+								 */
+								get_template_part( 'content', 'blog', get_post_format() );
+								?>
 
-						<?php endwhile; ?>
+							<?php endwhile; ?>
 
-					<?php else : ?>
+						<?php else : ?>
 
-						<?php get_template_part( 'loop-templates/content', 'none' ); ?>
+							<?php get_template_part( 'loop-templates/content', 'none' ); ?>
 
-					<?php endif; ?>
+						<?php endif; ?>
 
-				</main><!-- #main -->
+
+				</div>
+
 			</div>
 
 
