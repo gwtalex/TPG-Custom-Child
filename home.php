@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<div class="row">
 			<div class="col-md-9">
-				<main class="site-main" id="main">
+				<main class="blog-site-main" id="main">
 
 					<?php if ( have_posts() ) : ?>
 
@@ -62,7 +62,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php understrap_pagination(); ?>
 
 			<!-- Do the right sidebar check -->
-			<div class="col-md-3">
+			<div id="blog-widget-area" class="col-md-3">
 				<?php
 				  if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('blog-sidebar') )
 				?>

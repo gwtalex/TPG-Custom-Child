@@ -12460,6 +12460,11 @@ figure.woocommerce-product-gallery__wrapper {
             color: #fff;
             background-color: #54595f; } }
 
+#blog-widget-area aside {
+  margin-top: 15px; }
+  #blog-widget-area aside ul {
+    list-style: none; }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style

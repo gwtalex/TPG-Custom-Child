@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 			<!-- Do the right sidebar check -->
-			<div class="col-md-3">
+			<div id="blog-widget-area" class="col-md-3">
 				<?php
 				  if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('blog-sidebar') )
 				?>
