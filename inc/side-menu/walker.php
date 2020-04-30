@@ -25,7 +25,7 @@ class Walker_Nav_Side extends Walker_Nav_Menu {
 
 	  	$indent 			= str_repeat("\t", $depth);
 	  	$submenu 			= ($depth > 0 ) ? ' sub-menu' : '';
-	  	$output 			.= "\n$indent<ul class=\"collapse $submenu side-menu\" depth_$depth>\n ";
+	  	$output 			.= "\n$indent<ul class=\"collapse $submenu sub-menu\" depth_$depth>\n ";
 	}
 
 
@@ -43,7 +43,7 @@ class Walker_Nav_Side extends Walker_Nav_Menu {
 		$classes 		= empty( $item->classes ) ? array() : (array) $item->classes;
 		$classes[]		= ($item->current || $item->current_item_ancestor) ? 'active' : '';
 		$classes[]		= 'menu-item-' . $item->ID;
-		
+
 		// If submenu has children add collapse class
 		if( $depth && $args->walker->has_children){
 			$classes[] 	= ' sub-menu-second';
