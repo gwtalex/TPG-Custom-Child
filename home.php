@@ -28,7 +28,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="container-fluid" id="blog-content" tabindex="-1">
 
 		<div class="row">
-			<div class="col-md-9">
+
+			<!-- Do the right sidebar check -->
+			<div id="blog-widget-area" class="col-md-2">
+				<?php
+				  if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('blog-sidebar') )
+				?>
+			</div>
+
+
+			<div class="col w-100">
 				<div class="d-flex flex-wrap">
 
 						<?php if ( have_posts() ) : ?>
@@ -56,19 +65,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 				</div>
-
+				<!-- The pagination component -->
+				<?php understrap_pagination(); ?>
 			</div>
 
 
-			<!-- The pagination component -->
-			<?php understrap_pagination(); ?>
 
-			<!-- Do the right sidebar check -->
-			<div id="blog-widget-area" class="col-md-3">
-				<?php
-				  if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('blog-sidebar') )
-				?>
-			</div>
+
+
 
 		</div> <!-- .row -->
 

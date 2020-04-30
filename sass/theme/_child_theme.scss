@@ -1221,6 +1221,7 @@
 }
 
 #blog-widget-area {
+	margin-left: 50px;
 	aside {
 		margin-top: 15px;
 
@@ -1232,7 +1233,8 @@
 }
 
 #blog-articles {
-	width: 30%;
+	min-width: 300px; 
+	max-width: 30%;
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 10px;
