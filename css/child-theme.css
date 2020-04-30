@@ -11763,10 +11763,15 @@ figure.woocommerce-product-gallery__wrapper {
     .side-menu #menu-payroll .menu-item a span {
       color: black;
       font-size: 15px; }
-    .side-menu #menu-payroll .menu-item a[title="payroll"] span {
-      font-weight: bold;
-      font-size: 20px;
-      color: #00a65c; }
+    @media all and (min-width: 700px) {
+      .side-menu #menu-payroll .menu-item a[title="payroll"] span {
+        font-weight: bold;
+        font-size: 20px;
+        color: #00a65c; } }
+    @media all and (max-width: 700px) {
+      .side-menu #menu-payroll .menu-item a[title="payroll"] span {
+        font-weight: bold;
+        color: #00a65c; } }
     .side-menu #menu-payroll .menu-item i {
       color: #00a65c; }
     .side-menu #menu-payroll .menu-item .sub-menu {
@@ -12000,31 +12005,54 @@ figure.woocommerce-product-gallery__wrapper {
               flex-direction: column;
       padding: 0;
       margin-left: 60px; }
-      #payroll-header .container-fluid .container h1 {
-        font-size: 60px;
-        color: #00a65c;
-        font-weight: 800;
-        text-transform: uppercase; }
-      #payroll-header .container-fluid .container p {
-        font-size: 25px;
-        color: white; }
-      #payroll-header .container-fluid .container .btn,
-      #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
-        width: 520px;
-        height: 78px;
-        font-size: 40px;
-        font-weight: 600px;
-        border: 5px solid #00a65c;
-        border-radius: 0px;
-        font-weight: 800px;
-        color: #fff; }
-        #payroll-header .container-fluid .container .btn:focus,
-        #payroll-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #payroll-header .container-fluid .container input:focus[type=submit] {
-          color: #fff;
-          background-color: #00a65c; }
-        #payroll-header .container-fluid .container .btn:hover, #payroll-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #payroll-header .container-fluid .container input:hover[type=submit] {
-          color: #fff;
-          background-color: #00a65c; }
+      @media all and (min-width: 700px) {
+        #payroll-header .container-fluid .container h1 {
+          font-size: 60px;
+          color: #00a65c;
+          font-weight: 800;
+          text-transform: uppercase; }
+        #payroll-header .container-fluid .container p {
+          font-size: 25px;
+          color: white; }
+        #payroll-header .container-fluid .container .btn,
+        #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
+          width: 520px;
+          height: 78px;
+          font-size: 40px;
+          font-weight: 600px;
+          border: 5px solid #00a65c;
+          border-radius: 0px;
+          font-weight: 800px;
+          color: #fff; }
+          #payroll-header .container-fluid .container .btn:focus,
+          #payroll-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #payroll-header .container-fluid .container input:focus[type=submit] {
+            color: #fff;
+            background-color: #00a65c; }
+          #payroll-header .container-fluid .container .btn:hover, #payroll-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #payroll-header .container-fluid .container input:hover[type=submit] {
+            color: #fff;
+            background-color: #00a65c; } }
+      @media all and (max-width: 700px) {
+        #payroll-header .container-fluid .container h1 {
+          font-size: 40px;
+          color: #00a65c;
+          font-weight: 800;
+          text-transform: uppercase; }
+        #payroll-header .container-fluid .container p {
+          color: white; }
+        #payroll-header .container-fluid .container .btn,
+        #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
+          font-weight: 600px;
+          border: 5px solid #00a65c;
+          border-radius: 0px;
+          font-weight: 800px;
+          color: #fff; }
+          #payroll-header .container-fluid .container .btn:focus,
+          #payroll-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #payroll-header .container-fluid .container input:focus[type=submit] {
+            color: #fff;
+            background-color: #00a65c; }
+          #payroll-header .container-fluid .container .btn:hover, #payroll-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #payroll-header .container-fluid .container input:hover[type=submit] {
+            color: #fff;
+            background-color: #00a65c; } }
 
 #payroll-content-container {
   margin-top: 35px; }
@@ -12057,28 +12085,48 @@ figure.woocommerce-product-gallery__wrapper {
           -ms-flex-direction: column;
               flex-direction: column;
       text-align: center; }
-      #payroll-footer .container-fluid .container h1 {
-        font-size: 60px;
-        color: #00a65c;
-        font-weight: 800; }
-      #payroll-footer .container-fluid .container p {
-        font-size: 25px;
-        color: white; }
-      #payroll-footer .container-fluid .container .btn-success {
-        width: 520px;
-        height: 78px;
-        font-size: 40px;
-        color: #fff;
-        border-radius: 0px;
-        border: 5px solid;
-        background-color: #00a65c;
-        border-color: #00a65c; }
-        #payroll-footer .container-fluid .container .btn-success:focus {
-          background-color: Transparent;
-          border: 5px solid #00a65c; }
-        #payroll-footer .container-fluid .container .btn-success:hover {
-          background-color: Transparent;
-          border: 5px solid #00a65c; }
+      @media all and (min-width: 700px) {
+        #payroll-footer .container-fluid .container h1 {
+          font-size: 60px;
+          color: #00a65c;
+          font-weight: 800; }
+        #payroll-footer .container-fluid .container p {
+          font-size: 25px;
+          color: white; }
+        #payroll-footer .container-fluid .container .btn-success {
+          width: 520px;
+          height: 78px;
+          font-size: 40px;
+          color: #fff;
+          border-radius: 0px;
+          border: 5px solid;
+          background-color: #00a65c;
+          border-color: #00a65c; }
+          #payroll-footer .container-fluid .container .btn-success:focus {
+            background-color: Transparent;
+            border: 5px solid #00a65c; }
+          #payroll-footer .container-fluid .container .btn-success:hover {
+            background-color: Transparent;
+            border: 5px solid #00a65c; } }
+      @media all and (max-width: 700px) {
+        #payroll-footer .container-fluid .container h1 {
+          font-size: 40px;
+          color: #00a65c;
+          font-weight: 800; }
+        #payroll-footer .container-fluid .container p {
+          color: white; }
+        #payroll-footer .container-fluid .container .btn-success {
+          color: #fff;
+          border-radius: 0px;
+          border: 5px solid;
+          background-color: #00a65c;
+          border-color: #00a65c; }
+          #payroll-footer .container-fluid .container .btn-success:focus {
+            background-color: Transparent;
+            border: 5px solid #00a65c; }
+          #payroll-footer .container-fluid .container .btn-success:hover {
+            background-color: Transparent;
+            border: 5px solid #00a65c; } }
 
 /*
 * ====================================
@@ -12248,24 +12296,25 @@ figure.woocommerce-product-gallery__wrapper {
       #footer-locations .footer-area-three a {
         color: #fff; } }
 
-@media all and (min-width: 850px) and (max-width: 1400px) {
+@media all and (min-width: 700px) and (max-width: 1400px) {
   #footer-locations {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-right: 100px;
+    margin-right: 10%;
+    margin-left: 15px;
     border: 1px solid #fff; }
     #footer-locations .footer-area-three {
-      padding: 10px;
-      width: 50%; }
+      margin-right: 15px;
+      width: 45%; }
       #footer-locations .footer-area-three h4 {
         font-weight: 600; }
       #footer-locations .footer-area-three a {
         color: #fff; } }
 
-@media all and (max-width: 850px) {
+@media all and (max-width: 700px) {
   #footer-locations {
     display: -webkit-box;
     display: -ms-flexbox;

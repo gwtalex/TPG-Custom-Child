@@ -28,7 +28,7 @@ Template Post Type: payroll
 		<div id="payroll-content-container"class="container-fluid">
 			<section class="page-wrap">
 				<div class="row">
-				<div class="col-3">
+				<div class="col-md-3">
 					<div class="wrapper">
 					    <!-- Payroll Menu -->
 							<div class="">
@@ -43,7 +43,7 @@ Template Post Type: payroll
 							</div>
 					</div>
 				</div>
-				<div class="col-9 payroll-content-right">
+				<div class="col-md-9 payroll-content-right">
 					<?php the_field('content_right'); ?>
 				</div>
 			</div>
