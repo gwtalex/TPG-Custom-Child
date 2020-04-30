@@ -402,20 +402,22 @@
 			padding: 0;
 			margin-left: 60px;
 
-			h1 {
-				font-size: 60px;
-				color: $risk-primary;
-				font-weight: 800;
-				text-transform: uppercase;
-			}
 
-			p {
-				font-size: 25px;
-				color: white;
-			}
 
 
 			@media all and (min-width: 700px ) {
+				h1 {
+					font-size: 60px;
+					color: $risk-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+
+				p {
+					font-size: 25px;
+					color: white;
+				}
+
 				.btn {
 					width: 520px;
 					height: 78px;
@@ -440,6 +442,18 @@
 			}
 
 			@media all and (max-width: 700px ) {
+
+				h1 {
+					font-size: 40px;
+					color: $risk-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+
+				p {
+					color: white;
+				}
+
 				.btn {
 
 					font-weight: 600px;

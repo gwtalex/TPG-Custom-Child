@@ -11862,15 +11862,15 @@ figure.woocommerce-product-gallery__wrapper {
               flex-direction: column;
       padding: 0;
       margin-left: 60px; }
-      #risk-header .container-fluid .container h1 {
-        font-size: 60px;
-        color: #E14F42;
-        font-weight: 800;
-        text-transform: uppercase; }
-      #risk-header .container-fluid .container p {
-        font-size: 25px;
-        color: white; }
       @media all and (min-width: 700px) {
+        #risk-header .container-fluid .container h1 {
+          font-size: 60px;
+          color: #E14F42;
+          font-weight: 800;
+          text-transform: uppercase; }
+        #risk-header .container-fluid .container p {
+          font-size: 25px;
+          color: white; }
         #risk-header .container-fluid .container .btn,
         #risk-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #risk-header .container-fluid .container input[type=submit] {
           width: 520px;
@@ -11889,6 +11889,13 @@ figure.woocommerce-product-gallery__wrapper {
             color: #fff;
             background-color: #E14F42; } }
       @media all and (max-width: 700px) {
+        #risk-header .container-fluid .container h1 {
+          font-size: 40px;
+          color: #E14F42;
+          font-weight: 800;
+          text-transform: uppercase; }
+        #risk-header .container-fluid .container p {
+          color: white; }
         #risk-header .container-fluid .container .btn,
         #risk-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #risk-header .container-fluid .container input[type=submit] {
           font-weight: 600px;
