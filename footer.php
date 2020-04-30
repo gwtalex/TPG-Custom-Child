@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) || exit;
 				<?php dynamic_sidebar( 'footer_area_two' ); ?>
 			</div><!--col end -->
 
-			<div id="footer-locations" class="col">
+			<div id="footer-locations" class="col-md">
 				<?php dynamic_sidebar( 'footer_area_three' ); ?>
 			</div><!--col end -->
 

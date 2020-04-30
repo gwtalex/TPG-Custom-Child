@@ -28,7 +28,7 @@ Template Post Type: risk
 		<div id="risk-content-container"class="container-fluid">
 			<section class="page-wrap">
 				<div class="row">
-				<div class="col-3">
+				<div class="col-md-3">
 					<div class="wrapper">
 					    <!-- Risk Menu -->
 							<div class="">
@@ -43,7 +43,7 @@ Template Post Type: risk
 							</div>
 					</div>
 				</div>
-				<div class="col-9 risk-content-right">
+				<div class="col-md-9 risk-content-right">
 					<?php the_field('content_right'); ?>
 				</div>
 			</div>

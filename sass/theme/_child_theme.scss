@@ -36,7 +36,7 @@
 // Coloring for Main Menu
 #main-menu {
 
-		@media screen and (min-width: 930px){
+		@media all and (min-width: 930px){
 			li {
 					width: 25%;
 				a {
@@ -211,11 +211,22 @@
 			}
 
 			// Risk Title
-			a[title="risk"] {
-				span {
-					font-weight: bold;
-					font-size: 20px;
-					color: $risk-primary;
+			@media all and (min-width: 700px) {
+				a[title="risk"] {
+					span {
+						font-weight: bold;
+						font-size: 20px;
+						color: $risk-primary;
+					}
+				}
+			}
+
+			@media all and (max-width: 700px) {
+				a[title="risk"] {
+					span {
+						font-weight: bold;
+						color: $risk-primary;
+					}
 				}
 			}
 
@@ -390,25 +401,50 @@
 				color: white;
 			}
 
-			.btn {
-				width: 520px;
-				height: 78px;
-				font-size: 40px;
-				font-weight: 600px;
-				border: 5px solid $risk-primary;
-				border-radius: 0px;
-				font-weight: 800px;
-				color: #fff;
 
-
-				&:focus {
+			@media all and (min-width: 700px ) {
+				.btn {
+					width: 520px;
+					height: 78px;
+					font-size: 40px;
+					font-weight: 600px;
+					border: 5px solid $risk-primary;
+					border-radius: 0px;
+					font-weight: 800px;
 					color: #fff;
-					background-color: $risk-primary;
+
+
+					&:focus {
+						color: #fff;
+						background-color: $risk-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $risk-primary;
+					}
 				}
+			}
 
-				&:hover {
+			@media all and (max-width: 700px ) {
+				.btn {
+
+					font-weight: 600px;
+					border: 5px solid $risk-primary;
+					border-radius: 0px;
+					font-weight: 800px;
 					color: #fff;
-					background-color: $risk-primary;
+
+
+					&:focus {
+						color: #fff;
+						background-color: $risk-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $risk-primary;
+					}
 				}
 			}
 		}
@@ -460,26 +496,50 @@
 				color: white;
 			}
 
-			.btn-danger {
-				width: 520px;
-				height: 78px;
-				font-size: 40px;
-				font-weight: 800px;
-				border-radius: 0px;
-				border: 5px solid;
-				font-weight: 800px;
-				background-color: $risk-primary;
-				border-color: $risk-primary;
+			@media all and (min-width: 700px) {
+				.btn-danger {
+					width: 520px;
+					height: 78px;
+					font-size: 40px;
+					font-weight: 800px;
+					border-radius: 0px;
+					border: 5px solid;
+					font-weight: 800px;
+					background-color: $risk-primary;
+					border-color: $risk-primary;
 
 
-				&:focus {
-					background-color: Transparent;
-					border: 5px solid $risk-primary;
+					&:focus {
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
+					}
+
+					&:hover {
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
+					}
 				}
+			}
 
-				&:hover {
-					background-color: Transparent;
-					border: 5px solid $risk-primary;
+			@media all and (max-width: 700px) {
+				.btn-danger {
+					font-weight: 800px;
+					border-radius: 0px;
+					border: 5px solid;
+					font-weight: 800px;
+					background-color: $risk-primary;
+					border-color: $risk-primary;
+
+
+					&:focus {
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
+					}
+
+					&:hover {
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
+					}
 				}
 			}
 		}
@@ -764,7 +824,11 @@
 }
 
 
-// Footer
+/*
+* ====================================
+* Footer Template Styling
+* ====================================
+*/
 
 #footer-before { // Blue Green section
 	padding-top: 25px;
@@ -814,21 +878,63 @@
 }
 
 #footer-locations {
-	display: flex;
-	flex-wrap: wrap;
-	margin-right: 200px;
-	border: 1px solid #fff;
+	@media all and (min-width: 1400px) {
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: 200px;
+		border: 1px solid #fff;
 
-	.footer-area-three {
-		padding: 10px;
-		width: 50%;
+		.footer-area-three {
+			padding: 10px;
+			width: 50%;
 
-		h4 {
-			font-weight: 600;
+			h4 {
+				font-weight: 600;
+			}
+
+			a {
+				color: #fff;
+			}
 		}
+	}
 
-		a {
-			color: #fff;
+	@media all and (min-width: 850px) and (max-width: 1400px) {
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: 100px;
+		border: 1px solid #fff;
+
+		.footer-area-three {
+			padding: 10px;
+			width: 50%;
+
+			h4 {
+				font-weight: 600;
+			}
+
+			a {
+				color: #fff;
+			}
+		}
+	}
+
+	@media all and (max-width: 850px){
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 25px;
+		margin-right: 35%;
+		border: 1px solid #fff;
+
+		.footer-area-three {
+			margin: 10px;
+
+			h4 {
+				font-weight: 600;
+			}
+
+			a {
+				color: #fff;
+			}
 		}
 	}
 }
