@@ -11942,14 +11942,14 @@ figure.woocommerce-product-gallery__wrapper {
           -ms-flex-direction: column;
               flex-direction: column;
       text-align: center; }
-      #risk-footer .container-fluid .container h1 {
-        font-size: 60px;
-        color: #E14F42;
-        font-weight: 800; }
-      #risk-footer .container-fluid .container p {
-        font-size: 25px;
-        color: white; }
       @media all and (min-width: 700px) {
+        #risk-footer .container-fluid .container h1 {
+          font-size: 60px;
+          color: #E14F42;
+          font-weight: 800; }
+        #risk-footer .container-fluid .container p {
+          font-size: 25px;
+          color: white; }
         #risk-footer .container-fluid .container .btn-danger {
           width: 520px;
           height: 78px;
@@ -11967,6 +11967,12 @@ figure.woocommerce-product-gallery__wrapper {
             background-color: Transparent;
             border: 5px solid #E14F42; } }
       @media all and (max-width: 700px) {
+        #risk-footer .container-fluid .container h1 {
+          font-size: 40px;
+          color: #E14F42;
+          font-weight: 800; }
+        #risk-footer .container-fluid .container p {
+          color: white; }
         #risk-footer .container-fluid .container .btn-danger {
           font-weight: 800px;
           border-radius: 0px;

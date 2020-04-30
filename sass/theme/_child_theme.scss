@@ -512,18 +512,21 @@
 			flex-direction: column;
 			text-align: center;
 
-			h1 {
-				font-size: 60px;
-				color: $risk-primary;
-				font-weight: 800;
-			}
 
-			p {
-				font-size: 25px;
-				color: white;
-			}
 
 			@media all and (min-width: 700px) {
+
+				h1 {
+					font-size: 60px;
+					color: $risk-primary;
+					font-weight: 800;
+				}
+
+				p {
+					font-size: 25px;
+					color: white;
+				}
+
 				.btn-danger {
 					width: 520px;
 					height: 78px;
@@ -549,6 +552,17 @@
 			}
 
 			@media all and (max-width: 700px) {
+
+				h1 {
+					font-size: 40px;
+					color: $risk-primary;
+					font-weight: 800;
+				}
+
+				p {
+					color: white;
+				}
+
 				.btn-danger {
 					font-weight: 800px;
 					border-radius: 0px;
