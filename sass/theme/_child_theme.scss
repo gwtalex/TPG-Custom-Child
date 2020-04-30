@@ -825,39 +825,74 @@
 			padding: 0;
 			margin-left: 60px;
 
-			h1 {
-				font-size: 60px;
-				color: $insurance-primary;
-				font-weight: 800;
-				text-transform: uppercase;
-			}
-
-			p {
-				font-size: 25px;
-				color: white;
-			}
-
-			.btn {
-				width: 520px;
-				height: 78px;
-				font-size: 40px;
-				font-weight: 600px;
-				border: 5px solid $insurance-primary;
-				border-radius: 0px;
-				font-weight: 800px;
-				color: #fff;
-
-
-				&:focus {
-					color: #fff;
-					background-color: $insurance-primary;
+			@media all and (min-width: 700px) {
+				h1 {
+					font-size: 60px;
+					color: $insurance-primary;
+					font-weight: 800;
+					text-transform: uppercase;
 				}
 
-				&:hover {
+				p {
+					font-size: 25px;
+					color: white;
+				}
+
+				.btn {
+					width: 520px;
+					height: 78px;
+					font-size: 40px;
+					font-weight: 600px;
+					border: 5px solid $insurance-primary;
+					border-radius: 0px;
+					font-weight: 800px;
 					color: #fff;
-					background-color: $insurance-primary;
+
+
+					&:focus {
+						color: #fff;
+						background-color: $insurance-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $insurance-primary;
+					}
 				}
 			}
+
+			@media all and (max-width: 700px) {
+				h1 {
+					font-size: 40px;
+					color: $insurance-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+
+				p {
+					color: white;
+				}
+
+				.btn {
+					font-weight: 600px;
+					border: 5px solid $insurance-primary;
+					border-radius: 0px;
+					font-weight: 800px;
+					color: #fff;
+
+
+					&:focus {
+						color: #fff;
+						background-color: $insurance-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $insurance-primary;
+					}
+				}
+			}
+
 		}
 	}
 }
@@ -900,38 +935,78 @@
 				margin-bottom: 30px;
 			}
 
-			h2 {
-				font-size: 60px;
-				color: $insurance-primary;
-				font-weight: 800;
+			.col-md-6 {
+				margin-top: 15px;
 			}
 
-			p {
-				font-size: 25px;
-				color: black;
-			}
-
-			.btn-md {
-				width: 250px;
-				height: 75px;
-				font-size: 25px;
-				color: #fff;
-				border-radius: 0px;
-				border: 5px solid;
-				background-color: $insurance-primary;
-				border-color: $insurance-primary;
-
-
-				&:focus {
-					background-color: Transparent;
-					border: 5px solid $insurance-primary;
+			@media all and (min-width: 700px) {
+				h2 {
+					font-size: 60px;
+					color: $insurance-primary;
+					font-weight: 800;
 				}
 
-				&:hover {
-					background-color: Transparent;
-					border: 5px solid $insurance-primary;
+				p {
+					font-size: 25px;
+					color: black;
+				}
+
+				.btn-md {
+					width: 250px;
+					height: 75px;
+					font-size: 25px;
+					color: #fff;
+					border-radius: 0px;
+					border: 5px solid;
+					background-color: $insurance-primary;
+					border-color: $insurance-primary;
+
+
+					&:focus {
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
+					}
+
+					&:hover {
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
+					}
 				}
 			}
+
+			@media all and (max-width: 700px) {
+				h2 {
+					font-size: 40px;
+					color: $insurance-primary;
+					font-weight: 800;
+				}
+
+				p {
+					color: black;
+				}
+
+				.btn-md {
+					width: 150px;
+					color: #fff;
+					border-radius: 0px;
+					border: 5px solid;
+					background-color: $insurance-primary;
+					border-color: $insurance-primary;
+
+
+					&:focus {
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
+					}
+
+					&:hover {
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
+					}
+				}
+			}
+
+
 		}
 	}
 }
