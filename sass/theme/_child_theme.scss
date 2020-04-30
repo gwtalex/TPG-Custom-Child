@@ -1112,3 +1112,104 @@
 		}
 	}
 }
+
+/*
+* ====================================
+* Blog Template Styling
+* ====================================
+*/
+
+// Blog Hero
+#blog-header {
+	margin: 0;
+	padding: 0;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 8px solid $blog-primary;
+	height: 518px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 510px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.container {
+			flex-direction: column;
+			padding: 0;
+			margin-left: 60px;
+
+			@media all and (min-width: 700px) {
+				h1 {
+					font-size: 60px;
+					color: $blog-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+
+				p {
+					font-size: 25px;
+					color: white;
+				}
+
+				.btn {
+					width: 520px;
+					height: 78px;
+					font-size: 40px;
+					font-weight: 600px;
+					border: 5px solid $blog-primary;
+					border-radius: 0px;
+					font-weight: 800px;
+					color: #fff;
+
+
+					&:focus {
+						color: #fff;
+						background-color: $blog-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $blog-primary;
+					}
+				}
+			}
+
+			@media all and (max-width: 700px) {
+				h1 {
+					font-size: 40px;
+					color: $blog-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+
+				p {
+					color: white;
+				}
+
+				.btn {
+					font-weight: 600px;
+					border: 5px solid $blog-primary;
+					border-radius: 0px;
+					font-weight: 800px;
+					color: #fff;
+
+
+					&:focus {
+						color: #fff;
+						background-color: $blog-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $blog-primary;
+					}
+				}
+			}
+
+		}
+	}
+}

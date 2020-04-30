@@ -12381,6 +12381,86 @@ figure.woocommerce-product-gallery__wrapper {
         color: #fff; } }
 
 /*
+* ====================================
+* Blog Template Styling
+* ====================================
+*/
+#blog-header {
+  margin: 0;
+  padding: 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 8px solid #54595f;
+  height: 518px; }
+  #blog-header .container-fluid {
+    /* Sizing */
+    height: 510px;
+    /* Flexbox stuff */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(196, 196, 196, 0.9); }
+    #blog-header .container-fluid .container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding: 0;
+      margin-left: 60px; }
+      @media all and (min-width: 700px) {
+        #blog-header .container-fluid .container h1 {
+          font-size: 60px;
+          color: #54595f;
+          font-weight: 800;
+          text-transform: uppercase; }
+        #blog-header .container-fluid .container p {
+          font-size: 25px;
+          color: white; }
+        #blog-header .container-fluid .container .btn,
+        #blog-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #blog-header .container-fluid .container input[type=submit] {
+          width: 520px;
+          height: 78px;
+          font-size: 40px;
+          font-weight: 600px;
+          border: 5px solid #54595f;
+          border-radius: 0px;
+          font-weight: 800px;
+          color: #fff; }
+          #blog-header .container-fluid .container .btn:focus,
+          #blog-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #blog-header .container-fluid .container input:focus[type=submit] {
+            color: #fff;
+            background-color: #54595f; }
+          #blog-header .container-fluid .container .btn:hover, #blog-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #blog-header .container-fluid .container input:hover[type=submit] {
+            color: #fff;
+            background-color: #54595f; } }
+      @media all and (max-width: 700px) {
+        #blog-header .container-fluid .container h1 {
+          font-size: 40px;
+          color: #54595f;
+          font-weight: 800;
+          text-transform: uppercase; }
+        #blog-header .container-fluid .container p {
+          color: white; }
+        #blog-header .container-fluid .container .btn,
+        #blog-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #blog-header .container-fluid .container input[type=submit] {
+          font-weight: 600px;
+          border: 5px solid #54595f;
+          border-radius: 0px;
+          font-weight: 800px;
+          color: #fff; }
+          #blog-header .container-fluid .container .btn:focus,
+          #blog-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #blog-header .container-fluid .container input:focus[type=submit] {
+            color: #fff;
+            background-color: #54595f; }
+          #blog-header .container-fluid .container .btn:hover, #blog-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #blog-header .container-fluid .container input:hover[type=submit] {
+            color: #fff;
+            background-color: #54595f; } }
+
+/*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style
 *

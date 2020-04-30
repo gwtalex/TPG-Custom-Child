@@ -25,7 +25,7 @@ Template Post Type: insurance
 <div class="container-fluid">
 	<?php
 	$slider = get_field('slider');
-	if ( !empty( $slider ) && has_category('personal')) {
+	if ( !empty( $slider ) && has_term('personal','insurance-category')) {
 		echo do_shortcode($slider);
 	}
 	?>
@@ -41,7 +41,7 @@ Template Post Type: insurance
 				<div class="wrapper">
 				    <!-- Insurance Menu -->
 					<?php
-					if(has_category('personal')) {
+					if(has_term('personal','insurance-category')) {
   							wp_nav_menu( array(
   							'theme_location' 	=> 'personal-insurance-menu',
 							'fallback_cb'    => '__return_false',
@@ -51,7 +51,7 @@ Template Post Type: insurance
 							'walker'			=> new Walker_Nav_Side(),
   							) );
 
-					} else(has_category('commercial')) {
+					} else(has_term('commercial', 'insurance-category')) {
 						  wp_nav_menu( array(
 						  	'theme_location' 	=> 'commercial-insurance-menu',
 						  	'fallback_cb'    => '__return_false',

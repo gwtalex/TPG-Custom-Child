@@ -74,6 +74,7 @@ require_once( get_stylesheet_directory() . '/inc/acf-fields.php' );
 
 
 
+
 // Custom Menu Locations
 
 function register_my_menus() {
@@ -138,14 +139,6 @@ function register_widget_areas() {
 
 add_action( 'widgets_init', 'register_widget_areas' );
 
-// Side Menu
-
-function side_menu_css() {
-   wp_enqueue_style( 'side-menu-css', get_stylesheet_directory_uri() . '/inc/side-menu/styles.css');
-}
-
-
-add_action('wp_enqueue_scripts', 'side_menu_css' );
 
 //Side Menu Javascript
 function side_menu_js() {
@@ -153,3 +146,18 @@ function side_menu_js() {
 }
 
 add_action( 'wp_enqueue_scripts', 'side_menu_js' );
+
+// Blog Widget Area
+function register_additional_childtheme_sidebars() {
+    register_sidebar( array(
+        'id'            => 'blog-sidebar',
+        'name'          => __( 'Blog Sidebar', 'TPG-custom-child' ),
+        'description'   => __( 'Blog sidebar widget area', 'TPG-custom-child' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+}
+
+add_action( 'init', 'register_additional_childtheme_sidebars' );
