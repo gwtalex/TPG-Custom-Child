@@ -170,7 +170,7 @@ acf_add_local_field_group(array(
 			array(
 				'param' => 'post_template',
 				'operator' => '==',
-				'value' => 'page-templates/single-insurance.php',
+				'value' => 'page-templates/insurance-template.php',
 			),
 		),
 	),
@@ -337,7 +337,7 @@ acf_add_local_field_group(array(
 			array(
 				'param' => 'post_template',
 				'operator' => '==',
-				'value' => 'page-templates/payroll-single.php',
+				'value' => 'page-templates/payroll-template.php',
 			),
 		),
 	),
@@ -504,7 +504,7 @@ acf_add_local_field_group(array(
 			array(
 				'param' => 'post_template',
 				'operator' => '==',
-				'value' => 'risk-single.php',
+				'value' => 'page-templates/risk-template.php',
 			),
 		),
 	),
