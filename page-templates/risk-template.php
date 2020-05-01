@@ -43,7 +43,7 @@ Template Post Type: risk
 							</div>
 					</div>
 				</div>
-				<div class="col-md-9 risk-content-right">
+				<div class="col content-right">
 					<?php the_field('content_right'); ?>
 				</div>
 			</div>

@@ -26,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="container-fluid" id="content" tabindex="-1">
 
 		<div class="row flex-column-reverse flex-md-row">
-			<div id="blog-widget-area" class="col-md-3">
+			<div id="blog-widget-area" class="col-md-2">
 				<?php
 				  if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('blog-sidebar') )
 				?>

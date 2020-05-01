@@ -11822,6 +11822,15 @@ figure.woocommerce-product-gallery__wrapper {
 
 /*
 * ====================================
+* General Content Right Styling
+* ====================================
+*/
+@media all and (min-width: 700px) {
+  .content-right {
+    margin-right: 20%; } }
+
+/*
+* ====================================
 * Risk Template Styling
 * ====================================
 */

@@ -64,7 +64,7 @@ Template Post Type: insurance
 				   } ?>
 				</div>
 			</div>
-			<div class="col-md-9 insurance-content-right">
+			<div class="col content-right">
 				<?php
 					// Start the loop.
 					while ( have_posts() ) : the_post();
