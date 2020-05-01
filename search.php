@@ -42,6 +42,16 @@
 
 
  			<div class="col w-100">
+
+				<h3 class="page-title">
+					<?php
+					printf(
+						/* translators: %s: query term */
+						esc_html__( 'Search Results for: %s', 'understrap' ),
+						'<span>' . get_search_query() . '</span>'
+					);
+					?>
+				</h3>
  				<div class="d-flex flex-wrap">
 
  						<?php if ( have_posts() ) : ?>

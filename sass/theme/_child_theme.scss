@@ -1236,13 +1236,35 @@
 // Blog Widget Area
 
 #blog-widget-area { // Left side widget area
-	margin-left: 50px;
 	aside {
 		margin-top: 15px;
 
 		ul {
 			list-style: none;
 		}
+
+		@media all and (min-width: 700px) { // Title Styling
+			margin-left: 50px;
+				.widget-title {
+					font-weight: bold;
+					font-size: 20px;
+					color: $blog-primary;
+				}
+		}
+
+		@media all and (max-width: 700px) {
+
+			.widget-title {
+				font-weight: bold;
+				font-size: 15px;
+				color: $blog-primary;
+			}
+
+			ul {
+				padding-left: 0;
+			}
+		}
+
 
 	}
 

@@ -12473,16 +12473,29 @@ figure.woocommerce-product-gallery__wrapper {
             color: #fff;
             background-color: #54595f; } }
 
-#blog-widget-area {
-  margin-left: 50px; }
-  #blog-widget-area aside {
-    margin-top: 15px; }
+#blog-widget-area aside {
+  margin-top: 15px; }
+  #blog-widget-area aside ul {
+    list-style: none; }
+  @media all and (min-width: 700px) {
+    #blog-widget-area aside {
+      margin-left: 50px; }
+      #blog-widget-area aside .widget-title {
+        font-weight: bold;
+        font-size: 20px;
+        color: #54595f; } }
+  @media all and (max-width: 700px) {
+    #blog-widget-area aside .widget-title {
+      font-weight: bold;
+      font-size: 15px;
+      color: #54595f; }
     #blog-widget-area aside ul {
-      list-style: none; }
-  @media all and (max-width: 800px) {
-    #blog-widget-area {
-      text-align: center;
-      margin-left: 0px; } }
+      padding-left: 0; } }
+
+@media all and (max-width: 800px) {
+  #blog-widget-area {
+    text-align: center;
+    margin-left: 0px; } }
 
 #blog-articles {
   min-width: 300px;
