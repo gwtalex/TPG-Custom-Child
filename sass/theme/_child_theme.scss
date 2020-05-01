@@ -1004,10 +1004,19 @@
 */
 
 #footer-before { // Blue Green section
-	padding-top: 25px;
-	padding-bottom: 25px;
-	padding-left: 100px;
 	background-color: #136d7c;
+
+	@media all and (min-width: 700px) {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 100px;
+	}
+
+	@media all and (max-width: 700px) {
+		text-align: center;
+	}
+
+
 
 	.footer-area {
 		color: #fff;
@@ -1030,6 +1039,13 @@
 			margin-top: 15px;
 			max-height: 150px;
 			width: auto;
+		}
+	}
+
+	.col-md-2 {
+		@media all and (max-width: 769px) {
+			width: 50%;
+			margin-top: 25px;
 		}
 	}
 }
@@ -1071,7 +1087,7 @@
 		}
 	}
 
-	@media all and (min-width: 700px) and (max-width: 1400px) {
+	@media all and (min-width: 701px) and (max-width: 1400px) {
 		display: flex;
 		flex-wrap: wrap;
 		margin-right: 10%;
@@ -1094,9 +1110,12 @@
 
 	@media all and (max-width: 700px){
 		display: flex;
-		flex-wrap: wrap;
+		flex-flow: column wrap;
 		margin-top: 25px;
-		margin-right: 35%;
+		margin-bottom: 25px;
+		margin-right: 10%;
+		margin-left: 10%;
+
 		border: 1px solid #fff;
 
 		.footer-area-three {

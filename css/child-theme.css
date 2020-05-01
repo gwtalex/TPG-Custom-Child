@@ -12293,10 +12293,15 @@ figure.woocommerce-product-gallery__wrapper {
 * ====================================
 */
 #footer-before {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 100px;
   background-color: #136d7c; }
+  @media all and (min-width: 700px) {
+    #footer-before {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-left: 100px; } }
+  @media all and (max-width: 700px) {
+    #footer-before {
+      text-align: center; } }
   #footer-before .footer-area {
     color: #fff; }
     #footer-before .footer-area h4 {
@@ -12311,6 +12316,10 @@ figure.woocommerce-product-gallery__wrapper {
       margin-top: 15px;
       max-height: 150px;
       width: auto; }
+  @media all and (max-width: 769px) {
+    #footer-before .col-md-2 {
+      width: 50%;
+      margin-top: 25px; } }
 
 #footer-after {
   background-color: #C0C0C0;
@@ -12345,7 +12354,7 @@ figure.woocommerce-product-gallery__wrapper {
       #footer-locations .footer-area-three a {
         color: #fff; } }
 
-@media all and (min-width: 700px) and (max-width: 1400px) {
+@media all and (min-width: 701px) and (max-width: 1400px) {
   #footer-locations {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12368,10 +12377,14 @@ figure.woocommerce-product-gallery__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
     margin-top: 25px;
-    margin-right: 35%;
+    margin-bottom: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
     border: 1px solid #fff; }
     #footer-locations .footer-area-three {
       margin: 10px; }
