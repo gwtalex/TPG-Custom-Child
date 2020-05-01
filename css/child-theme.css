@@ -11825,6 +11825,9 @@ figure.woocommerce-product-gallery__wrapper {
 * General Content Right Styling
 * ====================================
 */
+.content-right .entry-meta {
+  display: none; }
+
 @media all and (min-width: 700px) {
   .content-right {
     margin-right: 20%; } }

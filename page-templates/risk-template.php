@@ -51,22 +51,9 @@ Template Post Type: risk
 		<section class="content-main">
 			<div class="row">
 				<div class="col-sm-12">
-					<?php
-					// Start the loop.
-					while ( have_posts() ) : the_post();
-
-						// Include the page content template.
-						get_template_part( 'loop-templates/content', 'single' );
-
-						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) :
-							comments_template();
-						endif;
-
-					// End the loop.
-					endwhile;
-					?>
-
+					<?php while (have_posts()) : the_post();/* Start loop */ ?>
+	        			<?php the_content(); ?>
+					<?php endwhile; /* End loop */ ?>
 				</div>
 
 			</div>

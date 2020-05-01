@@ -364,6 +364,9 @@
 
 
 .content-right {
+	.entry-meta {
+		display: none;
+	}
 	@media all and (min-width: 700px) {
 		margin-right: 20%
 	}
