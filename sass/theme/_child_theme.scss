@@ -1216,11 +1216,7 @@
 
 // Blog Widget Area
 
-#blog-content {
-
-}
-
-#blog-widget-area {
+#blog-widget-area { // Left side widget area
 	margin-left: 50px;
 	aside {
 		margin-top: 15px;
@@ -1230,9 +1226,16 @@
 		}
 
 	}
+
+	@media all and (max-width: 800px) {
+		text-align: center;
+		margin-left: 0px;
+	}
 }
 
-#blog-articles {
+// Blog Single Card Page (home.php)
+
+#blog-articles { // Single Card Article
 	min-width: 300px;
 	max-width: 450px;;
 	margin-left: 15px;
@@ -1250,6 +1253,21 @@
 			color: $blog-primary;
 		}
 
+	}
+
+
+}
+
+
+// Blog Single (single.php)
+
+#blog-main {
+	@media all and (min-width: 700px) {
+		margin-right: 20%
+	}
+
+	@media all and (max-width: 700px) {
+		text-align: center;
 	}
 
 

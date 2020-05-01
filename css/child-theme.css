@@ -12466,6 +12466,10 @@ figure.woocommerce-product-gallery__wrapper {
     margin-top: 15px; }
     #blog-widget-area aside ul {
       list-style: none; }
+  @media all and (max-width: 800px) {
+    #blog-widget-area {
+      text-align: center;
+      margin-left: 0px; } }
 
 #blog-articles {
   min-width: 300px;
@@ -12479,6 +12483,14 @@ figure.woocommerce-product-gallery__wrapper {
     margin-bottom: 10px; }
   #blog-articles .card-title a {
     color: #54595f; }
+
+@media all and (min-width: 700px) {
+  #blog-main {
+    margin-right: 20%; } }
+
+@media all and (max-width: 700px) {
+  #blog-main {
+    text-align: center; } }
 
 /*
 * Use existing Bootstrap 4 classes and

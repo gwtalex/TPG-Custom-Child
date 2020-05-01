@@ -25,14 +25,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<div class="container-fluid" id="content" tabindex="-1">
 
-		<div class="row">
+		<div class="row flex-column-reverse flex-md-row">
 			<div id="blog-widget-area" class="col-md-3">
 				<?php
 				  if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('blog-sidebar') )
 				?>
 			</div>
-			<div class="col w-100">
-				<main class="site-main" id="main">
+			<div class="col">
+				<main class="site-main" id="blog-main">
 
 					<?php while ( have_posts() ) : the_post(); ?>
 
