@@ -11637,9 +11637,8 @@ figure.woocommerce-product-gallery__wrapper {
   #main-menu li {
     width: 25%; }
     #main-menu li a {
-      line-height: 100px;
       height: 100px;
-      padding-top: 0;
+      padding-top: 15%;
       margin-top: 0;
       border-left: solid;
       border-bottom: solid;
@@ -12214,10 +12213,6 @@ figure.woocommerce-product-gallery__wrapper {
 #insurance-content-container {
   margin-top: 35px;
   margin-bottom: 35px; }
-
-.insurance-content-right img {
-  width: 100%;
-  height: auto; }
 
 #insurance-footer {
   margin: 0;
