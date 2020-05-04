@@ -11850,7 +11850,7 @@ figure.woocommerce-product-gallery__wrapper {
 #risk-header {
   margin: 0;
   padding: 0;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 8px solid #e14f42;
@@ -11932,7 +11932,7 @@ figure.woocommerce-product-gallery__wrapper {
 #risk-footer {
   margin: 0;
   padding: 0;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 518px; }
@@ -12006,7 +12006,7 @@ figure.woocommerce-product-gallery__wrapper {
 #payroll-header {
   margin: 0;
   padding: 0;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 8px solid #00a65c;
@@ -12088,7 +12088,7 @@ figure.woocommerce-product-gallery__wrapper {
 #payroll-footer {
   margin: 0;
   padding: 0;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 518px; }
@@ -12160,7 +12160,7 @@ figure.woocommerce-product-gallery__wrapper {
 #insurance-header {
   margin: 0;
   padding: 0;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 8px solid #0086ba;
@@ -12239,7 +12239,7 @@ figure.woocommerce-product-gallery__wrapper {
 #insurance-footer {
   margin: 0;
   padding: 0;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 518px; }
@@ -12418,7 +12418,7 @@ figure.woocommerce-product-gallery__wrapper {
 #blog-header {
   margin: 0;
   padding: 0;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 8px solid #54595f;
