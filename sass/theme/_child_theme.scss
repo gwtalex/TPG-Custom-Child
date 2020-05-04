@@ -1,6 +1,9 @@
 
-
-//Main Menu Styling
+/*
+* ====================================
+* Main Menu Styling
+* ====================================
+*/
 
 // Remove right padding of main menu container
 #main-menu-container {
@@ -53,6 +56,7 @@
 		.insurance-main-menu { // Insurance main menu styling class
 				a {
 			 		color: #000;
+					font-weight: 800;
 				 &:hover {
 					 background-color: $insurance-primary;
 					 color: #fff;
@@ -68,6 +72,7 @@
 		.risk-main-menu { // risk main menu styling class
 				a {
 			 color: #000;
+			 font-weight: 800;
 			 &:hover {
 				 background-color: $risk-primary;
 				 color: #fff;
@@ -84,6 +89,7 @@
 		 .payroll-main-menu { // payroll main menu styling class
 				 a {
 				color: #000;
+				font-weight: 800;
 				&:hover {
 					background-color: $payroll-primary;
 					color: #fff;
@@ -100,6 +106,7 @@
 			.hr-main-menu { // human resources (hr) main menu styling class
 					a {
 				 color: #000;
+				 font-weight: 800;
 				 &:hover {
 					 background-color: $human-resources-primary;
 					 color: #fff;
@@ -116,6 +123,7 @@
 			 .blog-main-menu { // blog main menu styling class
 					 a {
 					color: #000;
+					font-weight: 800;
 					&:hover {
 						background-color: #676767;
 						color: #fff;

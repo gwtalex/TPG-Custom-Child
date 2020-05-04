@@ -11612,6 +11612,11 @@ figure.woocommerce-product-gallery__wrapper {
 .gallery-caption {
   display: block; }
 
+/*
+* ====================================
+* Main Menu Styling
+* ====================================
+*/
 #main-menu-container {
   padding-right: 0px; }
 
@@ -11646,7 +11651,8 @@ figure.woocommerce-product-gallery__wrapper {
       border-color: #c2c5cc; } }
 
 #main-menu .insurance-main-menu a {
-  color: #000; }
+  color: #000;
+  font-weight: 800; }
   #main-menu .insurance-main-menu a:hover {
     background-color: #0086ba;
     color: #fff; }
@@ -11656,7 +11662,8 @@ figure.woocommerce-product-gallery__wrapper {
   color: #fff; }
 
 #main-menu .risk-main-menu a {
-  color: #000; }
+  color: #000;
+  font-weight: 800; }
   #main-menu .risk-main-menu a:hover {
     background-color: #E14F42;
     color: #fff; }
@@ -11666,7 +11673,8 @@ figure.woocommerce-product-gallery__wrapper {
   color: #fff; }
 
 #main-menu .payroll-main-menu a {
-  color: #000; }
+  color: #000;
+  font-weight: 800; }
   #main-menu .payroll-main-menu a:hover {
     background-color: #00a65c;
     color: #fff; }
@@ -11676,7 +11684,8 @@ figure.woocommerce-product-gallery__wrapper {
   color: #fff; }
 
 #main-menu .hr-main-menu a {
-  color: #000; }
+  color: #000;
+  font-weight: 800; }
   #main-menu .hr-main-menu a:hover {
     background-color: #ec9934;
     color: #fff; }
@@ -11686,7 +11695,8 @@ figure.woocommerce-product-gallery__wrapper {
   color: #fff; }
 
 #main-menu .blog-main-menu a {
-  color: #000; }
+  color: #000;
+  font-weight: 800; }
   #main-menu .blog-main-menu a:hover {
     background-color: #676767;
     color: #fff; }
@@ -11822,7 +11832,7 @@ figure.woocommerce-product-gallery__wrapper {
 
 /*
 * ====================================
-* General Content Right Styling
+* General Content Styling
 * ====================================
 */
 .content-right .entry-meta {
