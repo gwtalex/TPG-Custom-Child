@@ -928,6 +928,20 @@
 #insurance-content-container {
 	margin-top: 35px;
 	margin-bottom: 35px;
+
+	.content-right {
+		.entry-title {
+			color: $insurance-primary;
+		}
+		.entry-title:after {
+			content: ""; /* This is necessary for the pseudo element to work. */
+   			display: block; /* This will put the pseudo element on its own line. */
+   			width: 35%; /* Change this to whatever width you want to have before hover. */
+   			padding-top: 5px; /* This creates some space between the element and the border. */
+			margin-bottom: 10px;
+			border-bottom: 2px solid #DCDCDC; /* This creates the border. Replace black with whatever color you want. */
+		}
+	}
 }
 
 
