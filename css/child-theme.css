@@ -11648,7 +11648,8 @@ figure.woocommerce-product-gallery__wrapper {
       border-left: solid;
       border-bottom: solid;
       border-width: .5px;
-      border-color: #c2c5cc; } }
+      border-color: #c2c5cc;
+      text-transform: uppercase; } }
 
 #main-menu .insurance-main-menu a {
   color: #000;
@@ -11710,8 +11711,12 @@ figure.woocommerce-product-gallery__wrapper {
 * Side Menu Styling
 * ====================================
 */
+.side-menu-title-space {
+  margin-top: 15px; }
+
 .side-menu-insurance {
-  margin-left: 50px; }
+  margin-left: 50px;
+  border-right: solid 2px #DCDCDC; }
   .side-menu-insurance .menu {
     list-style: none;
     padding: 0;
@@ -11730,7 +11735,8 @@ figure.woocommerce-product-gallery__wrapper {
       padding-left: 10px; }
 
 .side-menu {
-  margin-left: 50px; }
+  margin-left: 50px;
+  border-right: solid 2px #DCDCDC; }
   .side-menu #menu-risk-menu {
     list-style: none;
     padding: 0;
@@ -11754,7 +11760,8 @@ figure.woocommerce-product-gallery__wrapper {
       padding-left: 10px; }
 
 .side-menu {
-  margin-left: 50px; }
+  margin-left: 50px;
+  border-right: solid 2px #DCDCDC; }
   .side-menu #menu-payroll {
     list-style: none;
     padding: 0;
@@ -11841,6 +11848,12 @@ figure.woocommerce-product-gallery__wrapper {
 @media all and (min-width: 700px) {
   .content-right {
     margin-right: 20%; } }
+
+.tab-content {
+  border-right: solid 1px #DCDCDC;
+  border-left: solid 1px #DCDCDC;
+  border-bottom: solid 1px #DCDCDC;
+  padding: 10px; }
 
 /*
 * ====================================
