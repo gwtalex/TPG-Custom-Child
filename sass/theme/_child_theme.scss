@@ -4,6 +4,7 @@
 * ====================================
 */
 // Remove right padding of main menu container
+
 #main-menu-container {
 	padding-right: 0;
 }
@@ -65,1480 +66,1433 @@
 		}
 	}
 
+	.insurance-main-menu {
+		// Insurance main menu styling class
+		a {
+			color: #000;
 
-		.insurance-main-menu {
-			// Insurance main menu styling class
-
-			a {
-				color: #000;
-
-				&:hover {
-					background-color: $insurance-primary;
-					color: #fff;
-
-					@media all and (min-width: 768px) {
-						&::after {
-							content: "";
-							/* This is necessary for the pseudo element to work. */
-							display: block;
-							/* This will put the pseudo element on its own line. */
-							width: 35px;
-							/* Change this to whatever width you want to have before hover. */
-							padding-top: 5px;
-							/* This creates some space between the element and the border. */
-							border-bottom: 2px solid #fff;
-							/* This creates the border. Replace black with whatever color you want. */
-							margin-right: auto;
-						}
-					}
-
-				}
-			}
-
-			@media all and (min-width: 768px) {
-				a:after {
-					content: "";
-					/* This is necessary for the pseudo element to work. */
-					display: block;
-					/* This will put the pseudo element on its own line. */
-					width: 35px;
-					/* Change this to whatever width you want to have before hover. */
-					padding-top: 5px;
-					/* This creates some space between the element and the border. */
-					border-bottom: 2px solid $insurance-primary;
-					/* This creates the border. Replace black with whatever color you want. */
-					margin-right: auto;
-				}
-			}
-
-
-		}
-
-		.insurance-main-menu.current-menu-item {
-			a {
+			&:hover {
 				background-color: $insurance-primary;
 				color: #fff;
-			}
-
-			@media all and (min-width: 768px) {
-				a:after {
-					content: "";
-					/* This is necessary for the pseudo element to work. */
-					display: block;
-					/* This will put the pseudo element on its own line. */
-					width: 35px;
-					/* Change this to whatever width you want to have before hover. */
-					padding-top: 5px;
-					/* This creates some space between the element and the border. */
-					border-bottom: 2px solid #fff;
-					/* This creates the border. Replace black with whatever color you want. */
-					margin-right: auto;
-				}
-			}
-
-		}
-
-		.risk-main-menu {
-			// risk main menu styling class
-
-			a {
-				color: #000;
-
-				&:hover {
-					background-color: $risk-primary;
-					color: #fff;
-
-					@media all and (min-width: 768px) {
-						&::after {
-							content: "";
-							/* This is necessary for the pseudo element to work. */
-							display: block;
-							/* This will put the pseudo element on its own line. */
-							width: 35px;
-							/* Change this to whatever width you want to have before hover. */
-							padding-top: 5px;
-							/* This creates some space between the element and the border. */
-							border-bottom: 2px solid #fff;
-							/* This creates the border. Replace black with whatever color you want. */
-							margin-right: auto;
-						}
-					}
-
-				}
-			}
-
-			@media all and (min-width: 768px){
-				a:after {
-					content: "";
-					/* This is necessary for the pseudo element to work. */
-					display: block;
-					/* This will put the pseudo element on its own line. */
-					width: 35px;
-					/* Change this to whatever width you want to have before hover. */
-					padding-top: 5px;
-					/* This creates some space between the element and the border. */
-					border-bottom: 2px solid $risk-primary;
-					/* This creates the border. Replace black with whatever color you want. */
-					margin-right: auto;
-				}
-			}
-
-		}
-
-		.risk-main-menu.current-menu-item {
-			a {
-				background-color: $risk-primary;
-				color: #fff;
-			}
-
-			@media all and (min-width: 768px) {
-				a:after {
-					content: "";
-					/* This is necessary for the pseudo element to work. */
-					display: block;
-					/* This will put the pseudo element on its own line. */
-					width: 35px;
-					/* Change this to whatever width you want to have before hover. */
-					padding-top: 5px;
-					/* This creates some space between the element and the border. */
-					border-bottom: 2px solid #fff;
-					/* This creates the border. Replace black with whatever color you want. */
-					margin-right: auto;
-				}
-			}
-
-		}
-
-		.payroll-main-menu {
-			// payroll main menu styling class
-
-			a {
-				color: #000;
-
-				&:hover {
-					background-color: $payroll-primary;
-					color: #fff;
-
-					@media all and (min-width: 768px) {
-						&::after {
-							content: "";
-							/* This is necessary for the pseudo element to work. */
-							display: block;
-							/* This will put the pseudo element on its own line. */
-							width: 35px;
-							/* Change this to whatever width you want to have before hover. */
-							padding-top: 5px;
-							/* This creates some space between the element and the border. */
-							border-bottom: 2px solid #fff;
-							/* This creates the border. Replace black with whatever color you want. */
-							margin-right: auto;
-						}
-					}
-
-				}
-			}
-
-			@media all and (min-width: 768px) {
-				a:after {
-					content: "";
-					/* This is necessary for the pseudo element to work. */
-					display: block;
-					/* This will put the pseudo element on its own line. */
-					width: 35px;
-					/* Change this to whatever width you want to have before hover. */
-					padding-top: 5px;
-					/* This creates some space between the element and the border. */
-					border-bottom: 2px solid $payroll-primary;
-					/* This creates the border. Replace black with whatever color you want. */
-					margin-right: auto;
-				}
-			}
-
-		}
-
-		.payroll-main-menu.current-menu-item {
-			a {
-				background-color: $payroll-primary;
-				color: #fff;
-			}
-
-			@media all and (min-width: 768px) {
-					a:after {
-					content: "";
-					/* This is necessary for the pseudo element to work. */
-					display: block;
-					/* This will put the pseudo element on its own line. */
-					width: 35px;
-					/* Change this to whatever width you want to have before hover. */
-					padding-top: 5px;
-					/* This creates some space between the element and the border. */
-					border-bottom: 2px solid #fff;
-					/* This creates the border. Replace black with whatever color you want. */
-					margin-right: auto;
-				}
-			}
-		}
-
-		.hr-main-menu {
-			// human resources (hr) main menu styling class
-
-			a {
-				color: #000;
-
-				&:hover {
-					background-color: $human-resources-primary;
-					color: #fff;
-
-					@media all and (min-width: 768px) {
-						&::after {
-							content: "";
-							/* This is necessary for the pseudo element to work. */
-							display: block;
-							/* This will put the pseudo element on its own line. */
-							width: 35px;
-							/* Change this to whatever width you want to have before hover. */
-							padding-top: 5px;
-							/* This creates some space between the element and the border. */
-							border-bottom: 2px solid #fff;
-							/* This creates the border. Replace black with whatever color you want. */
-							margin-right: auto;
-						}
-					}
-				}
-			}
-
-			@media all and (min-width: 768px) {
-				a:after {
-					content: "";
-					/* This is necessary for the pseudo element to work. */
-					display: block;
-					/* This will put the pseudo element on its own line. */
-					width: 35px;
-					/* Change this to whatever width you want to have before hover. */
-					padding-top: 5px;
-					/* This creates some space between the element and the border. */
-					border-bottom: 2px solid $human-resources-primary;
-					/* This creates the border. Replace black with whatever color you want. */
-					margin-right: auto;
-				}
-			}
-
-		}
-
-		.hr-main-menu.current-menu-item {
-			a {
-				background-color: $human-resources-primary;
-				color: #fff;
-			}
-
-			@media all and (min-width: 768px) {
-				a:after {
-					content: "";
-					/* This is necessary for the pseudo element to work. */
-					display: block;
-					/* This will put the pseudo element on its own line. */
-					width: 35px;
-					/* Change this to whatever width you want to have before hover. */
-					padding-top: 5px;
-					/* This creates some space between the element and the border. */
-					border-bottom: 2px solid #fff;
-					/* This creates the border. Replace black with whatever color you want. */
-					margin-right: auto;
-				}
-			}
-
-		}
-
-		.blog-main-menu {
-			// blog main menu styling class
-
-			a {
-				color: #000;
-
-				&:hover {
-					background-color: #676767;
-					color: #fff;
-
-					@media all and (min-width: 768px) {
-						&::after {
-							content: "";
-							/* This is necessary for the pseudo element to work. */
-							display: block;
-							/* This will put the pseudo element on its own line. */
-							width: 35px;
-							/* Change this to whatever width you want to have before hover. */
-							padding-top: 5px;
-							/* This creates some space between the element and the border. */
-							border-bottom: 2px solid #fff;
-							/* This creates the border. Replace black with whatever color you want. */
-							margin-right: auto;
-						}
-					}
-
-				}
-			}
-
-			@media all and (min-width: 768px) {
-				a:after {
-					content: "";
-					/* This is necessary for the pseudo element to work. */
-					display: block;
-					/* This will put the pseudo element on its own line. */
-					width: 35px;
-					/* Change this to whatever width you want to have before hover. */
-					padding-top: 5px;
-					/* This creates some space between the element and the border. */
-					border-bottom: 2px solid $blog-primary;
-					/* This creates the border. Replace black with whatever color you want. */
-					margin-right: auto;
-				}
-			}
-
-		}
-
-		.blog-main-menu.current-menu-item {
-			a {
-				background-color: #676767;
-				color: #fff;
-			}
-
-			@media all and (min-width: 768px) {
-				a:after {
-					content: "";
-					/* This is necessary for the pseudo element to work. */
-					display: block;
-					/* This will put the pseudo element on its own line. */
-					width: 35px;
-					/* Change this to whatever width you want to have before hover. */
-					padding-top: 5px;
-					/* This creates some space between the element and the border. */
-					border-bottom: 2px solid #fff;
-					/* This creates the border. Replace black with whatever color you want. */
-					margin-right: auto;
-				}
-			}
-
-		}
-}
-	/*
-* ====================================
-* Side Menu Styling
-* ====================================
-*/
-	// General
-	.side-menu-title-space {
-		// Adds space for menu titles
-		margin-top: 15px;
-	}
-	// Insurance
-
-	.side-menu-insurance {
-		margin-left: 50px;
-		border-right: solid 2px #DCDCDC;
-
-		.menu {
-			list-style: none;
-			padding: 0;
-			margin: 0;
-
-			.menu-item {
-				// Insurance Menu Items
-				a {
-					span {
-						color: black;
-						font-size: 15px;
-					}
-				}
-				// Insurance Title
-				a[title="insurance"] {
-					span {
-						font-weight: bold;
-						font-size: 20px;
-						color: $insurance-primary;
-					}
-				}
-				// Insurance Icons
-				i {
-					color: $insurance-primary;
-				}
-
-				.sub-menu {
-					list-style: none;
-					padding-left: 10px;
-				}
-			}
-		}
-	}
-	// Risk
-
-	.side-menu {
-		margin-left: 50px;
-		border-right: solid 2px #DCDCDC;
-
-		#menu-risk-menu {
-			list-style: none;
-			padding: 0;
-			margin: 0;
-
-			.menu-item {
-				// Risk Menu Items
-				a {
-					span {
-						color: black;
-						font-size: 15px;
-					}
-				}
-				// Risk Title
-				@media all and (min-width: 700px) {
-					a[title="risk"] {
-						span {
-							font-weight: bold;
-							font-size: 20px;
-							color: $risk-primary;
-						}
-					}
-				}
-				@media all and (max-width: 700px) {
-					a[title="risk"] {
-						span {
-							font-weight: bold;
-							color: $risk-primary;
-						}
-					}
-				}
-				// Risk Icons
-				i {
-					color: $risk-primary;
-				}
-
-				.sub-menu {
-					list-style: none;
-					padding-left: 10px;
-				}
-			}
-		}
-	}
-	// payroll
-
-	.side-menu {
-		margin-left: 50px;
-		border-right: solid 2px #DCDCDC;
-
-		#menu-payroll {
-			list-style: none;
-			padding: 0;
-			margin: 0;
-
-			.menu-item {
-				// Payroll Menu Items
-				a {
-					span {
-						color: black;
-						font-size: 15px;
-					}
-				}
-				// Payroll Title
-				@media all and (min-width: 700px) {
-					a[title="payroll"] {
-						span {
-							font-weight: bold;
-							font-size: 20px;
-							color: $payroll-primary;
-						}
-					}
-				}
-				@media all and (max-width: 700px) {
-					a[title="payroll"] {
-						span {
-							font-weight: bold;
-							color: $payroll-primary;
-						}
-					}
-				}
-				// Payroll Icons
-				i {
-					color: $payroll-primary;
-				}
-
-				.sub-menu {
-					list-style: none;
-					padding-left: 10px;
-				}
-			}
-		}
-	}
-	/*
-* ====================================
-* Button Classes
-* ====================================
-*/
-	// Insurance
-	.btn-insurance {
-		font-size: 20px;
-		color: #fff;
-		border-radius: 0;
-		border: 5px solid;
-		background-color: $insurance-primary;
-		border-color: $insurance-primary;
-
-		&:focus {
-			background-color: Transparent;
-			border: 5px solid $insurance-primary;
-			color: $insurance-primary;
-		}
-
-		&:hover {
-			background-color: Transparent;
-			border: 5px solid $insurance-primary;
-			color: $insurance-primary;
-		}
-	}
-	// Risk
-
-	.btn-risk {
-		font-size: 20px;
-		color: #fff;
-		border-radius: 0;
-		border: 5px solid;
-		background-color: $risk-primary;
-		border-color: $risk-primary;
-
-		&:focus {
-			background-color: Transparent;
-			border: 5px solid $risk-primary;
-			color: $risk-primary;
-		}
-
-		&:hover {
-			background-color: Transparent;
-			border: 5px solid $risk-primary;
-			color: $risk-primary;
-		}
-	}
-	// Payroll
-
-	.btn-payroll {
-		font-size: 20px;
-		color: #fff;
-		border-radius: 0;
-		border: 5px solid;
-		background-color: $payroll-primary;
-		border-color: $payroll-primary;
-
-		&:focus {
-			background-color: Transparent;
-			border: 5px solid $payroll-primary;
-			color: $payroll-primary;
-		}
-
-		&:hover {
-			background-color: Transparent;
-			border: 5px solid $payroll-primary;
-			color: $payroll-primary;
-		}
-	}
-	/*
-* ====================================
-* General Content Styling
-* ====================================
-*/
-	.content-right {
-		// Content Right (Main Templates)
-
-		.entry-meta {
-			display: none;
-		}
-		@media all and (min-width: 700px) {
-			margin-right: 20%;
-		}
-	}
-
-	.tab-content {
-		// Border for tabbed content
-		border-right: solid 1px #DCDCDC;
-		border-left: solid 1px #DCDCDC;
-		border-bottom: solid 1px #DCDCDC;
-		padding: 10px;
-	}
-	/*
-* ====================================
-* Risk Template Styling
-* ====================================
-*/
-	//Risk Hero
-	#risk-header {
-		margin: 0;
-		padding: 0;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-bottom: 8px solid #e14f42;
-		height: 518px;
-
-		.container-fluid {
-			/* Sizing */
-			height: 510px;
-			/* Flexbox stuff */
-			display: flex;
-			align-items: center;
-			background-color: rgba(196, 196, 196, 0.9);
-
-			.container {
-				flex-direction: column;
-				padding: 0;
-				margin-left: 60px;
-				@media all and (min-width: 700px) {
-					h1 {
-						font-size: 60px;
-						color: $risk-primary;
-						font-weight: 800;
-						text-transform: uppercase;
-					}
-
-					p {
-						font-size: 25px;
-						color: white;
-					}
-
-					.btn {
-						width: 520px;
-						height: 78px;
-						font-size: 40px;
-						font-weight: 600px;
-						border: 5px solid $risk-primary;
-						border-radius: 0;
-						font-weight: 800px;
-						color: #fff;
-
-						&:focus {
-							color: #fff;
-							background-color: $risk-primary;
-						}
-
-						&:hover {
-							color: #fff;
-							background-color: $risk-primary;
-						}
-					}
-				}
-				@media all and (max-width: 700px) {
-					h1 {
-						font-size: 40px;
-						color: $risk-primary;
-						font-weight: 800;
-						text-transform: uppercase;
-					}
-
-					p {
-						color: white;
-					}
-
-					.btn {
-						font-weight: 600px;
-						border: 5px solid $risk-primary;
-						border-radius: 0;
-						font-weight: 800px;
-						color: #fff;
-
-						&:focus {
-							color: #fff;
-							background-color: $risk-primary;
-						}
-
-						&:hover {
-							color: #fff;
-							background-color: $risk-primary;
-						}
+				@media all and (min-width: 768px) {
+					&::after {
+						content: "";
+						/* This is necessary for the pseudo element to work. */
+						display: block;
+						/* This will put the pseudo element on its own line. */
+						width: 35px;
+						/* Change this to whatever width you want to have before hover. */
+						padding-top: 5px;
+						/* This creates some space between the element and the border. */
+						border-bottom: 2px solid #fff;
+						/* This creates the border. Replace black with whatever color you want. */
+						margin-right: auto;
 					}
 				}
 			}
 		}
-	}
-	// Risk content container
-
-	#risk-content-container {
-		margin-top: 35px;
-	}
-	// Risk - Scale image for content in the content-right area
-
-	.risk-content-right img {
-		width: 100%;
-		height: auto;
-	}
-
-	#risk-footer {
-		margin: 0;
-		padding: 0;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 400px;
-
-		.container-fluid {
-			/* Sizing */
-			height: 400px;
-			/* Flexbox stuff */
-			display: flex;
-			align-items: center;
-			background-color: rgba(196, 196, 196, 0.9);
-
-			.container {
-				flex-direction: column;
-				text-align: center;
-				@media all and (min-width: 700px) {
-					h1 {
-						font-size: 60px;
-						color: $risk-primary;
-						font-weight: 800;
-					}
-
-					p {
-						font-size: 25px;
-						color: white;
-					}
-
-					.btn-danger {
-						width: 520px;
-						height: 78px;
-						font-size: 40px;
-						font-weight: 800px;
-						border-radius: 0;
-						border: 5px solid;
-						font-weight: 800px;
-						background-color: $risk-primary;
-						border-color: $risk-primary;
-
-						&:focus {
-							background-color: Transparent;
-							border: 5px solid $risk-primary;
-						}
-
-						&:hover {
-							background-color: Transparent;
-							border: 5px solid $risk-primary;
-						}
-					}
-				}
-				@media all and (max-width: 700px) {
-					h1 {
-						font-size: 40px;
-						color: $risk-primary;
-						font-weight: 800;
-					}
-
-					p {
-						color: white;
-					}
-
-					.btn-danger {
-						font-weight: 800px;
-						border-radius: 0;
-						border: 5px solid;
-						font-weight: 800px;
-						background-color: $risk-primary;
-						border-color: $risk-primary;
-
-						&:focus {
-							background-color: Transparent;
-							border: 5px solid $risk-primary;
-						}
-
-						&:hover {
-							background-color: Transparent;
-							border: 5px solid $risk-primary;
-						}
-					}
-				}
-			}
-		}
-	}
-	/*
-* ====================================
-* Payroll Template Styling
-* ====================================
-*/
-	//Payroll Hero
-	#payroll-header {
-		margin: 0;
-		padding: 0;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-bottom: 8px solid $payroll-primary;
-		height: 518px;
-
-		.container-fluid {
-			/* Sizing */
-			height: 510px;
-			/* Flexbox stuff */
-			display: flex;
-			align-items: center;
-			background-color: rgba(196, 196, 196, 0.9);
-
-			.container {
-				flex-direction: column;
-				padding: 0;
-				margin-left: 60px;
-				@media all and (min-width: 700px) {
-					h1 {
-						font-size: 60px;
-						color: $payroll-primary;
-						font-weight: 800;
-						text-transform: uppercase;
-					}
-
-					p {
-						font-size: 25px;
-						color: white;
-					}
-
-					.btn {
-						width: 520px;
-						height: 78px;
-						font-size: 40px;
-						font-weight: 600px;
-						border: 5px solid $payroll-primary;
-						border-radius: 0;
-						font-weight: 800px;
-						color: #fff;
-
-						&:focus {
-							color: #fff;
-							background-color: $payroll-primary;
-						}
-
-						&:hover {
-							color: #fff;
-							background-color: $payroll-primary;
-						}
-					}
-				}
-				@media all and (max-width: 700px) {
-					h1 {
-						font-size: 40px;
-						color: $payroll-primary;
-						font-weight: 800;
-						text-transform: uppercase;
-					}
-
-					p {
-						color: white;
-					}
-
-					.btn {
-						font-weight: 600px;
-						border: 5px solid $payroll-primary;
-						border-radius: 0;
-						font-weight: 800px;
-						color: #fff;
-
-						&:focus {
-							color: #fff;
-							background-color: $payroll-primary;
-						}
-
-						&:hover {
-							color: #fff;
-							background-color: $payroll-primary;
-						}
-					}
-				}
-			}
-		}
-	}
-	//Payroll content container
-
-	#payroll-content-container {
-		margin-top: 35px;
-	}
-	// Payroll - Scale image for content in the content-right area
-
-	.payroll-content-right img {
-		width: 100%;
-		height: auto;
-	}
-
-	#payroll-footer {
-		margin: 0;
-		padding: 0;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 400px;
-
-		.container-fluid {
-			/* Sizing */
-			height: 400px;
-			/* Flexbox stuff */
-			display: flex;
-			align-items: center;
-			background-color: rgba(196, 196, 196, 0.9);
-
-			.container {
-				flex-direction: column;
-				text-align: center;
-				@media all and (min-width: 700px) {
-					h1 {
-						font-size: 60px;
-						color: $payroll-primary;
-						font-weight: 800;
-					}
-
-					p {
-						font-size: 25px;
-						color: white;
-					}
-
-					.btn-success {
-						width: 520px;
-						height: 78px;
-						font-size: 40px;
-						color: #fff;
-						border-radius: 0;
-						border: 5px solid;
-						background-color: $payroll-primary;
-						border-color: $payroll-primary;
-
-						&:focus {
-							background-color: Transparent;
-							border: 5px solid $payroll-primary;
-						}
-
-						&:hover {
-							background-color: Transparent;
-							border: 5px solid $payroll-primary;
-						}
-					}
-				}
-				@media all and (max-width: 700px) {
-					h1 {
-						font-size: 40px;
-						color: $payroll-primary;
-						font-weight: 800;
-					}
-
-					p {
-						color: white;
-					}
-
-					.btn-success {
-						color: #fff;
-						border-radius: 0;
-						border: 5px solid;
-						background-color: $payroll-primary;
-						border-color: $payroll-primary;
-
-						&:focus {
-							background-color: Transparent;
-							border: 5px solid $payroll-primary;
-						}
-
-						&:hover {
-							background-color: Transparent;
-							border: 5px solid $payroll-primary;
-						}
-					}
-				}
-			}
-		}
-	}
-	/*
-* ====================================
-* Insurance Template Styling
-* ====================================
-*/
-	//insurance Hero
-	#insurance-header {
-		margin: 0;
-		padding: 0;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-bottom: 8px solid $insurance-primary;
-		height: 518px;
-
-		.container-fluid {
-			/* Sizing */
-			height: 510px;
-			/* Flexbox stuff */
-			display: flex;
-			align-items: center;
-			background-color: rgba(196, 196, 196, 0.9);
-
-			.container {
-				flex-direction: column;
-				padding: 0;
-				margin-left: 60px;
-				@media all and (min-width: 700px) {
-					h1 {
-						font-size: 60px;
-						color: $insurance-primary;
-						font-weight: 800;
-						text-transform: uppercase;
-					}
-
-					p {
-						font-size: 25px;
-						color: white;
-					}
-
-					.btn {
-						width: 520px;
-						height: 78px;
-						font-size: 40px;
-						font-weight: 600px;
-						border: 5px solid $insurance-primary;
-						border-radius: 0;
-						font-weight: 800px;
-						color: #fff;
-
-						&:focus {
-							color: #fff;
-							background-color: $insurance-primary;
-						}
-
-						&:hover {
-							color: #fff;
-							background-color: $insurance-primary;
-						}
-					}
-				}
-				@media all and (max-width: 700px) {
-					h1 {
-						font-size: 40px;
-						color: $insurance-primary;
-						font-weight: 800;
-						text-transform: uppercase;
-					}
-
-					p {
-						color: white;
-					}
-
-					.btn {
-						font-weight: 600px;
-						border: 5px solid $insurance-primary;
-						border-radius: 0;
-						font-weight: 800px;
-						color: #fff;
-
-						&:focus {
-							color: #fff;
-							background-color: $insurance-primary;
-						}
-
-						&:hover {
-							color: #fff;
-							background-color: $insurance-primary;
-						}
-					}
-				}
-			}
-		}
-	}
-	//insurance content container
-
-	#insurance-content-container {
-		margin-top: 35px;
-		margin-bottom: 35px;
-
-		.content-right {
-			.entry-title {
-				color: $insurance-primary;
-			}
-
-			.entry-title:after {
+		@media all and (min-width: 768px) {
+			a:after {
 				content: "";
 				/* This is necessary for the pseudo element to work. */
 				display: block;
 				/* This will put the pseudo element on its own line. */
-				width: 35%;
+				width: 35px;
 				/* Change this to whatever width you want to have before hover. */
 				padding-top: 5px;
 				/* This creates some space between the element and the border. */
-				margin-bottom: 10px;
-				border-bottom: 2px solid #DCDCDC;
+				border-bottom: 2px solid $insurance-primary;
 				/* This creates the border. Replace black with whatever color you want. */
+				margin-right: auto;
 			}
 		}
 	}
 
-	#insurance-footer {
-		margin: 0;
+	.insurance-main-menu.current-menu-item {
+		a {
+			background-color: $insurance-primary;
+			color: #fff;
+		}
+		@media all and (min-width: 768px) {
+			a:after {
+				content: "";
+				/* This is necessary for the pseudo element to work. */
+				display: block;
+				/* This will put the pseudo element on its own line. */
+				width: 35px;
+				/* Change this to whatever width you want to have before hover. */
+				padding-top: 5px;
+				/* This creates some space between the element and the border. */
+				border-bottom: 2px solid #fff;
+				/* This creates the border. Replace black with whatever color you want. */
+				margin-right: auto;
+			}
+		}
+	}
+
+	.risk-main-menu {
+		// risk main menu styling class
+		a {
+			color: #000;
+
+			&:hover {
+				background-color: $risk-primary;
+				color: #fff;
+				@media all and (min-width: 768px) {
+					&::after {
+						content: "";
+						/* This is necessary for the pseudo element to work. */
+						display: block;
+						/* This will put the pseudo element on its own line. */
+						width: 35px;
+						/* Change this to whatever width you want to have before hover. */
+						padding-top: 5px;
+						/* This creates some space between the element and the border. */
+						border-bottom: 2px solid #fff;
+						/* This creates the border. Replace black with whatever color you want. */
+						margin-right: auto;
+					}
+				}
+			}
+		}
+		@media all and (min-width: 768px) {
+			a:after {
+				content: "";
+				/* This is necessary for the pseudo element to work. */
+				display: block;
+				/* This will put the pseudo element on its own line. */
+				width: 35px;
+				/* Change this to whatever width you want to have before hover. */
+				padding-top: 5px;
+				/* This creates some space between the element and the border. */
+				border-bottom: 2px solid $risk-primary;
+				/* This creates the border. Replace black with whatever color you want. */
+				margin-right: auto;
+			}
+		}
+	}
+
+	.risk-main-menu.current-menu-item {
+		a {
+			background-color: $risk-primary;
+			color: #fff;
+		}
+		@media all and (min-width: 768px) {
+			a:after {
+				content: "";
+				/* This is necessary for the pseudo element to work. */
+				display: block;
+				/* This will put the pseudo element on its own line. */
+				width: 35px;
+				/* Change this to whatever width you want to have before hover. */
+				padding-top: 5px;
+				/* This creates some space between the element and the border. */
+				border-bottom: 2px solid #fff;
+				/* This creates the border. Replace black with whatever color you want. */
+				margin-right: auto;
+			}
+		}
+	}
+
+	.payroll-main-menu {
+		// payroll main menu styling class
+		a {
+			color: #000;
+
+			&:hover {
+				background-color: $payroll-primary;
+				color: #fff;
+				@media all and (min-width: 768px) {
+					&::after {
+						content: "";
+						/* This is necessary for the pseudo element to work. */
+						display: block;
+						/* This will put the pseudo element on its own line. */
+						width: 35px;
+						/* Change this to whatever width you want to have before hover. */
+						padding-top: 5px;
+						/* This creates some space between the element and the border. */
+						border-bottom: 2px solid #fff;
+						/* This creates the border. Replace black with whatever color you want. */
+						margin-right: auto;
+					}
+				}
+			}
+		}
+		@media all and (min-width: 768px) {
+			a:after {
+				content: "";
+				/* This is necessary for the pseudo element to work. */
+				display: block;
+				/* This will put the pseudo element on its own line. */
+				width: 35px;
+				/* Change this to whatever width you want to have before hover. */
+				padding-top: 5px;
+				/* This creates some space between the element and the border. */
+				border-bottom: 2px solid $payroll-primary;
+				/* This creates the border. Replace black with whatever color you want. */
+				margin-right: auto;
+			}
+		}
+	}
+
+	.payroll-main-menu.current-menu-item {
+		a {
+			background-color: $payroll-primary;
+			color: #fff;
+		}
+		@media all and (min-width: 768px) {
+			a:after {
+				content: "";
+				/* This is necessary for the pseudo element to work. */
+				display: block;
+				/* This will put the pseudo element on its own line. */
+				width: 35px;
+				/* Change this to whatever width you want to have before hover. */
+				padding-top: 5px;
+				/* This creates some space between the element and the border. */
+				border-bottom: 2px solid #fff;
+				/* This creates the border. Replace black with whatever color you want. */
+				margin-right: auto;
+			}
+		}
+	}
+
+	.hr-main-menu {
+		// human resources (hr) main menu styling class
+		a {
+			color: #000;
+
+			&:hover {
+				background-color: $human-resources-primary;
+				color: #fff;
+				@media all and (min-width: 768px) {
+					&::after {
+						content: "";
+						/* This is necessary for the pseudo element to work. */
+						display: block;
+						/* This will put the pseudo element on its own line. */
+						width: 35px;
+						/* Change this to whatever width you want to have before hover. */
+						padding-top: 5px;
+						/* This creates some space between the element and the border. */
+						border-bottom: 2px solid #fff;
+						/* This creates the border. Replace black with whatever color you want. */
+						margin-right: auto;
+					}
+				}
+			}
+		}
+		@media all and (min-width: 768px) {
+			a:after {
+				content: "";
+				/* This is necessary for the pseudo element to work. */
+				display: block;
+				/* This will put the pseudo element on its own line. */
+				width: 35px;
+				/* Change this to whatever width you want to have before hover. */
+				padding-top: 5px;
+				/* This creates some space between the element and the border. */
+				border-bottom: 2px solid $human-resources-primary;
+				/* This creates the border. Replace black with whatever color you want. */
+				margin-right: auto;
+			}
+		}
+	}
+
+	.hr-main-menu.current-menu-item {
+		a {
+			background-color: $human-resources-primary;
+			color: #fff;
+		}
+		@media all and (min-width: 768px) {
+			a:after {
+				content: "";
+				/* This is necessary for the pseudo element to work. */
+				display: block;
+				/* This will put the pseudo element on its own line. */
+				width: 35px;
+				/* Change this to whatever width you want to have before hover. */
+				padding-top: 5px;
+				/* This creates some space between the element and the border. */
+				border-bottom: 2px solid #fff;
+				/* This creates the border. Replace black with whatever color you want. */
+				margin-right: auto;
+			}
+		}
+	}
+
+	.blog-main-menu {
+		// blog main menu styling class
+		a {
+			color: #000;
+
+			&:hover {
+				background-color: #676767;
+				color: #fff;
+				@media all and (min-width: 768px) {
+					&::after {
+						content: "";
+						/* This is necessary for the pseudo element to work. */
+						display: block;
+						/* This will put the pseudo element on its own line. */
+						width: 35px;
+						/* Change this to whatever width you want to have before hover. */
+						padding-top: 5px;
+						/* This creates some space between the element and the border. */
+						border-bottom: 2px solid #fff;
+						/* This creates the border. Replace black with whatever color you want. */
+						margin-right: auto;
+					}
+				}
+			}
+		}
+		@media all and (min-width: 768px) {
+			a:after {
+				content: "";
+				/* This is necessary for the pseudo element to work. */
+				display: block;
+				/* This will put the pseudo element on its own line. */
+				width: 35px;
+				/* Change this to whatever width you want to have before hover. */
+				padding-top: 5px;
+				/* This creates some space between the element and the border. */
+				border-bottom: 2px solid $blog-primary;
+				/* This creates the border. Replace black with whatever color you want. */
+				margin-right: auto;
+			}
+		}
+	}
+
+	.blog-main-menu.current-menu-item {
+		a {
+			background-color: #676767;
+			color: #fff;
+		}
+		@media all and (min-width: 768px) {
+			a:after {
+				content: "";
+				/* This is necessary for the pseudo element to work. */
+				display: block;
+				/* This will put the pseudo element on its own line. */
+				width: 35px;
+				/* Change this to whatever width you want to have before hover. */
+				padding-top: 5px;
+				/* This creates some space between the element and the border. */
+				border-bottom: 2px solid #fff;
+				/* This creates the border. Replace black with whatever color you want. */
+				margin-right: auto;
+			}
+		}
+	}
+}
+/*
+* ====================================
+* Side Menu Styling
+* ====================================
+*/
+// General
+.side-menu-title-space {
+	// Adds space for menu titles
+	margin-top: 15px;
+}
+// Insurance
+.side-menu-insurance {
+	margin-left: 50px;
+	border-right: solid 2px #DCDCDC;
+
+	.menu {
+		list-style: none;
 		padding: 0;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 400px;
+		margin: 0;
 
-		.container-fluid {
-			/* Sizing */
-			height: 400px;
-			/* Flexbox stuff */
-			display: flex;
-			align-items: center;
-			background-color: rgba(196, 196, 196, 0.9);
+		.menu-item {
+			// Insurance Menu Items
+			a {
+				span {
+					color: black;
+					font-size: 15px;
+				}
+			}
+			// Insurance Title
+			a[title="insurance"] {
+				span {
+					font-weight: bold;
+					font-size: 20px;
+					color: $insurance-primary;
+				}
+			}
+			// Insurance Icons
+			i {
+				color: $insurance-primary;
+			}
 
-			.row {
-				text-align: center;
+			.sub-menu {
+				list-style: none;
+				padding-left: 10px;
+			}
+		}
+	}
+}
+// Risk
+.side-menu {
+	margin-left: 50px;
+	border-right: solid 2px #DCDCDC;
 
-				.col-md-12 {
-					margin-bottom: 30px;
+	#menu-risk-menu {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		.menu-item {
+			// Risk Menu Items
+			a {
+				span {
+					color: black;
+					font-size: 15px;
+				}
+			}
+			// Risk Title
+			@media all and (min-width: 700px) {
+				a[title="risk"] {
+					span {
+						font-weight: bold;
+						font-size: 20px;
+						color: $risk-primary;
+					}
+				}
+			}
+			@media all and (max-width: 700px) {
+				a[title="risk"] {
+					span {
+						font-weight: bold;
+						color: $risk-primary;
+					}
+				}
+			}
+			// Risk Icons
+			i {
+				color: $risk-primary;
+			}
+
+			.sub-menu {
+				list-style: none;
+				padding-left: 10px;
+			}
+		}
+	}
+}
+// payroll
+.side-menu {
+	margin-left: 50px;
+	border-right: solid 2px #DCDCDC;
+
+	#menu-payroll {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		.menu-item {
+			// Payroll Menu Items
+			a {
+				span {
+					color: black;
+					font-size: 15px;
+				}
+			}
+			// Payroll Title
+			@media all and (min-width: 700px) {
+				a[title="payroll"] {
+					span {
+						font-weight: bold;
+						font-size: 20px;
+						color: $payroll-primary;
+					}
+				}
+			}
+			@media all and (max-width: 700px) {
+				a[title="payroll"] {
+					span {
+						font-weight: bold;
+						color: $payroll-primary;
+					}
+				}
+			}
+			// Payroll Icons
+			i {
+				color: $payroll-primary;
+			}
+
+			.sub-menu {
+				list-style: none;
+				padding-left: 10px;
+			}
+		}
+	}
+}
+/*
+* ====================================
+* Button Classes
+* ====================================
+*/
+// Insurance
+.btn-insurance {
+	font-size: 20px;
+	color: #fff;
+	border-radius: 0;
+	border: 5px solid;
+	background-color: $insurance-primary;
+	border-color: $insurance-primary;
+
+	&:focus {
+		background-color: Transparent;
+		border: 5px solid $insurance-primary;
+		color: $insurance-primary;
+	}
+
+	&:hover {
+		background-color: Transparent;
+		border: 5px solid $insurance-primary;
+		color: $insurance-primary;
+	}
+}
+// Risk
+.btn-risk {
+	font-size: 20px;
+	color: #fff;
+	border-radius: 0;
+	border: 5px solid;
+	background-color: $risk-primary;
+	border-color: $risk-primary;
+
+	&:focus {
+		background-color: Transparent;
+		border: 5px solid $risk-primary;
+		color: $risk-primary;
+	}
+
+	&:hover {
+		background-color: Transparent;
+		border: 5px solid $risk-primary;
+		color: $risk-primary;
+	}
+}
+// Payroll
+.btn-payroll {
+	font-size: 20px;
+	color: #fff;
+	border-radius: 0;
+	border: 5px solid;
+	background-color: $payroll-primary;
+	border-color: $payroll-primary;
+
+	&:focus {
+		background-color: Transparent;
+		border: 5px solid $payroll-primary;
+		color: $payroll-primary;
+	}
+
+	&:hover {
+		background-color: Transparent;
+		border: 5px solid $payroll-primary;
+		color: $payroll-primary;
+	}
+}
+/*
+* ====================================
+* General Content Styling
+* ====================================
+*/
+.content-right {
+	// Content Right (Main Templates)
+	.entry-meta {
+		display: none;
+	}
+	@media all and (min-width: 700px) {
+		margin-right: 20%;
+	}
+}
+
+.tab-content {
+	// Border for tabbed content
+	border-right: solid 1px #DCDCDC;
+	border-left: solid 1px #DCDCDC;
+	border-bottom: solid 1px #DCDCDC;
+	padding: 10px;
+}
+/*
+* ====================================
+* Risk Template Styling
+* ====================================
+*/
+//Risk Hero
+#risk-header {
+	margin: 0;
+	padding: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 8px solid #e14f42;
+	height: 518px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 510px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.container {
+			flex-direction: column;
+			padding: 0;
+			margin-left: 60px;
+			@media all and (min-width: 700px) {
+				h1 {
+					font-size: 60px;
+					color: $risk-primary;
+					font-weight: 800;
+					text-transform: uppercase;
 				}
 
-				.col-md-6 {
-					margin-top: 15px;
+				p {
+					font-size: 25px;
+					color: white;
 				}
-				@media all and (min-width: 700px) {
-					h2 {
-						font-size: 60px;
-						color: $insurance-primary;
-						font-weight: 800;
-					}
 
-					p {
-						font-size: 25px;
-						color: black;
-					}
+				.btn {
+					width: 520px;
+					height: 78px;
+					font-size: 40px;
+					font-weight: 600px;
+					border: 5px solid $risk-primary;
+					border-radius: 0;
+					font-weight: 800px;
+					color: #fff;
 
-					.btn-md {
-						width: 250px;
-						height: 75px;
-						font-size: 25px;
+					&:focus {
 						color: #fff;
-						border-radius: 0;
-						border: 5px solid;
-						background-color: $insurance-primary;
-						border-color: $insurance-primary;
+						background-color: $risk-primary;
+					}
 
-						&:focus {
-							background-color: Transparent;
-							border: 5px solid $insurance-primary;
-						}
-
-						&:hover {
-							background-color: Transparent;
-							border: 5px solid $insurance-primary;
-						}
+					&:hover {
+						color: #fff;
+						background-color: $risk-primary;
 					}
 				}
-				@media all and (max-width: 700px) {
-					h2 {
-						font-size: 40px;
-						color: $insurance-primary;
-						font-weight: 800;
-					}
+			}
+			@media all and (max-width: 700px) {
+				h1 {
+					font-size: 40px;
+					color: $risk-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
 
-					p {
-						color: black;
-					}
+				p {
+					color: white;
+				}
 
-					.btn-md {
-						width: 150px;
+				.btn {
+					font-weight: 600px;
+					border: 5px solid $risk-primary;
+					border-radius: 0;
+					font-weight: 800px;
+					color: #fff;
+
+					&:focus {
 						color: #fff;
-						border-radius: 0;
-						border: 5px solid;
-						background-color: $insurance-primary;
-						border-color: $insurance-primary;
+						background-color: $risk-primary;
+					}
 
-						&:focus {
-							background-color: Transparent;
-							border: 5px solid $insurance-primary;
-						}
-
-						&:hover {
-							background-color: Transparent;
-							border: 5px solid $insurance-primary;
-						}
+					&:hover {
+						color: #fff;
+						background-color: $risk-primary;
 					}
 				}
 			}
 		}
 	}
-	/*
+}
+// Risk content container
+#risk-content-container {
+	margin-top: 35px;
+}
+// Risk - Scale image for content in the content-right area
+.risk-content-right img {
+	width: 100%;
+	height: auto;
+}
+
+#risk-footer {
+	margin: 0;
+	padding: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 400px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.container {
+			flex-direction: column;
+			text-align: center;
+			@media all and (min-width: 700px) {
+				h1 {
+					font-size: 60px;
+					color: $risk-primary;
+					font-weight: 800;
+				}
+
+				p {
+					font-size: 25px;
+					color: white;
+				}
+
+				.btn-danger {
+					width: 520px;
+					height: 78px;
+					font-size: 40px;
+					font-weight: 800px;
+					border-radius: 0;
+					border: 5px solid;
+					font-weight: 800px;
+					background-color: $risk-primary;
+					border-color: $risk-primary;
+
+					&:focus {
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
+					}
+
+					&:hover {
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
+					}
+				}
+			}
+			@media all and (max-width: 700px) {
+				h1 {
+					font-size: 40px;
+					color: $risk-primary;
+					font-weight: 800;
+				}
+
+				p {
+					color: white;
+				}
+
+				.btn-danger {
+					font-weight: 800px;
+					border-radius: 0;
+					border: 5px solid;
+					font-weight: 800px;
+					background-color: $risk-primary;
+					border-color: $risk-primary;
+
+					&:focus {
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
+					}
+
+					&:hover {
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
+					}
+				}
+			}
+		}
+	}
+}
+/*
+* ====================================
+* Payroll Template Styling
+* ====================================
+*/
+//Payroll Hero
+#payroll-header {
+	margin: 0;
+	padding: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 8px solid $payroll-primary;
+	height: 518px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 510px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.container {
+			flex-direction: column;
+			padding: 0;
+			margin-left: 60px;
+			@media all and (min-width: 700px) {
+				h1 {
+					font-size: 60px;
+					color: $payroll-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+
+				p {
+					font-size: 25px;
+					color: white;
+				}
+
+				.btn {
+					width: 520px;
+					height: 78px;
+					font-size: 40px;
+					font-weight: 600px;
+					border: 5px solid $payroll-primary;
+					border-radius: 0;
+					font-weight: 800px;
+					color: #fff;
+
+					&:focus {
+						color: #fff;
+						background-color: $payroll-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $payroll-primary;
+					}
+				}
+			}
+			@media all and (max-width: 700px) {
+				h1 {
+					font-size: 40px;
+					color: $payroll-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+
+				p {
+					color: white;
+				}
+
+				.btn {
+					font-weight: 600px;
+					border: 5px solid $payroll-primary;
+					border-radius: 0;
+					font-weight: 800px;
+					color: #fff;
+
+					&:focus {
+						color: #fff;
+						background-color: $payroll-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $payroll-primary;
+					}
+				}
+			}
+		}
+	}
+}
+//Payroll content container
+#payroll-content-container {
+	margin-top: 35px;
+}
+// Payroll - Scale image for content in the content-right area
+.payroll-content-right img {
+	width: 100%;
+	height: auto;
+}
+
+#payroll-footer {
+	margin: 0;
+	padding: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 400px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.container {
+			flex-direction: column;
+			text-align: center;
+			@media all and (min-width: 700px) {
+				h1 {
+					font-size: 60px;
+					color: $payroll-primary;
+					font-weight: 800;
+				}
+
+				p {
+					font-size: 25px;
+					color: white;
+				}
+
+				.btn-success {
+					width: 520px;
+					height: 78px;
+					font-size: 40px;
+					color: #fff;
+					border-radius: 0;
+					border: 5px solid;
+					background-color: $payroll-primary;
+					border-color: $payroll-primary;
+
+					&:focus {
+						background-color: Transparent;
+						border: 5px solid $payroll-primary;
+					}
+
+					&:hover {
+						background-color: Transparent;
+						border: 5px solid $payroll-primary;
+					}
+				}
+			}
+			@media all and (max-width: 700px) {
+				h1 {
+					font-size: 40px;
+					color: $payroll-primary;
+					font-weight: 800;
+				}
+
+				p {
+					color: white;
+				}
+
+				.btn-success {
+					color: #fff;
+					border-radius: 0;
+					border: 5px solid;
+					background-color: $payroll-primary;
+					border-color: $payroll-primary;
+
+					&:focus {
+						background-color: Transparent;
+						border: 5px solid $payroll-primary;
+					}
+
+					&:hover {
+						background-color: Transparent;
+						border: 5px solid $payroll-primary;
+					}
+				}
+			}
+		}
+	}
+}
+/*
+* ====================================
+* Insurance Template Styling
+* ====================================
+*/
+//insurance Hero
+#insurance-header {
+	margin: 0;
+	padding: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 8px solid $insurance-primary;
+	height: 518px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 510px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.container {
+			flex-direction: column;
+			padding: 0;
+			margin-left: 60px;
+			@media all and (min-width: 700px) {
+				h1 {
+					font-size: 60px;
+					color: $insurance-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+
+				p {
+					font-size: 25px;
+					color: white;
+				}
+
+				.btn {
+					width: 520px;
+					height: 78px;
+					font-size: 40px;
+					font-weight: 600px;
+					border: 5px solid $insurance-primary;
+					border-radius: 0;
+					font-weight: 800px;
+					color: #fff;
+
+					&:focus {
+						color: #fff;
+						background-color: $insurance-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $insurance-primary;
+					}
+				}
+			}
+			@media all and (max-width: 700px) {
+				h1 {
+					font-size: 40px;
+					color: $insurance-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+
+				p {
+					color: white;
+				}
+
+				.btn {
+					font-weight: 600px;
+					border: 5px solid $insurance-primary;
+					border-radius: 0;
+					font-weight: 800px;
+					color: #fff;
+
+					&:focus {
+						color: #fff;
+						background-color: $insurance-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $insurance-primary;
+					}
+				}
+			}
+		}
+	}
+}
+//insurance content container
+#insurance-content-container {
+	margin-top: 35px;
+	margin-bottom: 35px;
+
+	.content-right {
+		.entry-title {
+			color: $insurance-primary;
+		}
+
+		.entry-title:after {
+			content: "";
+			/* This is necessary for the pseudo element to work. */
+			display: block;
+			/* This will put the pseudo element on its own line. */
+			width: 35%;
+			/* Change this to whatever width you want to have before hover. */
+			padding-top: 5px;
+			/* This creates some space between the element and the border. */
+			margin-bottom: 10px;
+			border-bottom: 2px solid #DCDCDC;
+			/* This creates the border. Replace black with whatever color you want. */
+		}
+	}
+}
+
+#insurance-footer {
+	margin: 0;
+	padding: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+
+	.container-fluid {
+		/* Sizing */
+		height: 400px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
+
+		.row {
+			text-align: center;
+
+			.col-md-12 {
+				margin-bottom: 30px;
+			}
+
+			.col-md-6 {
+				margin-top: 15px;
+			}
+			@media all and (min-width: 700px) {
+				h2 {
+					font-size: 60px;
+					color: $insurance-primary;
+					font-weight: 800;
+				}
+
+				p {
+					font-size: 25px;
+					color: black;
+				}
+
+				.btn-md {
+					width: 250px;
+					height: 75px;
+					font-size: 25px;
+					color: #fff;
+					border-radius: 0;
+					border: 5px solid;
+					background-color: $insurance-primary;
+					border-color: $insurance-primary;
+
+					&:focus {
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
+					}
+
+					&:hover {
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
+					}
+				}
+			}
+			@media all and (max-width: 700px) {
+				h2 {
+					font-size: 40px;
+					color: $insurance-primary;
+					font-weight: 800;
+				}
+
+				p {
+					color: black;
+				}
+
+				.btn-md {
+					width: 150px;
+					color: #fff;
+					border-radius: 0;
+					border: 5px solid;
+					background-color: $insurance-primary;
+					border-color: $insurance-primary;
+
+					&:focus {
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
+					}
+
+					&:hover {
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
+					}
+				}
+			}
+		}
+	}
+}
+/*
 * ====================================
 * Footer Template Styling
 * ====================================
 */
-	#footer-before {
-		// Blue Green section
-		background-color: #136d7c;
-		@media all and (min-width: 700px) {
-			padding-top: 25px;
-			padding-bottom: 25px;
-			padding-left: 100px;
-		}
-		@media all and (max-width: 700px) {
-			text-align: center;
+#footer-before {
+	// Blue Green section
+	background-color: #136d7c;
+	@media all and (min-width: 700px) {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 100px;
+	}
+	@media all and (max-width: 700px) {
+		text-align: center;
+	}
+
+	.footer-area {
+		color: #fff;
+
+		h4 {
+			font-weight: 600;
 		}
 
-		.footer-area {
-			color: #fff;
+		ul {
+			list-style: none;
+			padding: 0;
+			list-style-type: none;
+
+			a {
+				color: #fff;
+			}
+		}
+
+		img {
+			margin-top: 15px;
+			max-height: 150px;
+			width: auto;
+		}
+	}
+
+	.col-md-2 {
+		@media all and (max-width: 769px) {
+			width: 50%;
+			margin-top: 25px;
+		}
+	}
+}
+
+#footer-after {
+	// Gray "Site Info" Section
+	background-color: #C0C0C0;
+	align-items: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	p {
+		color: #fff;
+		align-items: center;
+	}
+
+	a {
+		margin: 5px;
+		color: #136d7c;
+	}
+}
+
+#footer-locations {
+	@media all and (min-width: 1400px) {
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: 200px;
+		border: 1px solid #fff;
+
+		.footer-area-three {
+			padding: 10px;
+			width: 50%;
 
 			h4 {
 				font-weight: 600;
 			}
 
-			ul {
-				list-style: none;
-				padding: 0;
-				list-style-type: none;
-
-				a {
-					color: #fff;
-				}
-			}
-
-			img {
-				margin-top: 15px;
-				max-height: 150px;
-				width: auto;
-			}
-		}
-
-		.col-md-2 {
-			@media all and (max-width: 769px) {
-				width: 50%;
-				margin-top: 25px;
+			a {
+				color: #fff;
 			}
 		}
 	}
+	@media all and (min-width: 701px) and (max-width: 1400px) {
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: 10%;
+		margin-left: 15px;
+		border: 1px solid #fff;
 
-	#footer-after {
-		// Gray "Site Info" Section
-		background-color: #C0C0C0;
-		align-items: center;
-		padding-top: 5px;
-		padding-bottom: 5px;
+		.footer-area-three {
+			margin-right: 15px;
+			width: 45%;
 
-		p {
-			color: #fff;
-			align-items: center;
-		}
-
-		a {
-			margin: 5px;
-			color: #136d7c;
-		}
-	}
-
-	#footer-locations {
-		@media all and (min-width: 1400px) {
-			display: flex;
-			flex-wrap: wrap;
-			margin-right: 200px;
-			border: 1px solid #fff;
-
-			.footer-area-three {
-				padding: 10px;
-				width: 50%;
-
-				h4 {
-					font-weight: 600;
-				}
-
-				a {
-					color: #fff;
-				}
+			h4 {
+				font-weight: 600;
 			}
-		}
-		@media all and (min-width: 701px) and (max-width: 1400px) {
-			display: flex;
-			flex-wrap: wrap;
-			margin-right: 10%;
-			margin-left: 15px;
-			border: 1px solid #fff;
 
-			.footer-area-three {
-				margin-right: 15px;
-				width: 45%;
-
-				h4 {
-					font-weight: 600;
-				}
-
-				a {
-					color: #fff;
-				}
-			}
-		}
-		@media all and (max-width: 700px) {
-			display: flex;
-			flex-flow: column wrap;
-			margin: 25px 10%;
-			border: 1px solid #fff;
-
-			.footer-area-three {
-				margin: 10px;
-
-				h4 {
-					font-weight: 600;
-				}
-
-				a {
-					color: #fff;
-				}
+			a {
+				color: #fff;
 			}
 		}
 	}
-	/*
+	@media all and (max-width: 700px) {
+		display: flex;
+		flex-flow: column wrap;
+		margin: 25px 10%;
+		border: 1px solid #fff;
+
+		.footer-area-three {
+			margin: 10px;
+
+			h4 {
+				font-weight: 600;
+			}
+
+			a {
+				color: #fff;
+			}
+		}
+	}
+}
+/*
 * ====================================
 * Blog Template Styling
 * ====================================
 */
-	// Blog Hero
-	#blog-header {
-		margin: 0;
-		padding: 0;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-bottom: 8px solid $blog-primary;
-		height: 518px;
+// Blog Hero
+#blog-header {
+	margin: 0;
+	padding: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 8px solid $blog-primary;
+	height: 518px;
 
-		.container-fluid {
-			/* Sizing */
-			height: 510px;
-			/* Flexbox stuff */
-			display: flex;
-			align-items: center;
-			background-color: rgba(196, 196, 196, 0.9);
+	.container-fluid {
+		/* Sizing */
+		height: 510px;
+		/* Flexbox stuff */
+		display: flex;
+		align-items: center;
+		background-color: rgba(196, 196, 196, 0.9);
 
-			.container {
-				flex-direction: column;
-				padding: 0;
-				margin-left: 60px;
-				@media all and (min-width: 700px) {
-					h1 {
-						font-size: 60px;
-						color: $blog-primary;
-						font-weight: 800;
-						text-transform: uppercase;
-					}
-
-					p {
-						font-size: 25px;
-						color: white;
-					}
-
-					.btn {
-						width: 520px;
-						height: 78px;
-						font-size: 40px;
-						font-weight: 600px;
-						border: 5px solid $blog-primary;
-						border-radius: 0;
-						font-weight: 800px;
-						color: #fff;
-
-						&:focus {
-							color: #fff;
-							background-color: $blog-primary;
-						}
-
-						&:hover {
-							color: #fff;
-							background-color: $blog-primary;
-						}
-					}
-				}
-				@media all and (max-width: 700px) {
-					h1 {
-						font-size: 40px;
-						color: $blog-primary;
-						font-weight: 800;
-						text-transform: uppercase;
-					}
-
-					p {
-						color: white;
-					}
-
-					.btn {
-						font-weight: 600px;
-						border: 5px solid $blog-primary;
-						border-radius: 0;
-						font-weight: 800px;
-						color: #fff;
-
-						&:focus {
-							color: #fff;
-							background-color: $blog-primary;
-						}
-
-						&:hover {
-							color: #fff;
-							background-color: $blog-primary;
-						}
-					}
-				}
-			}
-		}
-	}
-	// Blog Widget Area
-	#blog-widget-area {
-		// Left side widget area
-
-		aside {
-			margin-top: 15px;
-
-			ul {
-				list-style: none;
-			}
+		.container {
+			flex-direction: column;
+			padding: 0;
+			margin-left: 60px;
 			@media all and (min-width: 700px) {
-				// Title Styling
-				margin-left: 50px;
-
-				.widget-title {
-					font-weight: bold;
-					font-size: 20px;
+				h1 {
+					font-size: 60px;
 					color: $blog-primary;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+
+				p {
+					font-size: 25px;
+					color: white;
+				}
+
+				.btn {
+					width: 520px;
+					height: 78px;
+					font-size: 40px;
+					font-weight: 600px;
+					border: 5px solid $blog-primary;
+					border-radius: 0;
+					font-weight: 800px;
+					color: #fff;
+
+					&:focus {
+						color: #fff;
+						background-color: $blog-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $blog-primary;
+					}
 				}
 			}
 			@media all and (max-width: 700px) {
-				.widget-title {
-					font-weight: bold;
-					font-size: 15px;
+				h1 {
+					font-size: 40px;
 					color: $blog-primary;
+					font-weight: 800;
+					text-transform: uppercase;
 				}
 
-				ul {
-					padding-left: 0;
+				p {
+					color: white;
+				}
+
+				.btn {
+					font-weight: 600px;
+					border: 5px solid $blog-primary;
+					border-radius: 0;
+					font-weight: 800px;
+					color: #fff;
+
+					&:focus {
+						color: #fff;
+						background-color: $blog-primary;
+					}
+
+					&:hover {
+						color: #fff;
+						background-color: $blog-primary;
+					}
 				}
 			}
 		}
-		@media all and (max-width: 800px) {
-			text-align: center;
-			margin-left: 0;
-		}
 	}
-	// Blog Single Card Page (home.php)
-	#blog-articles {
-		// Single Card Article
-		min-width: 300px;
-		max-width: 450px;
-		margin-left: 15px;
-		margin-right: 15px;
-		margin-bottom: 10px;
-		padding: 15px;
+}
+// Blog Widget Area
+#blog-widget-area {
+	// Left side widget area
+	aside {
+		margin-top: 15px;
 
-		.entry-header {
-			margin-top: 10px;
-			margin-bottom: 10px;
+		ul {
+			list-style: none;
 		}
+		@media all and (min-width: 700px) {
+			// Title Styling
+			margin-left: 50px;
 
-		.card-title {
-			a {
+			.widget-title {
+				font-weight: bold;
+				font-size: 20px;
 				color: $blog-primary;
 			}
 		}
-	}
-	// Blog Single (single.php)
-	#blog-main {
-		@media all and (min-width: 700px) {
-			margin-right: 20%;
-		}
 		@media all and (max-width: 700px) {
-			text-align: center;
+			.widget-title {
+				font-weight: bold;
+				font-size: 15px;
+				color: $blog-primary;
+			}
+
+			ul {
+				padding-left: 0;
+			}
 		}
 	}
+	@media all and (max-width: 800px) {
+		text-align: center;
+		margin-left: 0;
+	}
+}
+// Blog Single Card Page (home.php)
+#blog-articles {
+	// Single Card Article
+	min-width: 300px;
+	max-width: 450px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	padding: 15px;
+
+	.entry-header {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.card-title {
+		a {
+			color: $blog-primary;
+		}
+	}
+}
+// Blog Single (single.php)
+#blog-main {
+	@media all and (min-width: 700px) {
+		margin-right: 20%;
+	}
+	@media all and (max-width: 700px) {
+		text-align: center;
+	}
+}
