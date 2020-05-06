@@ -11618,7 +11618,7 @@ figure.woocommerce-product-gallery__wrapper {
 * ====================================
 */
 #main-menu-container {
-  padding-right: 0px; }
+  padding-right: 0; }
 
 .navbar-dark .navbar-toggler {
   margin-right: 10px;
@@ -11627,84 +11627,290 @@ figure.woocommerce-product-gallery__wrapper {
     background: #0086ba; }
 
 .navbar {
-  margin: 0px;
-  padding: 0px; }
+  margin: 0;
+  padding: 0; }
 
 .navbar-brand {
   margin-left: 15px; }
   .navbar-brand img {
     height: auto;
     width: auto;
-    max-height: 72px;
-    max-width: 250px; }
+    max-height: 100px;
+    max-width: auto; }
 
-@media all and (min-width: 930px) {
+#main-menu-container {
+  border-bottom: solid;
+  border-width: 0.5px;
+  border-color: #c2c5cc; }
+
+@media all and (min-width: 768px) {
   #main-menu li {
-    width: 25%; }
+    width: 20%; }
     #main-menu li a {
       height: 140px;
       padding-top: 70px;
+      padding-left: 20px;
       margin-top: 0;
       border-left: solid;
-      border-bottom: solid;
-      border-width: .5px;
+      border-width: 0.5px;
       border-color: #c2c5cc;
-      text-transform: uppercase; } }
+      text-transform: uppercase;
+      text-align: left; } }
 
 #main-menu .insurance-main-menu a {
-  color: #000;
-  font-weight: 800; }
+  color: #000; }
   #main-menu .insurance-main-menu a:hover {
     background-color: #0086ba;
     color: #fff; }
+    @media all and (min-width: 768px) {
+      #main-menu .insurance-main-menu a:hover::after {
+        content: "";
+        /* This is necessary for the pseudo element to work. */
+        display: block;
+        /* This will put the pseudo element on its own line. */
+        width: 35px;
+        /* Change this to whatever width you want to have before hover. */
+        padding-top: 5px;
+        /* This creates some space between the element and the border. */
+        border-bottom: 2px solid #fff;
+        /* This creates the border. Replace black with whatever color you want. */
+        margin-right: auto; } }
+
+@media all and (min-width: 768px) {
+  #main-menu .insurance-main-menu a:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 35px;
+    /* Change this to whatever width you want to have before hover. */
+    padding-top: 5px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #0086ba;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-right: auto; } }
 
 #main-menu .insurance-main-menu.current-menu-item a {
   background-color: #0086ba;
   color: #fff; }
 
+@media all and (min-width: 768px) {
+  #main-menu .insurance-main-menu.current-menu-item a:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 35px;
+    /* Change this to whatever width you want to have before hover. */
+    padding-top: 5px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #fff;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-right: auto; } }
+
 #main-menu .risk-main-menu a {
-  color: #000;
-  font-weight: 800; }
+  color: #000; }
   #main-menu .risk-main-menu a:hover {
     background-color: #E14F42;
     color: #fff; }
+    @media all and (min-width: 768px) {
+      #main-menu .risk-main-menu a:hover::after {
+        content: "";
+        /* This is necessary for the pseudo element to work. */
+        display: block;
+        /* This will put the pseudo element on its own line. */
+        width: 35px;
+        /* Change this to whatever width you want to have before hover. */
+        padding-top: 5px;
+        /* This creates some space between the element and the border. */
+        border-bottom: 2px solid #fff;
+        /* This creates the border. Replace black with whatever color you want. */
+        margin-right: auto; } }
+
+@media all and (min-width: 768px) {
+  #main-menu .risk-main-menu a:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 35px;
+    /* Change this to whatever width you want to have before hover. */
+    padding-top: 5px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #E14F42;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-right: auto; } }
 
 #main-menu .risk-main-menu.current-menu-item a {
   background-color: #E14F42;
   color: #fff; }
 
+@media all and (min-width: 768px) {
+  #main-menu .risk-main-menu.current-menu-item a:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 35px;
+    /* Change this to whatever width you want to have before hover. */
+    padding-top: 5px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #fff;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-right: auto; } }
+
 #main-menu .payroll-main-menu a {
-  color: #000;
-  font-weight: 800; }
+  color: #000; }
   #main-menu .payroll-main-menu a:hover {
     background-color: #00a65c;
     color: #fff; }
+    @media all and (min-width: 768px) {
+      #main-menu .payroll-main-menu a:hover::after {
+        content: "";
+        /* This is necessary for the pseudo element to work. */
+        display: block;
+        /* This will put the pseudo element on its own line. */
+        width: 35px;
+        /* Change this to whatever width you want to have before hover. */
+        padding-top: 5px;
+        /* This creates some space between the element and the border. */
+        border-bottom: 2px solid #fff;
+        /* This creates the border. Replace black with whatever color you want. */
+        margin-right: auto; } }
+
+@media all and (min-width: 768px) {
+  #main-menu .payroll-main-menu a:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 35px;
+    /* Change this to whatever width you want to have before hover. */
+    padding-top: 5px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #00a65c;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-right: auto; } }
 
 #main-menu .payroll-main-menu.current-menu-item a {
   background-color: #00a65c;
   color: #fff; }
 
+@media all and (min-width: 768px) {
+  #main-menu .payroll-main-menu.current-menu-item a:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 35px;
+    /* Change this to whatever width you want to have before hover. */
+    padding-top: 5px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #fff;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-right: auto; } }
+
 #main-menu .hr-main-menu a {
-  color: #000;
-  font-weight: 800; }
+  color: #000; }
   #main-menu .hr-main-menu a:hover {
     background-color: #ec9934;
     color: #fff; }
+    @media all and (min-width: 768px) {
+      #main-menu .hr-main-menu a:hover::after {
+        content: "";
+        /* This is necessary for the pseudo element to work. */
+        display: block;
+        /* This will put the pseudo element on its own line. */
+        width: 35px;
+        /* Change this to whatever width you want to have before hover. */
+        padding-top: 5px;
+        /* This creates some space between the element and the border. */
+        border-bottom: 2px solid #fff;
+        /* This creates the border. Replace black with whatever color you want. */
+        margin-right: auto; } }
+
+@media all and (min-width: 768px) {
+  #main-menu .hr-main-menu a:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 35px;
+    /* Change this to whatever width you want to have before hover. */
+    padding-top: 5px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #ec9934;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-right: auto; } }
 
 #main-menu .hr-main-menu.current-menu-item a {
   background-color: #ec9934;
   color: #fff; }
 
+@media all and (min-width: 768px) {
+  #main-menu .hr-main-menu.current-menu-item a:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 35px;
+    /* Change this to whatever width you want to have before hover. */
+    padding-top: 5px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #fff;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-right: auto; } }
+
 #main-menu .blog-main-menu a {
-  color: #000;
-  font-weight: 800; }
+  color: #000; }
   #main-menu .blog-main-menu a:hover {
     background-color: #676767;
     color: #fff; }
+    @media all and (min-width: 768px) {
+      #main-menu .blog-main-menu a:hover::after {
+        content: "";
+        /* This is necessary for the pseudo element to work. */
+        display: block;
+        /* This will put the pseudo element on its own line. */
+        width: 35px;
+        /* Change this to whatever width you want to have before hover. */
+        padding-top: 5px;
+        /* This creates some space between the element and the border. */
+        border-bottom: 2px solid #fff;
+        /* This creates the border. Replace black with whatever color you want. */
+        margin-right: auto; } }
+
+@media all and (min-width: 768px) {
+  #main-menu .blog-main-menu a:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 35px;
+    /* Change this to whatever width you want to have before hover. */
+    padding-top: 5px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #54595f;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-right: auto; } }
 
 #main-menu .blog-main-menu.current-menu-item a {
   background-color: #676767;
   color: #fff; }
+
+@media all and (min-width: 768px) {
+  #main-menu .blog-main-menu.current-menu-item a:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 35px;
+    /* Change this to whatever width you want to have before hover. */
+    padding-top: 5px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #fff;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-right: auto; } }
 
 /*
 * ====================================
@@ -11792,7 +11998,7 @@ figure.woocommerce-product-gallery__wrapper {
 .btn-insurance {
   font-size: 20px;
   color: #fff;
-  border-radius: 0px;
+  border-radius: 0;
   border: 5px solid;
   background-color: #0086ba;
   border-color: #0086ba; }
@@ -11808,7 +12014,7 @@ figure.woocommerce-product-gallery__wrapper {
 .btn-risk {
   font-size: 20px;
   color: #fff;
-  border-radius: 0px;
+  border-radius: 0;
   border: 5px solid;
   background-color: #E14F42;
   border-color: #E14F42; }
@@ -11824,7 +12030,7 @@ figure.woocommerce-product-gallery__wrapper {
 .btn-payroll {
   font-size: 20px;
   color: #fff;
-  border-radius: 0px;
+  border-radius: 0;
   border: 5px solid;
   background-color: #00a65c;
   border-color: #00a65c; }
@@ -11902,7 +12108,7 @@ figure.woocommerce-product-gallery__wrapper {
           font-size: 40px;
           font-weight: 600px;
           border: 5px solid #E14F42;
-          border-radius: 0px;
+          border-radius: 0;
           font-weight: 800px;
           color: #fff; }
           #risk-header .container-fluid .container .btn:focus,
@@ -11924,7 +12130,7 @@ figure.woocommerce-product-gallery__wrapper {
         #risk-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #risk-header .container-fluid .container input[type=submit] {
           font-weight: 600px;
           border: 5px solid #E14F42;
-          border-radius: 0px;
+          border-radius: 0;
           font-weight: 800px;
           color: #fff; }
           #risk-header .container-fluid .container .btn:focus,
@@ -11979,7 +12185,7 @@ figure.woocommerce-product-gallery__wrapper {
           height: 78px;
           font-size: 40px;
           font-weight: 800px;
-          border-radius: 0px;
+          border-radius: 0;
           border: 5px solid;
           font-weight: 800px;
           background-color: #E14F42;
@@ -11999,7 +12205,7 @@ figure.woocommerce-product-gallery__wrapper {
           color: white; }
         #risk-footer .container-fluid .container .btn-danger {
           font-weight: 800px;
-          border-radius: 0px;
+          border-radius: 0;
           border: 5px solid;
           font-weight: 800px;
           background-color: #E14F42;
@@ -12058,7 +12264,7 @@ figure.woocommerce-product-gallery__wrapper {
           font-size: 40px;
           font-weight: 600px;
           border: 5px solid #00a65c;
-          border-radius: 0px;
+          border-radius: 0;
           font-weight: 800px;
           color: #fff; }
           #payroll-header .container-fluid .container .btn:focus,
@@ -12080,7 +12286,7 @@ figure.woocommerce-product-gallery__wrapper {
         #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
           font-weight: 600px;
           border: 5px solid #00a65c;
-          border-radius: 0px;
+          border-radius: 0;
           font-weight: 800px;
           color: #fff; }
           #payroll-header .container-fluid .container .btn:focus,
@@ -12135,7 +12341,7 @@ figure.woocommerce-product-gallery__wrapper {
           height: 78px;
           font-size: 40px;
           color: #fff;
-          border-radius: 0px;
+          border-radius: 0;
           border: 5px solid;
           background-color: #00a65c;
           border-color: #00a65c; }
@@ -12154,7 +12360,7 @@ figure.woocommerce-product-gallery__wrapper {
           color: white; }
         #payroll-footer .container-fluid .container .btn-success {
           color: #fff;
-          border-radius: 0px;
+          border-radius: 0;
           border: 5px solid;
           background-color: #00a65c;
           border-color: #00a65c; }
@@ -12212,7 +12418,7 @@ figure.woocommerce-product-gallery__wrapper {
           font-size: 40px;
           font-weight: 600px;
           border: 5px solid #0086ba;
-          border-radius: 0px;
+          border-radius: 0;
           font-weight: 800px;
           color: #fff; }
           #insurance-header .container-fluid .container .btn:focus,
@@ -12234,7 +12440,7 @@ figure.woocommerce-product-gallery__wrapper {
         #insurance-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #insurance-header .container-fluid .container input[type=submit] {
           font-weight: 600px;
           border: 5px solid #0086ba;
-          border-radius: 0px;
+          border-radius: 0;
           font-weight: 800px;
           color: #fff; }
           #insurance-header .container-fluid .container .btn:focus,
@@ -12300,7 +12506,7 @@ figure.woocommerce-product-gallery__wrapper {
           height: 75px;
           font-size: 25px;
           color: #fff;
-          border-radius: 0px;
+          border-radius: 0;
           border: 5px solid;
           background-color: #0086ba;
           border-color: #0086ba; }
@@ -12320,7 +12526,7 @@ figure.woocommerce-product-gallery__wrapper {
         #insurance-footer .container-fluid .row .btn-md {
           width: 150px;
           color: #fff;
-          border-radius: 0px;
+          border-radius: 0;
           border: 5px solid;
           background-color: #0086ba;
           border-color: #0086ba; }
@@ -12425,10 +12631,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin: 25px 10%;
     border: 1px solid #fff; }
     #footer-locations .footer-area-three {
       margin: 10px; }
@@ -12484,7 +12687,7 @@ figure.woocommerce-product-gallery__wrapper {
           font-size: 40px;
           font-weight: 600px;
           border: 5px solid #54595f;
-          border-radius: 0px;
+          border-radius: 0;
           font-weight: 800px;
           color: #fff; }
           #blog-header .container-fluid .container .btn:focus,
@@ -12506,7 +12709,7 @@ figure.woocommerce-product-gallery__wrapper {
         #blog-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #blog-header .container-fluid .container input[type=submit] {
           font-weight: 600px;
           border: 5px solid #54595f;
-          border-radius: 0px;
+          border-radius: 0;
           font-weight: 800px;
           color: #fff; }
           #blog-header .container-fluid .container .btn:focus,
@@ -12539,7 +12742,7 @@ figure.woocommerce-product-gallery__wrapper {
 @media all and (max-width: 800px) {
   #blog-widget-area {
     text-align: center;
-    margin-left: 0px; } }
+    margin-left: 0; } }
 
 #blog-articles {
   min-width: 300px;
