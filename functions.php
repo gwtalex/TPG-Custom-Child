@@ -36,7 +36,10 @@ add_action( 'after_setup_theme', 'add_child_theme_textdomain' );
 // Fonts
 
 function add_google_fonts() {
-	wp_enqueue_style( 'google_web_fonts', 'https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800');
+	// Montserrat
+	wp_enqueue_style( 'montserrat', 'https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800');
+	// Roboto
+	wp_enqueue_style( 'roboto', 'https://fonts.googleapis.com/css?family=Roboto:400,500,600,800');
 }
 
 add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
