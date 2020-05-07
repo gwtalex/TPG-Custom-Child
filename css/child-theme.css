@@ -11974,7 +11974,9 @@ figure.woocommerce-product-gallery__wrapper {
     margin: 0; }
     .side-menu #menu-payroll-menu .menu-item a span {
       color: black;
-      font-size: 15px; }
+      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px; }
     @media all and (min-width: 700px) {
       .side-menu #menu-payroll-menu .menu-item a[title="payroll"] span {
         font-weight: bold;
