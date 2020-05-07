@@ -12682,7 +12682,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (min-width: 700px) {
         #blog-header .container-fluid .container h1 {
           font-size: 60px;
-          color: #54595f;
+          color: white;
           font-weight: 800;
           text-transform: uppercase; }
         #blog-header .container-fluid .container p {
@@ -12708,7 +12708,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (max-width: 700px) {
         #blog-header .container-fluid .container h1 {
           font-size: 40px;
-          color: #54595f;
+          color: white;
           font-weight: 800;
           text-transform: uppercase; }
         #blog-header .container-fluid .container p {
