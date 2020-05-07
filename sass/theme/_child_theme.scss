@@ -397,8 +397,9 @@
 	margin-top: 15px;
 }
 // Insurance
-.side-menu-insurance {
+.side-menu { // Insurance/Default Menu
 	margin-left: 50px;
+	padding-right: 10px;
 	border-right: solid 2px #DCDCDC;
 
 	.menu {
@@ -433,13 +434,8 @@
 			}
 		}
 	}
-}
-// Risk
-.side-menu {
-	margin-left: 50px;
-	border-right: solid 2px #DCDCDC;
 
-	#menu-risk-menu {
+	#menu-risk-menu { // Risk Menu
 		list-style: none;
 		padding: 0;
 		margin: 0;
@@ -481,13 +477,8 @@
 			}
 		}
 	}
-}
-// payroll
-.side-menu {
-	margin-left: 50px;
-	border-right: solid 2px #DCDCDC;
 
-	#menu-payroll-menu {
+	#menu-payroll-menu { // Payroll Menu
 		list-style: none;
 		padding: 0;
 		margin: 0;
@@ -532,6 +523,8 @@
 		}
 	}
 }
+
+
 /*
 * ====================================
 * Button Classes

@@ -47,7 +47,7 @@ Template Post Type: insurance
 							'fallback_cb'    => '__return_false',
 							'depth'           	=> 0,
 							'container'     	=> 'div',
-							'container_class' 	=> 'side-menu-insurance',
+							'container_class' 	=> 'side-menu',
 							'walker'			=> new Walker_Nav_Side(),
   							) );
 
@@ -57,7 +57,7 @@ Template Post Type: insurance
 						  	'fallback_cb'    => '__return_false',
   							'depth'           	=> 0,
   							'container'     	=> 'div',
-  							'container_class' 	=> 'side-menu-insurance',
+  							'container_class' 	=> 'side-menu',
   							'walker'			=> new Walker_Nav_Side(),
 					   ) )
 

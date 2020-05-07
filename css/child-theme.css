@@ -11920,29 +11920,26 @@ figure.woocommerce-product-gallery__wrapper {
 .side-menu-title-space {
   margin-top: 15px; }
 
-.side-menu-insurance {
+.side-menu {
   margin-left: 50px;
+  padding-right: 10px;
   border-right: solid 2px #DCDCDC; }
-  .side-menu-insurance .menu {
+  .side-menu .menu {
     list-style: none;
     padding: 0;
     margin: 0; }
-    .side-menu-insurance .menu .menu-item a span {
+    .side-menu .menu .menu-item a span {
       color: black;
       font-size: 15px; }
-    .side-menu-insurance .menu .menu-item a[title="insurance"] span {
+    .side-menu .menu .menu-item a[title="insurance"] span {
       font-weight: bold;
       font-size: 20px;
       color: #0086ba; }
-    .side-menu-insurance .menu .menu-item i {
+    .side-menu .menu .menu-item i {
       color: #0086ba; }
-    .side-menu-insurance .menu .menu-item .sub-menu {
+    .side-menu .menu .menu-item .sub-menu {
       list-style: none;
       padding-left: 10px; }
-
-.side-menu {
-  margin-left: 50px;
-  border-right: solid 2px #DCDCDC; }
   .side-menu #menu-risk-menu {
     list-style: none;
     padding: 0;
@@ -11964,10 +11961,6 @@ figure.woocommerce-product-gallery__wrapper {
     .side-menu #menu-risk-menu .menu-item .sub-menu {
       list-style: none;
       padding-left: 10px; }
-
-.side-menu {
-  margin-left: 50px;
-  border-right: solid 2px #DCDCDC; }
   .side-menu #menu-payroll-menu {
     list-style: none;
     padding: 0;
