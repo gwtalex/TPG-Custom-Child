@@ -33,6 +33,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<!-- Do the right sidebar check -->
 			<div id="blog-widget-area" class="col-md-2">
+				<form method="get" id="searchform" action="<?php echo home_url( '/' ); ?>" role="search">
+	                <label class="sr-only" for="s">Search</label>
+	                <div class="input-group">
+    		            <input class="field form-control" id="s" name="s" type="text" placeholder="Search Blog Posts …" value="">
+    	                <span class="input-group-append">
+    			            <input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit" value="Search">
+                            <input type="hidden" name="post_type" value="post">
+    		            </span>
+	               </div>
+               </form>
 				<?php
 				  if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('blog-sidebar') )
 				?>
