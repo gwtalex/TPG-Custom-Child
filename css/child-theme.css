@@ -12086,7 +12086,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: rgba(196, 196, 196, 0.9); }
+    background-color: rgba(0, 0, 0, 0.65); }
     #risk-header .container-fluid .container {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -12167,7 +12167,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: rgba(196, 196, 196, 0.9); }
+    background-color: rgba(0, 0, 0, 0.65); }
     #risk-footer .container-fluid .container {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -12242,7 +12242,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: rgba(196, 196, 196, 0.9); }
+    background-color: rgba(0, 0, 0, 0.65); }
     #payroll-header .container-fluid .container {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -12323,7 +12323,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: rgba(196, 196, 196, 0.9); }
+    background-color: rgba(0, 0, 0, 0.65); }
     #payroll-footer .container-fluid .container {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -12396,7 +12396,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: rgba(196, 196, 196, 0.9); }
+    background-color: rgba(0, 0, 0, 0.65); }
     #insurance-header .container-fluid .container {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -12488,7 +12488,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: rgba(196, 196, 196, 0.9); }
+    background-color: rgba(0, 0, 0, 0.65); }
     #insurance-footer .container-fluid .row {
       text-align: center; }
       #insurance-footer .container-fluid .row .col-md-12 {
@@ -12502,7 +12502,7 @@ figure.woocommerce-product-gallery__wrapper {
           font-weight: 800; }
         #insurance-footer .container-fluid .row p {
           font-size: 25px;
-          color: black; }
+          color: white; }
         #insurance-footer .container-fluid .row .btn-md {
           width: 250px;
           height: 75px;
@@ -12665,7 +12665,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: rgba(196, 196, 196, 0.9); }
+    background-color: rgba(0, 0, 0, 0.65); }
     #blog-header .container-fluid .container {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
