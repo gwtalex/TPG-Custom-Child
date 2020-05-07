@@ -11968,25 +11968,25 @@ figure.woocommerce-product-gallery__wrapper {
 .side-menu {
   margin-left: 50px;
   border-right: solid 2px #DCDCDC; }
-  .side-menu #menu-payroll {
+  .side-menu #menu-payroll-menu {
     list-style: none;
     padding: 0;
     margin: 0; }
-    .side-menu #menu-payroll .menu-item a span {
+    .side-menu #menu-payroll-menu .menu-item a span {
       color: black;
       font-size: 15px; }
     @media all and (min-width: 700px) {
-      .side-menu #menu-payroll .menu-item a[title="payroll"] span {
+      .side-menu #menu-payroll-menu .menu-item a[title="payroll"] span {
         font-weight: bold;
         font-size: 20px;
         color: #00a65c; } }
     @media all and (max-width: 700px) {
-      .side-menu #menu-payroll .menu-item a[title="payroll"] span {
+      .side-menu #menu-payroll-menu .menu-item a[title="payroll"] span {
         font-weight: bold;
         color: #00a65c; } }
-    .side-menu #menu-payroll .menu-item i {
+    .side-menu #menu-payroll-menu .menu-item i {
       color: #00a65c; }
-    .side-menu #menu-payroll .menu-item .sub-menu {
+    .side-menu #menu-payroll-menu .menu-item .sub-menu {
       list-style: none;
       padding-left: 10px; }
 
