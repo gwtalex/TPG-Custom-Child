@@ -11928,62 +11928,44 @@ figure.woocommerce-product-gallery__wrapper {
     list-style: none;
     padding: 0;
     margin: 0; }
+    .side-menu .menu li {
+      margin-top: 5px;
+      margin-bottom: 5px; }
     .side-menu .menu .menu-item a span {
       color: black;
       font-size: 15px; }
-    .side-menu .menu .menu-item a[title="insurance"] span {
-      font-weight: bold;
-      font-size: 20px;
-      color: #0086ba; }
+    @media all and (min-width: 700px) {
+      .side-menu .menu .menu-item a[title="insurance"] span {
+        font-weight: bold;
+        font-size: 20px;
+        color: #0086ba; }
+      .side-menu .menu .menu-item a[title="risk"] span {
+        font-weight: bold;
+        font-size: 20px;
+        color: #E14F42; }
+      .side-menu .menu .menu-item a[title="payroll"] span {
+        font-weight: bold;
+        font-size: 20px;
+        color: #00a65c; } }
+    @media all and (max-width: 700px) {
+      .side-menu .menu .menu-item a[title="insurance"] span {
+        font-weight: bold;
+        color: #0086ba; }
+      .side-menu .menu .menu-item a[title="risk"] span {
+        font-weight: bold;
+        color: #E14F42; }
+      .side-menu .menu .menu-item a[title="payroll"] span {
+        font-weight: bold;
+        color: #00a65c; } }
     .side-menu .menu .menu-item i {
       color: #0086ba; }
     .side-menu .menu .menu-item .sub-menu {
       list-style: none;
       padding-left: 10px; }
-  .side-menu #menu-risk-menu {
-    list-style: none;
-    padding: 0;
-    margin: 0; }
-    .side-menu #menu-risk-menu .menu-item a span {
-      color: black;
-      font-size: 15px; }
-    @media all and (min-width: 700px) {
-      .side-menu #menu-risk-menu .menu-item a[title="risk"] span {
-        font-weight: bold;
-        font-size: 20px;
-        color: #E14F42; } }
-    @media all and (max-width: 700px) {
-      .side-menu #menu-risk-menu .menu-item a[title="risk"] span {
-        font-weight: bold;
-        color: #E14F42; } }
-    .side-menu #menu-risk-menu .menu-item i {
-      color: #E14F42; }
-    .side-menu #menu-risk-menu .menu-item .sub-menu {
-      list-style: none;
-      padding-left: 10px; }
-  .side-menu #menu-payroll-menu {
-    list-style: none;
-    padding: 0;
-    margin: 0; }
-    .side-menu #menu-payroll-menu .menu-item a span {
-      color: black;
-      font-size: 15px;
-      margin-top: 10px;
-      margin-bottom: 10px; }
-    @media all and (min-width: 700px) {
-      .side-menu #menu-payroll-menu .menu-item a[title="payroll"] span {
-        font-weight: bold;
-        font-size: 20px;
-        color: #00a65c; } }
-    @media all and (max-width: 700px) {
-      .side-menu #menu-payroll-menu .menu-item a[title="payroll"] span {
-        font-weight: bold;
-        color: #00a65c; } }
-    .side-menu #menu-payroll-menu .menu-item i {
-      color: #00a65c; }
-    .side-menu #menu-payroll-menu .menu-item .sub-menu {
-      list-style: none;
-      padding-left: 10px; }
+  .side-menu #menu-risk-menu .menu-item i {
+    color: #E14F42; }
+  .side-menu #menu-payroll-menu .menu-item i {
+    color: #00a65c; }
 
 /*
 * ====================================

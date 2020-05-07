@@ -407,24 +407,64 @@
 		padding: 0;
 		margin: 0;
 
+		li { // Spacing for menu items
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+
 		.menu-item {
-			// Insurance Menu Items
+			// Menu Items
 			a {
 				span {
 					color: black;
 					font-size: 15px;
 				}
 			}
-			// Insurance Title
-			a[title="insurance"] {
-				span {
-					font-weight: bold;
-					font-size: 20px;
-					color: $insurance-primary;
+			@media all and (min-width: 700px) {
+				a[title="insurance"] { // Insurance Titles
+					span {
+						font-weight: bold;
+						font-size: 20px;
+						color: $insurance-primary;
+					}
+				}
+				a[title="risk"] { // Risk Titles
+					span {
+						font-weight: bold;
+						font-size: 20px;
+						color: $risk-primary;
+					}
+				}
+				a[title="payroll"] { // Payroll Titles
+					span {
+						font-weight: bold;
+						font-size: 20px;
+						color: $payroll-primary;
+					}
 				}
 			}
-			// Insurance Icons
-			i {
+			@media all and (max-width: 700px) {
+				a[title="insurance"] { // Insurance Title Mobile
+					span {
+						font-weight: bold;
+						color: $insurance-primary;
+					}
+				}
+				a[title="risk"] { // Risk Title Mobile
+					span {
+						font-weight: bold;
+						color: $risk-primary;
+					}
+				}
+				a[title="payroll"] { // Payroll Title Mobile
+					span {
+						font-weight: bold;
+						color: $payroll-primary;
+					}
+				}
+			}
+
+			i { // Insurance/Default Icon Color
 				color: $insurance-primary;
 			}
 
@@ -436,89 +476,19 @@
 	}
 
 	#menu-risk-menu { // Risk Menu
-		list-style: none;
-		padding: 0;
-		margin: 0;
-
 		.menu-item {
-			// Risk Menu Items
-			a {
-				span {
-					color: black;
-					font-size: 15px;
-				}
-			}
-			// Risk Title
-			@media all and (min-width: 700px) {
-				a[title="risk"] {
-					span {
-						font-weight: bold;
-						font-size: 20px;
-						color: $risk-primary;
-					}
-				}
-			}
-			@media all and (max-width: 700px) {
-				a[title="risk"] {
-					span {
-						font-weight: bold;
-						color: $risk-primary;
-					}
-				}
-			}
 			// Risk Icons
 			i {
 				color: $risk-primary;
-			}
-
-			.sub-menu {
-				list-style: none;
-				padding-left: 10px;
 			}
 		}
 	}
 
 	#menu-payroll-menu { // Payroll Menu
-		list-style: none;
-		padding: 0;
-		margin: 0;
-
 		.menu-item {
-			// Payroll Menu Items
-			a {
-				span {
-					color: black;
-					font-size: 15px;
-					margin-top: 10px;
-					margin-bottom: 10px;
-				}
-			}
-			// Payroll Title
-			@media all and (min-width: 700px) {
-				a[title="payroll"] {
-					span {
-						font-weight: bold;
-						font-size: 20px;
-						color: $payroll-primary;
-					}
-				}
-			}
-			@media all and (max-width: 700px) {
-				a[title="payroll"] {
-					span {
-						font-weight: bold;
-						color: $payroll-primary;
-					}
-				}
-			}
-			// Payroll Icons
-			i {
-				color: $payroll-primary;
-			}
 
-			.sub-menu {
-				list-style: none;
-				padding-left: 10px;
+			i { // Payroll Icons
+				color: $payroll-primary;
 			}
 		}
 	}
