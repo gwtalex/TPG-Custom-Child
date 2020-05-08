@@ -11655,7 +11655,8 @@ figure.woocommerce-product-gallery__wrapper {
       border-width: 0.5px;
       border-color: #c2c5cc;
       text-transform: uppercase;
-      text-align: left; } }
+      text-align: left;
+      letter-spacing: 1px; } }
 
 #main-menu .insurance-main-menu a {
   color: #000; }
@@ -11674,7 +11675,8 @@ figure.woocommerce-product-gallery__wrapper {
         /* This creates some space between the element and the border. */
         border-bottom: 2px solid #fff;
         /* This creates the border. Replace black with whatever color you want. */
-        margin-right: auto; } }
+        margin-right: auto;
+        margin-top: 15px; } }
 
 @media all and (min-width: 768px) {
   #main-menu .insurance-main-menu a:after {
@@ -11688,7 +11690,8 @@ figure.woocommerce-product-gallery__wrapper {
     /* This creates some space between the element and the border. */
     border-bottom: 2px solid #0086ba;
     /* This creates the border. Replace black with whatever color you want. */
-    margin-right: auto; } }
+    margin-right: auto;
+    margin-top: 15px; } }
 
 #main-menu .insurance-main-menu.current-menu-item a {
   background-color: #0086ba;
@@ -11706,7 +11709,8 @@ figure.woocommerce-product-gallery__wrapper {
     /* This creates some space between the element and the border. */
     border-bottom: 2px solid #fff;
     /* This creates the border. Replace black with whatever color you want. */
-    margin-right: auto; } }
+    margin-right: auto;
+    margin-top: 15px; } }
 
 #main-menu .risk-main-menu a {
   color: #000; }
@@ -11725,7 +11729,8 @@ figure.woocommerce-product-gallery__wrapper {
         /* This creates some space between the element and the border. */
         border-bottom: 2px solid #fff;
         /* This creates the border. Replace black with whatever color you want. */
-        margin-right: auto; } }
+        margin-right: auto;
+        margin-top: 15px; } }
 
 @media all and (min-width: 768px) {
   #main-menu .risk-main-menu a:after {
@@ -11739,7 +11744,8 @@ figure.woocommerce-product-gallery__wrapper {
     /* This creates some space between the element and the border. */
     border-bottom: 2px solid #E14F42;
     /* This creates the border. Replace black with whatever color you want. */
-    margin-right: auto; } }
+    margin-right: auto;
+    margin-top: 15px; } }
 
 #main-menu .risk-main-menu.current-menu-item a {
   background-color: #E14F42;
@@ -11757,7 +11763,8 @@ figure.woocommerce-product-gallery__wrapper {
     /* This creates some space between the element and the border. */
     border-bottom: 2px solid #fff;
     /* This creates the border. Replace black with whatever color you want. */
-    margin-right: auto; } }
+    margin-right: auto;
+    margin-top: 15px; } }
 
 #main-menu .payroll-main-menu a {
   color: #000; }
@@ -11776,7 +11783,8 @@ figure.woocommerce-product-gallery__wrapper {
         /* This creates some space between the element and the border. */
         border-bottom: 2px solid #fff;
         /* This creates the border. Replace black with whatever color you want. */
-        margin-right: auto; } }
+        margin-right: auto;
+        margin-top: 15px; } }
 
 @media all and (min-width: 768px) {
   #main-menu .payroll-main-menu a:after {
@@ -11790,7 +11798,8 @@ figure.woocommerce-product-gallery__wrapper {
     /* This creates some space between the element and the border. */
     border-bottom: 2px solid #00a65c;
     /* This creates the border. Replace black with whatever color you want. */
-    margin-right: auto; } }
+    margin-right: auto;
+    margin-top: 15px; } }
 
 #main-menu .payroll-main-menu.current-menu-item a {
   background-color: #00a65c;
@@ -11808,7 +11817,8 @@ figure.woocommerce-product-gallery__wrapper {
     /* This creates some space between the element and the border. */
     border-bottom: 2px solid #fff;
     /* This creates the border. Replace black with whatever color you want. */
-    margin-right: auto; } }
+    margin-right: auto;
+    margin-top: 15px; } }
 
 #main-menu .hr-main-menu a {
   color: #000; }
@@ -11827,7 +11837,8 @@ figure.woocommerce-product-gallery__wrapper {
         /* This creates some space between the element and the border. */
         border-bottom: 2px solid #fff;
         /* This creates the border. Replace black with whatever color you want. */
-        margin-right: auto; } }
+        margin-right: auto;
+        margin-top: 15px; } }
 
 @media all and (min-width: 768px) {
   #main-menu .hr-main-menu a:after {
@@ -11841,7 +11852,8 @@ figure.woocommerce-product-gallery__wrapper {
     /* This creates some space between the element and the border. */
     border-bottom: 2px solid #ec9934;
     /* This creates the border. Replace black with whatever color you want. */
-    margin-right: auto; } }
+    margin-right: auto;
+    margin-top: 15px; } }
 
 #main-menu .hr-main-menu.current-menu-item a {
   background-color: #ec9934;
@@ -11859,7 +11871,8 @@ figure.woocommerce-product-gallery__wrapper {
     /* This creates some space between the element and the border. */
     border-bottom: 2px solid #fff;
     /* This creates the border. Replace black with whatever color you want. */
-    margin-right: auto; } }
+    margin-right: auto;
+    margin-top: 15px; } }
 
 #main-menu .blog-main-menu a {
   color: #000; }
@@ -11878,7 +11891,8 @@ figure.woocommerce-product-gallery__wrapper {
         /* This creates some space between the element and the border. */
         border-bottom: 2px solid #fff;
         /* This creates the border. Replace black with whatever color you want. */
-        margin-right: auto; } }
+        margin-right: auto;
+        margin-top: 15px; } }
 
 @media all and (min-width: 768px) {
   #main-menu .blog-main-menu a:after {
@@ -11892,7 +11906,8 @@ figure.woocommerce-product-gallery__wrapper {
     /* This creates some space between the element and the border. */
     border-bottom: 2px solid #54595f;
     /* This creates the border. Replace black with whatever color you want. */
-    margin-right: auto; } }
+    margin-right: auto;
+    margin-top: 15px; } }
 
 #main-menu .blog-main-menu.current-menu-item a {
   background-color: #676767;
@@ -11910,7 +11925,8 @@ figure.woocommerce-product-gallery__wrapper {
     /* This creates some space between the element and the border. */
     border-bottom: 2px solid #fff;
     /* This creates the border. Replace black with whatever color you want. */
-    margin-right: auto; } }
+    margin-right: auto;
+    margin-top: 15px; } }
 
 /*
 * ====================================
