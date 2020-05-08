@@ -28,7 +28,7 @@ Template Post Type: risk
 		<div id="risk-content-container"class="container-fluid">
 			<section class="page-wrap">
 				<div class="row">
-				<div class="col-md-2">
+				<div class="col-md-3">
 					    <!-- Risk Menu -->
 							<div class="">
 						<?php wp_nav_menu( array(

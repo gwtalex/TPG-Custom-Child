@@ -37,7 +37,7 @@ Template Post Type: insurance
 <div id="insurance-content-container"class="container-fluid">
 	<section class="page-wrap">
 		<div class="row">
-			<div class="col-md-2">
+			<div class="col-md-3">
 				    <!-- Insurance Menu -->
 					<?php
 					if(has_term('personal','insurance-category')) {
