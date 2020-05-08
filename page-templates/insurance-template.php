@@ -38,7 +38,6 @@ Template Post Type: insurance
 	<section class="page-wrap">
 		<div class="row">
 			<div class="col-md-2">
-				<div class="wrapper">
 				    <!-- Insurance Menu -->
 					<?php
 					if(has_term('personal','insurance-category')) {
@@ -62,7 +61,6 @@ Template Post Type: insurance
 					   ) )
 
 				   } ?>
-				</div>
 			</div>
 			<div class="col content-right">
 				<?php

@@ -29,7 +29,6 @@ Template Post Type: risk
 			<section class="page-wrap">
 				<div class="row">
 				<div class="col-md-2">
-					<div class="wrapper">
 					    <!-- Risk Menu -->
 							<div class="">
 						<?php wp_nav_menu( array(
@@ -42,7 +41,6 @@ Template Post Type: risk
 						) ); ?>
 							</div>
 					</div>
-				</div>
 				<div class="col content-right">
 					<?php the_field('content_right'); ?>
 				</div>
