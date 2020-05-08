@@ -12192,7 +12192,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (min-width: 700px) {
         #risk-footer .container-fluid .container h1 {
           font-size: 40px;
-          color: #E14F42;
+          color: white;
           font-weight: 800;
           text-transform: capitalize; }
         #risk-footer .container-fluid .container p {
@@ -12215,7 +12215,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (max-width: 700px) {
         #risk-footer .container-fluid .container h1 {
           font-size: 40px;
-          color: #E14F42;
+          color: white;
           font-weight: 800;
           text-transform: capitalize; }
         #risk-footer .container-fluid .container p {
@@ -12363,7 +12363,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (min-width: 700px) {
         #payroll-footer .container-fluid .container h1 {
           font-size: 40px;
-          color: #00a65c;
+          color: white;
           font-weight: 800;
           text-transform: capitalize; }
         #payroll-footer .container-fluid .container p {
@@ -12385,7 +12385,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (max-width: 700px) {
         #payroll-footer .container-fluid .container h1 {
           font-size: 40px;
-          color: #00a65c;
+          color: white;
           font-weight: 800;
           text-transform: capitalize; }
         #payroll-footer .container-fluid .container p {
@@ -12530,7 +12530,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (min-width: 700px) {
         #insurance-footer .container-fluid .row h2 {
           font-size: 60px;
-          color: #0086ba;
+          color: white;
           font-weight: 800; }
         #insurance-footer .container-fluid .row p {
           font-size: 25px;
@@ -12553,7 +12553,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (max-width: 700px) {
         #insurance-footer .container-fluid .row h2 {
           font-size: 40px;
-          color: #0086ba;
+          color: white;
           font-weight: 800; }
         #insurance-footer .container-fluid .row p {
           color: black; }
