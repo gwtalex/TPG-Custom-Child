@@ -729,7 +729,7 @@
 			text-align: center;
 			@media all and (min-width: 700px) {
 				h1 {
-					font-size: 60px;
+					font-size: 40px;
 					color: $risk-primary;
 					font-weight: 800;
 				}
@@ -740,9 +740,7 @@
 				}
 
 				.btn-danger {
-					width: 520px;
-					height: 78px;
-					font-size: 40px;
+					font-size: 25px;
 					font-weight: 800px;
 					border-radius: 0;
 					border: 5px solid;
@@ -938,7 +936,7 @@
 			text-align: center;
 			@media all and (min-width: 700px) {
 				h1 {
-					font-size: 60px;
+					font-size: 40px;
 					color: $payroll-primary;
 					font-weight: 800;
 				}
@@ -949,9 +947,7 @@
 				}
 
 				.btn-success {
-					width: 520px;
-					height: 78px;
-					font-size: 40px;
+					font-size: 25px;
 					color: #fff;
 					border-radius: 0;
 					border: 5px solid;

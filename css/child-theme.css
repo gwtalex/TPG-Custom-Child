@@ -12166,16 +12166,14 @@ figure.woocommerce-product-gallery__wrapper {
       text-align: center; }
       @media all and (min-width: 700px) {
         #risk-footer .container-fluid .container h1 {
-          font-size: 60px;
+          font-size: 40px;
           color: #E14F42;
           font-weight: 800; }
         #risk-footer .container-fluid .container p {
           font-size: 25px;
           color: white; }
         #risk-footer .container-fluid .container .btn-danger {
-          width: 520px;
-          height: 78px;
-          font-size: 40px;
+          font-size: 25px;
           font-weight: 800px;
           border-radius: 0;
           border: 5px solid;
@@ -12337,16 +12335,14 @@ figure.woocommerce-product-gallery__wrapper {
       text-align: center; }
       @media all and (min-width: 700px) {
         #payroll-footer .container-fluid .container h1 {
-          font-size: 60px;
+          font-size: 40px;
           color: #00a65c;
           font-weight: 800; }
         #payroll-footer .container-fluid .container p {
           font-size: 25px;
           color: white; }
         #payroll-footer .container-fluid .container .btn-success {
-          width: 520px;
-          height: 78px;
-          font-size: 40px;
+          font-size: 25px;
           color: #fff;
           border-radius: 0;
           border: 5px solid;
