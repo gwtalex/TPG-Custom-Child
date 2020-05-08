@@ -426,6 +426,7 @@
 						font-weight: bold;
 						font-size: 20px;
 						color: $insurance-primary;
+						text-transform: uppercase;
 					}
 				}
 				a[title="risk"] { // Risk Titles
@@ -433,6 +434,7 @@
 						font-weight: bold;
 						font-size: 20px;
 						color: $risk-primary;
+						text-transform: uppercase;
 					}
 				}
 				a[title="payroll"] { // Payroll Titles
@@ -440,6 +442,7 @@
 						font-weight: bold;
 						font-size: 20px;
 						color: $payroll-primary;
+						text-transform: uppercase;
 					}
 				}
 			}
@@ -448,18 +451,21 @@
 					span {
 						font-weight: bold;
 						color: $insurance-primary;
+						text-transform: uppercase;
 					}
 				}
 				a[title="risk"] { // Risk Title Mobile
 					span {
 						font-weight: bold;
 						color: $risk-primary;
+						text-transform: uppercase;
 					}
 				}
 				a[title="payroll"] { // Payroll Title Mobile
 					span {
 						font-weight: bold;
 						color: $payroll-primary;
+						text-transform: uppercase;
 					}
 				}
 			}
