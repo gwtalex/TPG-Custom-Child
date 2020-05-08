@@ -2,7 +2,7 @@
 
 /*
 Template Name: Insurance Full Width
-Template Post Type: insurance
+Template Post Type: insurance, page
 */
 ?>
 
@@ -58,17 +58,15 @@ Template Post Type: insurance
 	<div class="container-fluid">
 		<div class="row w-100">
 			<div class="col-md-12">
-				<?php $link = get_field('get_a_quote_url'); ?>
+
+			</div>
+			<div class="col-md-8">
 				<h2>Ready To Get Started?</h2>
+				<p>Visit our <a href="/contact-us/">Contact Us Page</a> or <a href="tel:8558744677"> Talk To A Specialist</a></p>
+			</div>
+			<div class="col-md-4">
+				<?php $link = get_field('get_a_quote_url'); ?>
 				<a href="<?php echo esc_url( $link ); ?>" ><button type="button" class="btn btn-md">Get A Quote</button></a>
-			</div>
-			<div class="col-md-6">
-				<p>Visit Our Contact Us Page...</p>
-				<a href="/contact-us/"><button type="button" class="btn btn-md">Contact Us</button></a>
-			</div>
-			<div class="col-md-6">
-				<p>Or Talk To A Specialist</p>
-				<a a href="tel:8558744677" ><button type="button" class="btn btn-md">Call Now</button></a>
 			</div>
 		</div>
 		</div>
