@@ -57,9 +57,6 @@ Template Post Type: insurance, page
 <div id="insurance-footer" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
 	<div class="container-fluid">
 		<div class="row w-100">
-			<div class="col-md-12">
-
-			</div>
 			<div class="col-md-8">
 				<h2>Ready To Get Started?</h2>
 				<p>Visit our <a href="/contact-us/">Contact Us Page</a> or <a href="tel:8558744677"> Talk To A Specialist</a></p>

@@ -1167,13 +1167,6 @@
 		.row {
 			text-align: center;
 
-			.col-md-12 {
-				margin-bottom: 30px;
-			}
-
-			.col-md-6 {
-				margin-top: 15px;
-			}
 			@media all and (min-width: 700px) {
 				h2 {
 					font-size: 60px;
@@ -1190,6 +1183,7 @@
 					width: 250px;
 					height: 75px;
 					font-size: 25px;
+					margin-top: 15px;
 					color: #fff;
 					border-radius: 0;
 					border: 5px solid;

@@ -89,17 +89,20 @@ Template Post Type: insurance
 <div id="insurance-footer" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
 	<div class="container-fluid">
 		<div class="row w-100">
-			<div class="col-md-12">
+				<div class="col-md-2">
 
-			</div>
-			<div class="col-md-8">
-				<h2>Ready To Get Started?</h2>
-				<p>Visit our <a href="/contact-us/">Contact Us Page</a> or <a href="tel:8558744677"> Talk To A Specialist</a></p>
-			</div>
-			<div class="col-md-4">
-				<?php $link = get_field('get_a_quote_url'); ?>
-				<a href="<?php echo esc_url( $link ); ?>" ><button type="button" class="btn btn-md">Get A Quote</button></a>
-			</div>
+				</div>
+				<div class="col-md-4">
+					<h2>Ready To Get Started?</h2>
+					<p>Visit our <a href="/contact-us/">Contact Us Page</a> or <a href="tel:8558744677"> Talk To A Specialist</a></p>
+				</div>
+				<div class="col-md-4">
+					<?php $link = get_field('get_a_quote_url'); ?>
+					<a href="<?php echo esc_url( $link ); ?>" ><button type="button" class="btn btn-md">Get A Quote</button></a>
+				</div>
+				<div class="col-md-2">
+
+				</div>
 		</div>
 		</div>
 	</div>
