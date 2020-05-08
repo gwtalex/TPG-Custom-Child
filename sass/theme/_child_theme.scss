@@ -621,7 +621,7 @@
 			@media all and (min-width: 700px) {
 				h1 {
 					font-size: 60px;
-					color: $risk-primary;
+					color: white;
 					font-weight: 800;
 					text-transform: uppercase;
 				}
@@ -632,30 +632,31 @@
 				}
 
 				.btn {
-					width: 520px;
-					height: 78px;
+					width: 400px;
 					font-size: 40px;
 					font-weight: 600px;
-					border: 5px solid $risk-primary;
+					color: white;
 					border-radius: 0;
+					border: 5px solid;
 					font-weight: 800px;
-					color: #fff;
+					background-color: $risk-primary;
+					border-color: $risk-primary;
 
 					&:focus {
-						color: #fff;
-						background-color: $risk-primary;
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
 					}
 
 					&:hover {
-						color: #fff;
-						background-color: $risk-primary;
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
 					}
 				}
 			}
 			@media all and (max-width: 700px) {
 				h1 {
 					font-size: 40px;
-					color: $risk-primary;
+					color: white;
 					font-weight: 800;
 					text-transform: uppercase;
 				}
@@ -666,19 +667,21 @@
 
 				.btn {
 					font-weight: 600px;
-					border: 5px solid $risk-primary;
+					color: white;
 					border-radius: 0;
+					border: 5px solid;
 					font-weight: 800px;
-					color: #fff;
+					background-color: $risk-primary;
+					border-color: $risk-primary;
 
 					&:focus {
-						color: #fff;
-						background-color: $risk-primary;
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
 					}
 
 					&:hover {
-						color: #fff;
-						background-color: $risk-primary;
+						background-color: Transparent;
+						border: 5px solid $risk-primary;
 					}
 				}
 			}
@@ -830,7 +833,7 @@
 			@media all and (min-width: 700px) {
 				h1 {
 					font-size: 60px;
-					color: $payroll-primary;
+					color: white;
 					font-weight: 800;
 					text-transform: uppercase;
 				}
@@ -841,30 +844,29 @@
 				}
 
 				.btn {
-					width: 520px;
-					height: 78px;
+					width: 400px;
 					font-size: 40px;
-					font-weight: 600px;
-					border: 5px solid $payroll-primary;
-					border-radius: 0;
-					font-weight: 800px;
 					color: #fff;
+					border-radius: 0;
+					border: 5px solid;
+					background-color: $payroll-primary;
+					border-color: $payroll-primary;
 
 					&:focus {
-						color: #fff;
-						background-color: $payroll-primary;
+						background-color: Transparent;
+						border: 5px solid $payroll-primary;
 					}
 
 					&:hover {
-						color: #fff;
-						background-color: $payroll-primary;
+						background-color: Transparent;
+						border: 5px solid $payroll-primary;
 					}
 				}
 			}
 			@media all and (max-width: 700px) {
 				h1 {
 					font-size: 40px;
-					color: $payroll-primary;
+					color: white;
 					font-weight: 800;
 					text-transform: uppercase;
 				}
@@ -875,19 +877,20 @@
 
 				.btn {
 					font-weight: 600px;
-					border: 5px solid $payroll-primary;
-					border-radius: 0;
-					font-weight: 800px;
 					color: #fff;
+					border-radius: 0;
+					border: 5px solid;
+					background-color: $payroll-primary;
+					border-color: $payroll-primary;
 
 					&:focus {
-						color: #fff;
-						background-color: $payroll-primary;
+						background-color: Transparent;
+						border: 5px solid $payroll-primary;
 					}
 
 					&:hover {
-						color: #fff;
-						background-color: $payroll-primary;
+						background-color: Transparent;
+						border: 5px solid $payroll-primary;
 					}
 				}
 			}
@@ -1037,7 +1040,7 @@
 			@media all and (min-width: 700px) {
 				h1 {
 					font-size: 60px;
-					color: $insurance-primary;
+					color: white;
 					font-weight: 800;
 					text-transform: uppercase;
 				}
@@ -1048,30 +1051,30 @@
 				}
 
 				.btn {
-					width: 520px;
-					height: 78px;
+					width: 400px;
 					font-size: 40px;
 					font-weight: 600px;
-					border: 5px solid $insurance-primary;
-					border-radius: 0;
-					font-weight: 800px;
 					color: #fff;
+					border-radius: 0;
+					border: 5px solid;
+					background-color: $insurance-primary;
+					border-color: $insurance-primary;
 
 					&:focus {
-						color: #fff;
-						background-color: $insurance-primary;
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
 					}
 
 					&:hover {
-						color: #fff;
-						background-color: $insurance-primary;
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
 					}
 				}
 			}
 			@media all and (max-width: 700px) {
 				h1 {
 					font-size: 40px;
-					color: $insurance-primary;
+					color: white;
 					font-weight: 800;
 					text-transform: uppercase;
 				}
@@ -1082,19 +1085,20 @@
 
 				.btn {
 					font-weight: 600px;
-					border: 5px solid $insurance-primary;
-					border-radius: 0;
-					font-weight: 800px;
 					color: #fff;
+					border-radius: 0;
+					border: 5px solid;
+					background-color: $insurance-primary;
+					border-color: $insurance-primary;
 
 					&:focus {
-						color: #fff;
-						background-color: $insurance-primary;
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
 					}
 
 					&:hover {
-						color: #fff;
-						background-color: $insurance-primary;
+						background-color: Transparent;
+						border: 5px solid $insurance-primary;
 					}
 				}
 			}

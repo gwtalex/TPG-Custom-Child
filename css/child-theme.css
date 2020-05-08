@@ -12078,7 +12078,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (min-width: 700px) {
         #risk-header .container-fluid .container h1 {
           font-size: 60px;
-          color: #E14F42;
+          color: white;
           font-weight: 800;
           text-transform: uppercase; }
         #risk-header .container-fluid .container p {
@@ -12086,25 +12086,26 @@ figure.woocommerce-product-gallery__wrapper {
           color: white; }
         #risk-header .container-fluid .container .btn,
         #risk-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #risk-header .container-fluid .container input[type=submit] {
-          width: 520px;
-          height: 78px;
+          width: 400px;
           font-size: 40px;
           font-weight: 600px;
-          border: 5px solid #E14F42;
+          color: white;
           border-radius: 0;
+          border: 5px solid;
           font-weight: 800px;
-          color: #fff; }
+          background-color: #E14F42;
+          border-color: #E14F42; }
           #risk-header .container-fluid .container .btn:focus,
           #risk-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #risk-header .container-fluid .container input:focus[type=submit] {
-            color: #fff;
-            background-color: #E14F42; }
+            background-color: Transparent;
+            border: 5px solid #E14F42; }
           #risk-header .container-fluid .container .btn:hover, #risk-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #risk-header .container-fluid .container input:hover[type=submit] {
-            color: #fff;
-            background-color: #E14F42; } }
+            background-color: Transparent;
+            border: 5px solid #E14F42; } }
       @media all and (max-width: 700px) {
         #risk-header .container-fluid .container h1 {
           font-size: 40px;
-          color: #E14F42;
+          color: white;
           font-weight: 800;
           text-transform: uppercase; }
         #risk-header .container-fluid .container p {
@@ -12112,17 +12113,19 @@ figure.woocommerce-product-gallery__wrapper {
         #risk-header .container-fluid .container .btn,
         #risk-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #risk-header .container-fluid .container input[type=submit] {
           font-weight: 600px;
-          border: 5px solid #E14F42;
+          color: white;
           border-radius: 0;
+          border: 5px solid;
           font-weight: 800px;
-          color: #fff; }
+          background-color: #E14F42;
+          border-color: #E14F42; }
           #risk-header .container-fluid .container .btn:focus,
           #risk-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #risk-header .container-fluid .container input:focus[type=submit] {
-            color: #fff;
-            background-color: #E14F42; }
+            background-color: Transparent;
+            border: 5px solid #E14F42; }
           #risk-header .container-fluid .container .btn:hover, #risk-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #risk-header .container-fluid .container input:hover[type=submit] {
-            color: #fff;
-            background-color: #E14F42; } }
+            background-color: Transparent;
+            border: 5px solid #E14F42; } }
 
 #risk-content-container {
   padding: 0px;
@@ -12249,7 +12252,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (min-width: 700px) {
         #payroll-header .container-fluid .container h1 {
           font-size: 60px;
-          color: #00a65c;
+          color: white;
           font-weight: 800;
           text-transform: uppercase; }
         #payroll-header .container-fluid .container p {
@@ -12257,25 +12260,24 @@ figure.woocommerce-product-gallery__wrapper {
           color: white; }
         #payroll-header .container-fluid .container .btn,
         #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
-          width: 520px;
-          height: 78px;
+          width: 400px;
           font-size: 40px;
-          font-weight: 600px;
-          border: 5px solid #00a65c;
+          color: #fff;
           border-radius: 0;
-          font-weight: 800px;
-          color: #fff; }
+          border: 5px solid;
+          background-color: #00a65c;
+          border-color: #00a65c; }
           #payroll-header .container-fluid .container .btn:focus,
           #payroll-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #payroll-header .container-fluid .container input:focus[type=submit] {
-            color: #fff;
-            background-color: #00a65c; }
+            background-color: Transparent;
+            border: 5px solid #00a65c; }
           #payroll-header .container-fluid .container .btn:hover, #payroll-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #payroll-header .container-fluid .container input:hover[type=submit] {
-            color: #fff;
-            background-color: #00a65c; } }
+            background-color: Transparent;
+            border: 5px solid #00a65c; } }
       @media all and (max-width: 700px) {
         #payroll-header .container-fluid .container h1 {
           font-size: 40px;
-          color: #00a65c;
+          color: white;
           font-weight: 800;
           text-transform: uppercase; }
         #payroll-header .container-fluid .container p {
@@ -12283,17 +12285,18 @@ figure.woocommerce-product-gallery__wrapper {
         #payroll-header .container-fluid .container .btn,
         #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
           font-weight: 600px;
-          border: 5px solid #00a65c;
+          color: #fff;
           border-radius: 0;
-          font-weight: 800px;
-          color: #fff; }
+          border: 5px solid;
+          background-color: #00a65c;
+          border-color: #00a65c; }
           #payroll-header .container-fluid .container .btn:focus,
           #payroll-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #payroll-header .container-fluid .container input:focus[type=submit] {
-            color: #fff;
-            background-color: #00a65c; }
+            background-color: Transparent;
+            border: 5px solid #00a65c; }
           #payroll-header .container-fluid .container .btn:hover, #payroll-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #payroll-header .container-fluid .container input:hover[type=submit] {
-            color: #fff;
-            background-color: #00a65c; } }
+            background-color: Transparent;
+            border: 5px solid #00a65c; } }
 
 #payroll-content-container {
   padding: 0px;
@@ -12418,7 +12421,7 @@ figure.woocommerce-product-gallery__wrapper {
       @media all and (min-width: 700px) {
         #insurance-header .container-fluid .container h1 {
           font-size: 60px;
-          color: #0086ba;
+          color: white;
           font-weight: 800;
           text-transform: uppercase; }
         #insurance-header .container-fluid .container p {
@@ -12426,25 +12429,25 @@ figure.woocommerce-product-gallery__wrapper {
           color: white; }
         #insurance-header .container-fluid .container .btn,
         #insurance-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #insurance-header .container-fluid .container input[type=submit] {
-          width: 520px;
-          height: 78px;
+          width: 400px;
           font-size: 40px;
           font-weight: 600px;
-          border: 5px solid #0086ba;
+          color: #fff;
           border-radius: 0;
-          font-weight: 800px;
-          color: #fff; }
+          border: 5px solid;
+          background-color: #0086ba;
+          border-color: #0086ba; }
           #insurance-header .container-fluid .container .btn:focus,
           #insurance-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #insurance-header .container-fluid .container input:focus[type=submit] {
-            color: #fff;
-            background-color: #0086ba; }
+            background-color: Transparent;
+            border: 5px solid #0086ba; }
           #insurance-header .container-fluid .container .btn:hover, #insurance-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #insurance-header .container-fluid .container input:hover[type=submit] {
-            color: #fff;
-            background-color: #0086ba; } }
+            background-color: Transparent;
+            border: 5px solid #0086ba; } }
       @media all and (max-width: 700px) {
         #insurance-header .container-fluid .container h1 {
           font-size: 40px;
-          color: #0086ba;
+          color: white;
           font-weight: 800;
           text-transform: uppercase; }
         #insurance-header .container-fluid .container p {
@@ -12452,17 +12455,18 @@ figure.woocommerce-product-gallery__wrapper {
         #insurance-header .container-fluid .container .btn,
         #insurance-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #insurance-header .container-fluid .container input[type=submit] {
           font-weight: 600px;
-          border: 5px solid #0086ba;
+          color: #fff;
           border-radius: 0;
-          font-weight: 800px;
-          color: #fff; }
+          border: 5px solid;
+          background-color: #0086ba;
+          border-color: #0086ba; }
           #insurance-header .container-fluid .container .btn:focus,
           #insurance-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #insurance-header .container-fluid .container input:focus[type=submit] {
-            color: #fff;
-            background-color: #0086ba; }
+            background-color: Transparent;
+            border: 5px solid #0086ba; }
           #insurance-header .container-fluid .container .btn:hover, #insurance-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #insurance-header .container-fluid .container input:hover[type=submit] {
-            color: #fff;
-            background-color: #0086ba; } }
+            background-color: Transparent;
+            border: 5px solid #0086ba; } }
 
 #insurance-content-container {
   padding: 0px;
