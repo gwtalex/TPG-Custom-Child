@@ -12168,7 +12168,8 @@ figure.woocommerce-product-gallery__wrapper {
         #risk-footer .container-fluid .container h1 {
           font-size: 40px;
           color: #E14F42;
-          font-weight: 800; }
+          font-weight: 800;
+          text-transform: capitalize; }
         #risk-footer .container-fluid .container p {
           font-size: 25px;
           color: white; }
@@ -12190,7 +12191,8 @@ figure.woocommerce-product-gallery__wrapper {
         #risk-footer .container-fluid .container h1 {
           font-size: 40px;
           color: #E14F42;
-          font-weight: 800; }
+          font-weight: 800;
+          text-transform: capitalize; }
         #risk-footer .container-fluid .container p {
           color: white; }
         #risk-footer .container-fluid .container .btn-danger {
@@ -12337,7 +12339,8 @@ figure.woocommerce-product-gallery__wrapper {
         #payroll-footer .container-fluid .container h1 {
           font-size: 40px;
           color: #00a65c;
-          font-weight: 800; }
+          font-weight: 800;
+          text-transform: capitalize; }
         #payroll-footer .container-fluid .container p {
           font-size: 25px;
           color: white; }
@@ -12358,7 +12361,8 @@ figure.woocommerce-product-gallery__wrapper {
         #payroll-footer .container-fluid .container h1 {
           font-size: 40px;
           color: #00a65c;
-          font-weight: 800; }
+          font-weight: 800;
+          text-transform: capitalize; }
         #payroll-footer .container-fluid .container p {
           color: white; }
         #payroll-footer .container-fluid .container .btn-success {
