@@ -11955,35 +11955,47 @@ figure.woocommerce-product-gallery__wrapper {
         font-weight: bold;
         font-size: 20px;
         color: #0086ba;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 10px; }
       .side-menu .menu .menu-item a[title="risk"] span {
         font-weight: bold;
         font-size: 20px;
         color: #E14F42;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 10px; }
       .side-menu .menu .menu-item a[title="payroll"] span {
         font-weight: bold;
         font-size: 20px;
         color: #00a65c;
-        text-transform: uppercase; } }
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 10px; } }
     @media all and (max-width: 700px) {
       .side-menu .menu .menu-item a[title="insurance"] span {
         font-weight: bold;
         color: #0086ba;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 10px; }
       .side-menu .menu .menu-item a[title="risk"] span {
         font-weight: bold;
         color: #E14F42;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 10px; }
       .side-menu .menu .menu-item a[title="payroll"] span {
         font-weight: bold;
         color: #00a65c;
-        text-transform: uppercase; } }
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 10px; } }
     .side-menu .menu .menu-item i {
       color: #0086ba; }
     .side-menu .menu .menu-item .sub-menu {
       list-style: none;
-      padding-left: 10px; }
+      padding-left: 0px; }
   .side-menu #menu-risk-menu .menu-item i {
     color: #E14F42; }
   .side-menu #menu-payroll-menu .menu-item i {
@@ -12099,7 +12111,8 @@ figure.woocommerce-product-gallery__wrapper {
           text-transform: uppercase; }
         #risk-header .container-fluid .container p {
           font-size: 25px;
-          color: white; }
+          color: white;
+          max-width: 75%; }
         #risk-header .container-fluid .container .btn,
         #risk-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #risk-header .container-fluid .container input[type=submit] {
           width: 400px;
@@ -12273,7 +12286,8 @@ figure.woocommerce-product-gallery__wrapper {
           text-transform: uppercase; }
         #payroll-header .container-fluid .container p {
           font-size: 25px;
-          color: white; }
+          color: white;
+          max-width: 75%; }
         #payroll-header .container-fluid .container .btn,
         #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
           width: 400px;
@@ -12442,7 +12456,8 @@ figure.woocommerce-product-gallery__wrapper {
           text-transform: uppercase; }
         #insurance-header .container-fluid .container p {
           font-size: 25px;
-          color: white; }
+          color: white;
+          max-width: 75%; }
         #insurance-header .container-fluid .container .btn,
         #insurance-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #insurance-header .container-fluid .container input[type=submit] {
           width: 400px;
@@ -12710,7 +12725,8 @@ figure.woocommerce-product-gallery__wrapper {
           text-transform: uppercase; }
         #blog-header .container-fluid .container p {
           font-size: 25px;
-          color: white; }
+          color: white;
+          max-width: 75%; }
         #blog-header .container-fluid .container .btn,
         #blog-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #blog-header .container-fluid .container input[type=submit] {
           width: 520px;

@@ -443,6 +443,8 @@
 						font-size: 20px;
 						color: $insurance-primary;
 						text-transform: uppercase;
+						padding-top: 10px;
+						padding-bottom: 10px;
 					}
 				}
 				a[title="risk"] { // Risk Titles
@@ -451,6 +453,8 @@
 						font-size: 20px;
 						color: $risk-primary;
 						text-transform: uppercase;
+						padding-top: 10px;
+						padding-bottom: 10px;
 					}
 				}
 				a[title="payroll"] { // Payroll Titles
@@ -459,6 +463,8 @@
 						font-size: 20px;
 						color: $payroll-primary;
 						text-transform: uppercase;
+						padding-top: 10px;
+						padding-bottom: 10px;
 					}
 				}
 			}
@@ -468,6 +474,8 @@
 						font-weight: bold;
 						color: $insurance-primary;
 						text-transform: uppercase;
+						padding-top: 10px;
+						padding-bottom: 10px;
 					}
 				}
 				a[title="risk"] { // Risk Title Mobile
@@ -475,6 +483,8 @@
 						font-weight: bold;
 						color: $risk-primary;
 						text-transform: uppercase;
+						padding-top: 10px;
+						padding-bottom: 10px;
 					}
 				}
 				a[title="payroll"] { // Payroll Title Mobile
@@ -482,6 +492,8 @@
 						font-weight: bold;
 						color: $payroll-primary;
 						text-transform: uppercase;
+						padding-top: 10px;
+						padding-bottom: 10px;
 					}
 				}
 			}
@@ -492,7 +504,7 @@
 
 			.sub-menu {
 				list-style: none;
-				padding-left: 10px;
+				padding-left: 0px;
 			}
 		}
 	}
@@ -645,6 +657,7 @@
 				p {
 					font-size: 25px;
 					color: white;
+					max-width: 75%;
 				}
 
 				.btn {
@@ -857,6 +870,7 @@
 				p {
 					font-size: 25px;
 					color: white;
+					max-width: 75%;
 				}
 
 				.btn {
@@ -1064,6 +1078,7 @@
 				p {
 					font-size: 25px;
 					color: white;
+					max-width: 75%;
 				}
 
 				.btn {
@@ -1398,6 +1413,7 @@
 				p {
 					font-size: 25px;
 					color: white;
+					max-width: 75%;
 				}
 
 				.btn {
