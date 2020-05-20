@@ -11934,7 +11934,11 @@ figure.woocommerce-product-gallery__wrapper {
 * ====================================
 */
 .side-menu-title-space {
-  margin-top: 10px; }
+  margin-top: 10px !important;
+  margin-bottom: 10px !important; }
+
+.side-menu-title-top {
+  margin-bottom: 10px !important; }
 
 .side-menu {
   margin-left: 50px;
