@@ -624,7 +624,21 @@
 	border-right: solid 1px #DCDCDC;
 	border-left: solid 1px #DCDCDC;
 	border-bottom: solid 1px #DCDCDC;
-	padding: 10px;
+	padding: 15px;
+
+	.tab-pane {
+		padding-top: 25px;
+		padding-left: 10px;
+		padding-right: 10px;
+
+		p {
+			margin-bottom: 30px;
+		}
+
+		ul {
+			margin-bottom: 30px;
+		}
+	}
 }
 /*
 * ====================================
@@ -745,6 +759,19 @@
 		margin-bottom: 10px;
 		border-bottom: 2px solid #DCDCDC;
 		/* This creates the border. Replace black with whatever color you want. */
+	}
+
+	h1 {
+		color: $risk-primary;
+	}
+	h2 {
+		color: $risk-primary;
+	}
+	h3 {
+		color: $risk-primary;
+	}
+	h4 {
+		color: $risk-primary;
 	}
 }
 // Risk - Scale image for content in the content-right area
@@ -955,6 +982,19 @@
 		margin-bottom: 10px;
 		border-bottom: 2px solid #DCDCDC;
 		/* This creates the border. Replace black with whatever color you want. */
+	}
+
+	h1 {
+		color: $payroll-primary;
+	}
+	h2 {
+		color: $payroll-primary;
+	}
+	h3 {
+		color: $payroll-primary;
+	}
+	h4 {
+		color: $payroll-primary;
 	}
 }
 // Payroll - Scale image for content in the content-right area
@@ -1167,6 +1207,18 @@
 			border-bottom: 2px solid #DCDCDC;
 			/* This creates the border. Replace black with whatever color you want. */
 		}
+		h1 {
+			color: $insurance-primary;
+		}
+		h2 {
+			color: $insurance-primary;
+		}
+		h3 {
+			color: $insurance-primary;
+		}
+		h4 {
+			color: $insurance-primary;
+		}
 	}
 }
 
@@ -1184,6 +1236,7 @@
 		/* Flexbox stuff */
 		display: flex;
 		align-items: center;
+		/* For overlay if image used */
 		background-color: rgba(0, 0, 0, 0.5);
 
 		.row {
@@ -1199,6 +1252,11 @@
 				p {
 					font-size: 25px;
 					color: white;
+
+					a {
+						color: white;
+						text-decoration: underline;
+					}
 				}
 
 				.btn-md {
@@ -1231,7 +1289,11 @@
 				}
 
 				p {
-					color: black;
+					color: white;
+					a {
+						color: white;
+						text-decoration: underline;
+					}
 				}
 
 				.btn-md {
@@ -1256,6 +1318,35 @@
 		}
 	}
 }
+
+// Commercial Home Page Button styling
+
+.commercial-buttons {
+	@media all and (min-width: 1200px) {
+		button {
+			margin: 5px 10px 5px 10px;
+			width: 190px;
+			height: 60px;
+		}
+	}
+
+	@media all and (max-width: 1200px) {
+		button {
+			margin: 5px 10px 5px 10px;
+			font-size: 1rem;
+			width: 130px;
+			height: 30px;
+		}
+	}
+
+	@media all and (max-width: 775px) {
+			display: none;
+	}
+
+
+}
+
+
 /*
 * ====================================
 * Footer Template Styling

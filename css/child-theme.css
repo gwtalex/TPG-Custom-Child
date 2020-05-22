@@ -12074,7 +12074,15 @@ figure.woocommerce-product-gallery__wrapper {
   border-right: solid 1px #DCDCDC;
   border-left: solid 1px #DCDCDC;
   border-bottom: solid 1px #DCDCDC;
-  padding: 10px; }
+  padding: 15px; }
+  .tab-content .tab-pane {
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .tab-content .tab-pane p {
+      margin-bottom: 30px; }
+    .tab-content .tab-pane ul {
+      margin-bottom: 30px; }
 
 /*
 * ====================================
@@ -12177,6 +12185,14 @@ figure.woocommerce-product-gallery__wrapper {
     margin-bottom: 10px;
     border-bottom: 2px solid #DCDCDC;
     /* This creates the border. Replace black with whatever color you want. */ }
+  #risk-content-container h1 {
+    color: #E14F42; }
+  #risk-content-container h2 {
+    color: #E14F42; }
+  #risk-content-container h3 {
+    color: #E14F42; }
+  #risk-content-container h4 {
+    color: #E14F42; }
 
 .risk-content-right img {
   width: 100%;
@@ -12349,6 +12365,14 @@ figure.woocommerce-product-gallery__wrapper {
     margin-bottom: 10px;
     border-bottom: 2px solid #DCDCDC;
     /* This creates the border. Replace black with whatever color you want. */ }
+  #payroll-content-container h1 {
+    color: #00a65c; }
+  #payroll-content-container h2 {
+    color: #00a65c; }
+  #payroll-content-container h3 {
+    color: #00a65c; }
+  #payroll-content-container h4 {
+    color: #00a65c; }
 
 .payroll-content-right img {
   width: 100%;
@@ -12521,6 +12545,14 @@ figure.woocommerce-product-gallery__wrapper {
     margin-bottom: 10px;
     border-bottom: 2px solid #DCDCDC;
     /* This creates the border. Replace black with whatever color you want. */ }
+  #insurance-content-container .content-right h1 {
+    color: #0086ba; }
+  #insurance-content-container .content-right h2 {
+    color: #0086ba; }
+  #insurance-content-container .content-right h3 {
+    color: #0086ba; }
+  #insurance-content-container .content-right h4 {
+    color: #0086ba; }
 
 #insurance-footer {
   margin: 0;
@@ -12539,6 +12571,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    /* For overlay if image used */
     background-color: rgba(0, 0, 0, 0.5); }
     #insurance-footer .container-fluid .row {
       text-align: center; }
@@ -12550,6 +12583,9 @@ figure.woocommerce-product-gallery__wrapper {
         #insurance-footer .container-fluid .row p {
           font-size: 25px;
           color: white; }
+          #insurance-footer .container-fluid .row p a {
+            color: white;
+            text-decoration: underline; }
         #insurance-footer .container-fluid .row .btn-md {
           width: 250px;
           height: 75px;
@@ -12572,7 +12608,10 @@ figure.woocommerce-product-gallery__wrapper {
           color: white;
           font-weight: 800; }
         #insurance-footer .container-fluid .row p {
-          color: black; }
+          color: white; }
+          #insurance-footer .container-fluid .row p a {
+            color: white;
+            text-decoration: underline; }
         #insurance-footer .container-fluid .row .btn-md {
           width: 150px;
           color: #fff;
@@ -12586,6 +12625,23 @@ figure.woocommerce-product-gallery__wrapper {
           #insurance-footer .container-fluid .row .btn-md:hover {
             background-color: Transparent;
             border: 5px solid #0086ba; } }
+
+@media all and (min-width: 1200px) {
+  .commercial-buttons button {
+    margin: 5px 10px 5px 10px;
+    width: 190px;
+    height: 60px; } }
+
+@media all and (max-width: 1200px) {
+  .commercial-buttons button {
+    margin: 5px 10px 5px 10px;
+    font-size: 1rem;
+    width: 130px;
+    height: 30px; } }
+
+@media all and (max-width: 775px) {
+  .commercial-buttons {
+    display: none; } }
 
 /*
 * ====================================
