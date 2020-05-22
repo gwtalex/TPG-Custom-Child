@@ -40,29 +40,29 @@ Template Post Type: insurance
 	<div class="col-md-1">
 	</div>
     <div class="col-md-2">
-	    <a href="http://mytpg.com/construction"><button class="btn-insurance">Construction</button></a><br>
-	    <a href="http://mytpg.com/agriculture"><button class="btn-insurance">Agriculture</button></a><br>
-	    <a href="http://mytpg.com/technology"><button class="btn-insurance">Technology</button></a><br>
+	    <a href="/insurance/construction-specialists/"><button class="btn-insurance">Construction</button></a><br>
+	    <a href="/insurance/agriculture-specialists/"><button class="btn-insurance">Agriculture</button></a><br>
+	    <a href="/insurance/technology/"><button class="btn-insurance">Technology</button></a><br>
     </div>
     <div class="col-md-2">
-		<a href="http://mytpg.com/transportation"><button class="btn-insurance">Transportation</button></a><br>
-		<a href="http://mytpg.com/real-estate"><button class="btn-insurance">Real Estate</button></a><br>
-		<a href="http://mytpg.com/food-industry"><button class="btn-insurance">Food Industry</button></a><br>
+		<a href="/insurance/transportation-specialists/"><button class="btn-insurance">Transportation</button></a><br>
+		<a href="/insurance/real-estate-specialists/"><button class="btn-insurance">Real Estate</button></a><br>
+		<a href="/insurance/food-industry-service-specialists/"><button class="btn-insurance">Food Industry</button></a><br>
     </div>
     <div class="col-md-2">
-		<a href="http://mytpg.com/manufacturing"><button class="btn-insurance">Manufacturing</button></a><br>
-		<a href="http://mytpg.com/commercial-automotive/"><button class="btn-insurance">Automotive</button></a><br>
-		<a href="http://mytpg.com/commercial-nonprofit"><button class="btn-insurance">Non-Profits</button></a><br>
+		<a href="/insurance/manufacturing-specialists/"><button class="btn-insurance">Manufacturing</button></a><br>
+		<a href="/insurance/automotive-specialists/"><button class="btn-insurance">Automotive</button></a><br>
+		<a href="/insurance/non-profit-specialists/"><button class="btn-insurance">Non-Profits</button></a><br>
     </div>
     <div class="col-md-2">
-		<a href="http://mytpg.com/restaurant"><button class="btn-insurance">Restaurants</button></a><br>
-		<a href="http://mytpg.com/education"><button class="btn-insurance">Education</button></a><br>
-		<a href="http://mytpg.com/franchise-services"><button class="btn-insurance">Franchise Services</button></a><br>
+		<a href="/insurance/restaurant-specialists/"><button class="btn-insurance">Restaurants</button></a><br>
+		<a href="/insurance/education-specialists/"><button class="btn-insurance">Education</button></a><br>
+		<a href="/insurance/franchise-services-specialists/"><button class="btn-insurance">Franchise Services</button></a><br>
     </div>
     <div class="col-md-2">
-		<a href="http://mytpg.com/retail-wholesale"><button class="btn-insurance">Retail/Wholesale</button></a><br>
-		<a href="http://mytpg.com/health-care"><button class="btn-insurance">Health Care</button></a><br>
-		<a href="http://mytpg.com/cannabis-industry-insurance"><button class="btn-insurance">Cannabis Industry</button></a><br>
+		<a href="/insurance/retail-wholesale/"><button class="btn-insurance">Retail/Wholesale</button></a><br>
+		<a href="/insurance/health-care-specialists/"><button class="btn-insurance">Health Care</button></a><br>
+		<a href="/insurance/cannabis-industry-specialists/"><button class="btn-insurance">Cannabis Industry</button></a><br>
     </div>
 	<div class="col-md-1">
 	</div>
