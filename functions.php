@@ -82,6 +82,7 @@ require_once( get_stylesheet_directory() . '/inc/cpt.php' );
 function register_my_menus() {
 register_nav_menus(
 array(
+ 'main-pages-menu' => __( 'Main Pages Menu' ),
  'personal-insurance-menu' => __( 'Personal Insurance Menu' ),
  'commercial-insurance-menu' => __( 'Commercial Insurance Menu' ),
  'risk-menu' => __( 'Risk Menu' ),
