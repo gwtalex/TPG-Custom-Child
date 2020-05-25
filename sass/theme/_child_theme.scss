@@ -1574,6 +1574,13 @@
 		}
 	}
 }
+
+.blog-publish-date {
+	font-style: italic;
+	color: #7e7e7e;
+}
+
+
 // Blog Widget Area
 #blog-widget-area {
 	// Left side widget area
@@ -1582,6 +1589,11 @@
 
 		ul {
 			list-style: none;
+			padding: 0px;
+
+			li {
+				margin: 10px 0px 10px 0px;
+			}
 		}
 		@media all and (min-width: 700px) {
 			// Title Styling
@@ -1591,6 +1603,7 @@
 				font-weight: bold;
 				font-size: 20px;
 				color: $blog-primary;
+				text-transform: uppercase;
 			}
 		}
 		@media all and (max-width: 700px) {
@@ -1623,6 +1636,10 @@
 	.entry-header {
 		margin-top: 10px;
 		margin-bottom: 10px;
+
+		.byline {
+			display: none;
+		}
 	}
 
 	.card-title {
