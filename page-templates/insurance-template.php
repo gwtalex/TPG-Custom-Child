@@ -88,17 +88,17 @@ Template Post Type: insurance
 
 <!--- Insurance Footer --->
 <?php $image = get_field('footer_image'); ?>
-<!--- Use following line for color
-<div id="insurance-footer" class="container-fluid" style="background-color:#136d7c; border-bottom: 2px solid white;">
---->
-<!--- Use following line for image--->
-<div id="insurance-footer" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
+<!--- Use following line for color--->
+<div id="insurance-footer" class="container-fluid" style="background-color:#939393; border-bottom: 2px solid white;">
 
+<!--- Use following line for image
+<div id="insurance-footer" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
+--->
 	<div class="container-fluid">
 		<div class="row w-100">
 				<div class="col-md-6">
 					<h2>Ready To Get Started?</h2>
-					<p>Visit our <a href="/contact-us/">Contact Us page</a>, use our Get a Quote tool or call to <a href="tel:8558744677"> talk to a specialist</a></p>
+					<p>Ready to get started? Visit our <a href="/contact-us/">Contact Us</a> page, use our Get a Quote tool or call <a href="tel:8558744677">(855) 874-4677</a> to talk to a specialist.</p>
 				</div>
 				<div class="col-md-6">
 					<?php $link = get_field('get_a_quote_url'); ?>
