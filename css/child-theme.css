@@ -12312,7 +12312,7 @@ figure.woocommerce-product-gallery__wrapper {
           max-width: 75%; }
         #payroll-header .container-fluid .container .btn,
         #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
-          width: 400px;
+          padding: 0px 10px 0px 10px;
           font-size: 40px;
           color: #fff;
           border-radius: 0;

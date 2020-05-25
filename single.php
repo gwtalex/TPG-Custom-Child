@@ -16,8 +16,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div id="blog-header" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
 	<div class="container-fluid">
 		<div class="container">
-			<h1><?php the_field('banner_title'); ?></h1>
-			<p><?php the_field('banner_text'); ?></p>
+		<h1 class="blog-heading"><?php the_title(); ?></h1>
+		 <p class="blog-text">MyTPG Blog</br> Published: <?php the_time('m/j/y g:i A') ?></p>
 		</div>
 	</div>
 </div>
@@ -46,7 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<?php while ( have_posts() ) : the_post(); ?>
 
-						<?php get_template_part( 'loop-templates/content', 'single' ); ?>
+						<?php get_template_part( 'content-single'); ?>
 
 						<?php understrap_post_nav(); ?>
 
