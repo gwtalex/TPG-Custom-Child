@@ -18,6 +18,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div id="blog-header" class="container-fluid" style="background-image:">
 	<div class="container-fluid">
 		<div class="container">
+			<h3>MyTPG.com Blog</h3>
 			<?php
 			the_archive_title( '<h1 class="page-title">', '</h1>' );
 			the_archive_description( '<div class="taxonomy-description">', '</div>' );

@@ -15,6 +15,7 @@
  <div id="blog-header" class="container-fluid" style="background-image:">
  	<div class="container-fluid">
  		<div class="container">
+            <h3>MyTPG.com Blog</h3>
 			<h1 class="page-title">
 				<?php
 				printf(
