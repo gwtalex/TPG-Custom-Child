@@ -12,8 +12,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <!--- Insurance Header --->
-<?php $image = get_field('banner_image'); ?>
-<div id="blog-header" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
+<div id="blog-header" class="container-fluid" style="background-image:url('https://new.galaxywebteam.com/wp-content/uploads/2020/05/blog-banner.jpg'">
 	<div class="container-fluid">
 		<div class="container">
 		<h1 class="blog-heading"><?php the_title(); ?></h1>

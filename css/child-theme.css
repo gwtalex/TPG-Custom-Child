@@ -12695,6 +12695,9 @@ figure.woocommerce-product-gallery__wrapper {
     margin: 5px;
     color: #136d7c; }
 
+#footer-locations .footer-area-one {
+  text-align: center; }
+
 @media all and (min-width: 1400px) {
   #footer-locations {
     display: -webkit-box;
@@ -12761,6 +12764,8 @@ figure.woocommerce-product-gallery__wrapper {
   background-size: cover;
   border-bottom: 8px solid #54595f;
   height: 518px; }
+  #blog-header h3 {
+    color: white; }
   #blog-header .container-fluid {
     /* Sizing */
     height: 510px;
