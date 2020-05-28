@@ -1093,6 +1093,100 @@
 		}
 	}
 }
+
+// Payroll Mid-Size Pricing Styling
+
+#payroll-midsize {
+	.table-top{
+		text-align: center;
+		margin-bottom: 0px;
+
+		.cell-1{
+			color: white;
+			background-color: #1385bf;
+		}
+
+		.plat-10{
+			color: white;
+			background-color: #d1332f;
+		}
+
+		.plat-20{
+			color: white;
+			background-color: #edaf00;
+		}
+
+		.plat-premier{
+			color: white;
+			background-color: #21aa7c;
+		}
+
+		.cell-pepm{
+			color: #1385bf;
+		}
+
+		.pepm-10{
+			color: white;
+			background-color: #e14f42;
+
+			h5 {
+				font-size: 40px;
+			}
+		}
+
+		.pepm-12{
+			color: white;
+			background-color: #ffc40c;
+			h5 {
+				font-size: 40px;
+			}
+		}
+
+		.pepm-20{
+			color: white;
+			background-color: #00a65c;
+			h5 {
+				font-size: 40px;
+			}
+		}
+
+
+	}
+
+	.table-bottom {
+		text-align: center;
+		color: white;
+		font-weight: bold;
+		background-color: #91c37f;
+		padding: 10px 0px 5px 10px;
+	}
+
+	#payroll-mid-accordion{
+		.card-header{
+			background-color: #45525f;
+
+			button {
+				color: white;
+			}
+
+
+		}
+
+		.check-red {
+			color: #e14f42;
+		}
+
+		.check-yellow {
+			color: #ffc40c;
+		}
+
+		.check-green {
+			color: #00a65c;
+		}
+	}
+}
+
+
 /*
 * ====================================
 * Insurance Template Styling
@@ -1420,11 +1514,18 @@
 	}
 }
 
+.footer-area-one {
+	text-align: center;
+}
+
+.footer-area-two {
+	text-align: center;
+}
+
 #footer-locations {
 
-	.footer-area-one {
-		text-align: center;
-	}
+
+
 	@media all and (min-width: 1400px) {
 		display: flex;
 		flex-wrap: wrap;

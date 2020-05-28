@@ -12447,6 +12447,60 @@ figure.woocommerce-product-gallery__wrapper {
             background-color: Transparent;
             border: 5px solid #00a65c; } }
 
+#payroll-midsize .table-top {
+  text-align: center;
+  margin-bottom: 0px; }
+  #payroll-midsize .table-top .cell-1 {
+    color: white;
+    background-color: #1385bf; }
+  #payroll-midsize .table-top .plat-10 {
+    color: white;
+    background-color: #d1332f; }
+  #payroll-midsize .table-top .plat-20 {
+    color: white;
+    background-color: #edaf00; }
+  #payroll-midsize .table-top .plat-premier {
+    color: white;
+    background-color: #21aa7c; }
+  #payroll-midsize .table-top .cell-pepm {
+    color: #1385bf; }
+  #payroll-midsize .table-top .pepm-10 {
+    color: white;
+    background-color: #e14f42; }
+    #payroll-midsize .table-top .pepm-10 h5 {
+      font-size: 40px; }
+  #payroll-midsize .table-top .pepm-12 {
+    color: white;
+    background-color: #ffc40c; }
+    #payroll-midsize .table-top .pepm-12 h5 {
+      font-size: 40px; }
+  #payroll-midsize .table-top .pepm-20 {
+    color: white;
+    background-color: #00a65c; }
+    #payroll-midsize .table-top .pepm-20 h5 {
+      font-size: 40px; }
+
+#payroll-midsize .table-bottom {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #91c37f;
+  padding: 10px 0px 5px 10px; }
+
+#payroll-midsize #payroll-mid-accordion .card-header {
+  background-color: #45525f; }
+  #payroll-midsize #payroll-mid-accordion .card-header button {
+    color: white; }
+
+#payroll-midsize #payroll-mid-accordion .check-red {
+  color: #e14f42; }
+
+#payroll-midsize #payroll-mid-accordion .check-yellow {
+  color: #ffc40c; }
+
+#payroll-midsize #payroll-mid-accordion .check-green {
+  color: #00a65c; }
+
 /*
 * ====================================
 * Insurance Template Styling
@@ -12695,7 +12749,10 @@ figure.woocommerce-product-gallery__wrapper {
     margin: 5px;
     color: #136d7c; }
 
-#footer-locations .footer-area-one {
+.footer-area-one {
+  text-align: center; }
+
+.footer-area-two {
   text-align: center; }
 
 @media all and (min-width: 1400px) {
