@@ -427,7 +427,7 @@ Template Post Type: payroll
 						<div class="row">
 							<div class="col-md-4">
 								<label>
-									<input type="radio" name="product" class="card-input-element" value="10" />
+									<input type="radio" id="radio-btn" name="product" class="card-input-element" value="10" />
 								   <div class="panel panel-default card-input">
 										<div class="panel-body">
 											<p>Platinum 10.0</p>
@@ -440,7 +440,7 @@ Template Post Type: payroll
 
 							<div class="col-md-4">
 								<label>
-									<input type="radio" name="product" class="card-input-element" value="12" />
+									<input type="radio" id="radio-btn" name="product" class="card-input-element" value="12" />
 								   <div class="panel panel-default card-input">
 										<div class="panel-body">
 											<p>Platinum 12.0</p>
@@ -453,7 +453,7 @@ Template Post Type: payroll
 
 							<div class="col-md-4">
 								<label>
-									<input type="radio" name="product" class="card-input-element" value="20" />
+									<input type="radio" id="radio-btn" name="product" class="card-input-element" value="20" />
 								   <div class="panel panel-default card-input">
 										<div class="panel-body">
 											<p>Platinum Premier</p>
@@ -473,12 +473,30 @@ Template Post Type: payroll
 
 						<div class="displayPrice">
 							<p>
-								<b>$<span class="updatePrice">12</span></b><i class="fa-equal"> = </i><b>$<span class="finalPrice">1000</span></b>
+								<b>$<span class="updatePrice">12</span></b><i class="fa-equal"> = </i><b>$<span id="finalPrice"></span></b>
 								PEPM
 							</p>
 						</div>
 					</div>
+					<script>
+					var slider = document.getElementById("myRange");
+					var output = document.getElementById("finalPrice");
+					const btn = document.querySelector('#radio-btn');
+					output.innerHTML = slider.value;
 
+					slider.oninput = function() {
+							const rbs = document.querySelectorAll('input[name="product"]');
+
+							let selectedValue;
+							   for (const rb of rbs) {
+								   if (rb.checked) {
+									   selectedValue = rb.value;
+									   break;
+								   }
+							   }
+					  output.innerHTML = slider.value * selectedValue;
+					}
+					</script>
 
 
 				</div>
