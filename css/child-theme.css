@@ -12730,7 +12730,8 @@ figure.woocommerce-product-gallery__wrapper {
           font-weight: 800; }
         #insurance-footer .container-fluid .row p {
           font-size: 25px;
-          color: white; }
+          color: white;
+          padding: 0px 75px 0 75px; }
           #insurance-footer .container-fluid .row p a {
             color: white;
             text-decoration: underline; }
