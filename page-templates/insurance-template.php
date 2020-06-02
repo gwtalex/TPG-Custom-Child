@@ -10,26 +10,9 @@ Template Post Type: insurance
 
 
 <!--- Insurance Header --->
-<?php $image = get_field('banner_image'); ?>
-<div id="insurance-header" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
-	<div class="container-fluid">
-		<div class="container">
-			<h1><?php the_field('banner_title'); ?></h1>
-			<p><?php the_field('banner_text'); ?></p>
-			<a href="<?php if ( get_field( 'get_a_quote_url' ) ): ?>
+<?php get_template_part( 'partials/insurance', 'banner' ); ?>
 
-				<?php the_field('get_a_quote_url'); ?>
 
-			<?php else: // field_name returned false ?>
-
-				<?php echo "/contact-us/"; ?>
-
-			<?php endif; // end of if field_name logic ?>">
-				<button type="button" class="btn btn-outline btn-lg">Get A Quote</button>
-			</a>
-		</div>
-	</div>
-</div>
 
 <!--- Personal Insurance Carosel --->
 <div class="container-fluid">
@@ -95,33 +78,7 @@ Template Post Type: insurance
 
 
 <!--- Insurance Footer --->
-<?php $image = get_field('footer_image'); ?>
-<!--- Use following line for color--->
-<div id="insurance-footer" class="container-fluid" style="background-color:#939393; border-bottom: 2px solid white;">
+<?php get_template_part( 'partials/insurance', 'footer' ); ?>
 
-<!--- Use following line for image
-<div id="insurance-footer" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
---->
-	<div class="container-fluid">
-		<div class="row w-100">
-				<div class="col-md-6">
-					<h2>Ready To Get Started?</h2>
-					<p>Visit our <a href="/contact-us/">Contact Us</a> page, use our Get a Quote tool or call <a href="tel:8558744677">(855) 874-4677</a> to talk to a specialist.</p>
-				</div>
-				<div class="col-md-6">
-					<a href="<?php if ( get_field( 'get_a_quote_url' ) ): ?>
-
-						<?php the_field('get_a_quote_url'); ?>
-
-					<?php else: // field_name returned false ?>
-
-						<?php echo "/contact-us/"; ?>
-
-					<?php endif; // end of if field_name logic ?>" ><button type="button" class="btn btn-md">Get A Quote</button></a>
-				</div>
-		</div>
-		</div>
-	</div>
-</div>
 
 <?php get_footer();?>

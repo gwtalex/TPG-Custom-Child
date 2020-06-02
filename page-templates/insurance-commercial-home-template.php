@@ -10,18 +10,8 @@ Template Post Type: insurance
 
 
 <!--- Insurance Header --->
-<?php $image = get_field('banner_image'); ?>
-<div id="insurance-header" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
-	<div class="container-fluid">
-		<div class="container">
-			<h1><?php the_field('banner_title'); ?></h1>
-			<p><?php the_field('banner_text'); ?></p>
-			<a href="/contact-us">
-				<button type="button" class="btn btn-outline btn-lg">Get A Quote</button>
-			</a>
-		</div>
-	</div>
-</div>
+<?php get_template_part( 'partials/insurance', 'banner' ); ?>
+
 
 <!--- Personal Insurance Carosel --->
 <div class="container-fluid">
@@ -122,26 +112,8 @@ Template Post Type: insurance
 
 
 <!--- Insurance Footer --->
-<?php $image = get_field('footer_image'); ?>
-<!--- Use following line for color
-<div id="insurance-footer" class="container-fluid" style="background-color:#136d7c; border-bottom: 2px solid white;">
---->
-<!--- Use following line for image--->
-<div id="insurance-footer" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
+<?php get_template_part( 'partials/insurance', 'footer' ); ?>
 
-	<div class="container-fluid">
-		<div class="row w-100">
-				<div class="col-md-6">
-					<h2>Ready To Get Started?</h2>
-					<p>Visit our <a href="/contact-us/">Contact Us page</a>, use our Get a Quote tool or call to <a href="tel:8558744677"> talk to a specialist</a></p>
-				</div>
-				<div class="col-md-6">
-					<?php $link = get_field('get_a_quote_url'); ?>
-					<a href="<?php echo esc_url( $link ); ?>" ><button type="button" class="btn btn-md">Get A Quote</button></a>
-				</div>
-		</div>
-		</div>
-	</div>
-</div>
+
 
 <?php get_footer();?>
