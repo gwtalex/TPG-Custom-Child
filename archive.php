@@ -15,7 +15,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <!--- Blog Header --->
-<div id="blog-header" class="container-fluid" style="background-image:url('https://new.galaxywebteam.com/wp-content/uploads/2020/05/blog-banner.jpg'">
+<div id="blog-header" class="container-fluid" style="background-image:url('https://new.galaxywebteam.com/wp-content/uploads/2020/06/working-man-is-typing-on-black-frame-laptop-3774082-scaled.jpg'">
 	<div class="container-fluid">
 		<div class="container">
 			<h3>MyTPG.com Blog</h3>
