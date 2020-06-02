@@ -1232,6 +1232,85 @@
 			text-align: center;
 		}
 	}
+
+}
+
+.payroll-calculator {
+	// Mid Size Calculator
+
+		.slider {
+		margin: 20px 0px 20px 0px;
+	  -webkit-appearance: none;
+	  width: 100%;
+	  height: 15px;
+	  border-radius: 5px;
+	  background: #d3d3d3;
+	  outline: none;
+	  opacity: 0.7;
+	  -webkit-transition: .2s;
+	  transition: opacity .2s;
+	}
+
+	.slider::-webkit-slider-thumb {
+	  -webkit-appearance: none;
+	  appearance: none;
+	  width: 25px;
+	  height: 25px;
+	  border-radius: 50%;
+	  background: #4CAF50;
+	  cursor: pointer;
+	}
+
+	.slider::-moz-range-thumb {
+	  width: 25px;
+	  height: 25px;
+	  border-radius: 50%;
+	  background: #4CAF50;
+	  cursor: pointer;
+	}
+
+	.pricing-card {
+		.card {
+			margin: 15px;
+			text-align: center;
+			h5 {
+				font-size: 40px;
+			}
+
+			p {
+				font-weight: bold;
+			}
+
+
+		}
+
+		.card-1 {
+			color: white;
+			background: $risk-primary;
+		}
+
+		.card-2 {
+			color: white;
+			background: $human-resources-primary;
+		}
+
+		.card-3 {
+			color: white;
+			background: $payroll-primary;
+		}
+	}
+
+	.total-employees {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.displayPrice {
+		background: #efefef;
+		margin: 10px 0px 25px 0px;
+		padding: 50px 0px 50px 0px;
+		font-size: 25px;
+	}
 }
 
 

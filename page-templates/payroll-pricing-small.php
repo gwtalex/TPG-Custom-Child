@@ -480,80 +480,120 @@ Template Post Type: payroll
 
 						</div>
 
-						<!--<div class="row">
-							<div class="col-md-4">
-								<label>
-									<input type="radio" id="radio-btn" name="product" class="card-input-element" value="10" />
-								   <div class="panel panel-default card-input">
-										<div class="panel-body">
-											<p>Platinum 10.0</p>
-											<h5>$10</h5>
-											<p>PEPM</p>
-										</div>
-								   </div>
-								</label>
-							</div>
+						<div class="payroll-calculator">
+							<form action="#" method="post" class="demoForm" id="demoForm">
+								<fieldset>
 
-							<div class="col-md-4">
-								<label>
-									<input type="radio" id="radio-btn" name="product" class="card-input-element" value="12" />
-								   <div class="panel panel-default card-input">
-										<div class="panel-body">
-											<p>Platinum 12.0</p>
-											<h5>$12</h5>
-											<p>PEPM</p>
-										</div>
-								   </div>
-								</label>
-							</div>
 
-							<div class="col-md-4">
-								<label>
-									<input type="radio" id="radio-btn" name="product" class="card-input-element" value="20" />
-								   <div class="panel panel-default card-input">
-										<div class="panel-body">
-											<p>Platinum Premier</p>
-											<h5>$20</h5>
-											<p>PEPM</p>
-										</div>
-								   </div>
-								</label>
-							</div>
+									<div class="row pricing-card">
+											<div class="col-md-4">
+												<div class="card card-1">
+													<label>
+														<input type="radio" name="size" value="4" />
+													   <div class="card-body">
+																<p>Platinum</p>
+																<h5>$4</h5>
+																<p>Per Person</p>
+													   </div>
+													</label>
+
+												</div>
+											</div>
+
+											<div class="col-md-4">
+												<div class="card card-2">
+													<label>
+														<input type="radio" name="size" value="6" />
+													   <div class="card-body">
+																<p>Platinum Plus</p>
+																<h5>$6</h5>
+																<p>Per Person</p>
+													   </div>
+													</label>
+
+												</div>
+											</div>
+
+											<div class="col-md-4">
+												<div class="card card-3">
+													<label>
+														<input type="radio" name="size" value="10" />
+
+															<div class="card-body">
+																<p>Platinum 2.0</p>
+																<h5>$10</h5>
+																<p>Per Person</p>
+
+													   </div>
+													</label>
+
+												</div>
+											</div>
+											<div class="container">
+												<div class="slidecontainer">
+
+												   <input type="range" min="1" max="99" class="slider" id="myRange">
+
+												   <p>Drag slider to calculate your payroll price.</p>
+												   <p>*To receive a customized business proposal for more than 500 employees, please Contact Us</p>
+											   </div>
+											</div>
+
+											<div class="container">
+												<div class="displayPrice">
+
+												   <p class="text-center">
+													   <span class="total-employees">Total Employees: <span id="employees"></span></br></span>
+													   <label>
+														  <b> $25</b> Base Price + <b>$<span id="planPrice"></span></b> Per Person <i class="fa-equal"> = <b>$<span type="text" name="total" class="num" value="1000" readonly="readonly" id="finalPrice" /></span></b>
+													   </label>
+												   </p>
+											   </div>
+											</div>
+
+
+
+									</div>
+
+
+
+
+
+
+
+								</fieldset>
+							</form>
+
+
 						</div>
+					<script type="text/javascript">
 
-						 <div class="slidecontainer">
-							<input type="range" min="100" max="500" value="50" class="slider" id="myRange">
-							<p>Drag slider to calculate your payroll price.</p>
-							<p>*To receive a customized business proposal for more than 500 employees, please Contact Us</p>
-						</div>
+						// get list of radio buttons with name 'size'
+						document.getElementById("myRange").step = "1";
+						var slider = document.getElementById("myRange");
+						var output = document.getElementById("employees");
+						var finalPrice = document.getElementById("finalPrice");
+						var planPrice = document.getElementById("planPrice");
+						var plan = document.forms['demoForm'].elements['size'];
+						output.innerHTML = slider.value;
 
-						<div class="displayPrice">
-							<p>
-								<b>$<span class="updatePrice">12</span></b><i class="fa-equal"> = </i><b>$<span id="finalPrice"></span></b>
-								PEPM
-							</p>
-						</div>
-					</div>
-					<script>
-					var slider = document.getElementById("myRange");
-					var output = document.getElementById("finalPrice");
-					const btn = document.querySelector('#radio-btn');
-					output.innerHTML = slider.value;
 
-					slider.oninput = function() {
-							const rbs = document.querySelectorAll('input[name="product"]');
+						// loop through list
+						for (var i=0, len=plan.length; i<len; i++) {
+						plan[i].onclick = function() { // assign onclick handler function to each
+							// put clicked radio button's value in total field
+							finalPrice.innerHTML = this.value * slider.value;
+							planPrice.innerHTML = this.value;
 
-							let selectedValue;
-							   for (const rb of rbs) {
-								   if (rb.checked) {
-									   selectedValue = rb.value;
-									   break;
-								   }
-							   }
-					  output.innerHTML = slider.value * selectedValue;
-					}
-					</script> -->
+							slider.oninput = function() {
+								output.innerHTML = this.value;
+								finalPrice.innerHTML = this.value * plan.value;
+							};
+						};
 
+					};
+
+					</script>
 
 
 				</div>
