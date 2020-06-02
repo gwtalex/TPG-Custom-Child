@@ -12487,19 +12487,52 @@ figure.woocommerce-product-gallery__wrapper {
   background-color: #91c37f;
   padding: 10px 0px 5px 10px; }
 
-#payroll-midsize #payroll-mid-accordion .card-header {
-  background-color: #45525f; }
-  #payroll-midsize #payroll-mid-accordion .card-header button {
-    color: white; }
+#payroll-midsize #payroll-mid-accordion {
+  margin-bottom: 50px; }
+  #payroll-midsize #payroll-mid-accordion .card-header {
+    background-color: #45525f; }
+    #payroll-midsize #payroll-mid-accordion .card-header button {
+      color: white; }
+  #payroll-midsize #payroll-mid-accordion .check-red {
+    color: #e14f42; }
+  #payroll-midsize #payroll-mid-accordion .check-yellow {
+    color: #ffc40c; }
+  #payroll-midsize #payroll-mid-accordion .check-green {
+    color: #00a65c; }
 
-#payroll-midsize #payroll-mid-accordion .check-red {
-  color: #e14f42; }
+#payroll-midsize .you-judge .cell-center {
+  text-align: center; }
 
-#payroll-midsize #payroll-mid-accordion .check-yellow {
-  color: #ffc40c; }
+#payroll-midsize .you-judge .adp-background {
+  background: #fba489; }
 
-#payroll-midsize #payroll-mid-accordion .check-green {
-  color: #00a65c; }
+#payroll-midsize .you-judge .tpg-background {
+  background: #e1eef7; }
+
+#payroll-midsize .you-judge .row-one {
+  background: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; }
+  #payroll-midsize .you-judge .row-one .adp {
+    color: #f55a5e; }
+  #payroll-midsize .you-judge .row-one .tpg {
+    color: #09a2de; }
+
+#payroll-midsize .you-judge .row-two {
+  text-align: center; }
+  #payroll-midsize .you-judge .row-two .compare {
+    font-weight: bold;
+    background: #fff8ca; }
+  #payroll-midsize .you-judge .row-two .adp {
+    background: #fba489; }
+  #payroll-midsize .you-judge .row-two .tpg {
+    background: #e1eef7; }
+
+#payroll-midsize .you-judge .row-three {
+  background: #aee17c;
+  color: white;
+  text-align: center; }
 
 /*
 * ====================================

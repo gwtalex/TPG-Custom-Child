@@ -414,7 +414,7 @@ Template Post Type: payroll
 
 						</div>
 
-						<div class="row">
+						<!--<div class="row">
 							<div class="col-md-4">
 								<label>
 									<input type="radio" id="radio-btn" name="product" class="card-input-element" value="10" />
@@ -455,7 +455,7 @@ Template Post Type: payroll
 							</div>
 						</div>
 
-						<div class="slidecontainer">
+						 <div class="slidecontainer">
 							<input type="range" min="100" max="500" value="50" class="slider" id="myRange">
 							<p>Drag slider to calculate your payroll price.</p>
 							<p>*To receive a customized business proposal for more than 500 employees, please Contact Us</p>
@@ -486,11 +486,115 @@ Template Post Type: payroll
 							   }
 					  output.innerHTML = slider.value * selectedValue;
 					}
-					</script>
+					</script> -->
 
+					<div class="container you-judge">
+						<h5 class="text-center">Why Pay 40+% More for Less Service...</h5>
+						<h2 style="color:#ffe04a; font-size: 50px; text-align: center;">You Be The Judge !!!</h2>
+						<h1 style="color:#009fd9; font-size: 40px; text-align: center;"><b>TPG vs. <span style="color:#f2575b;">ADP</span></b></h1>
+						<h3 style="color: #000; background: #fccf39; padding: 10px 0; text-align: center;">Payroll Processing &amp; HR Services</h3>
+						<table class="table table-striped table-bordered">
+							<tbody>
+								<tr class="row-one">
+									<td class="w-50">Solution</td>
+									<td class="adp">ADP</td>
+									<td class="tpg">TPG</td>
+								</tr>
+								<tr class="row-two">
+									<td class="w-50 compare">Compare & Save !</td>
+									<td class="adp">Workforce Now w/HR</td>
+									<td class="tpg">Platinum 10.0 <br>w/ Advanced HR</td>
+								</tr>
+								<tr class="row-three">
+									<td class="w-50">Quote for Company w/250 Employees</td>
+									<td>Annual Savings w/TPG</td>
+									<td>*$20,000+</td>
+								</tr>
+								<tr>
+									<td class="w-50">Lifetime PEPM Price Lock Guarantee</td>
+									<td class="cell-center adp-background">Not Offered</td>
+									<td class="cell-center tpg-background">Lifetime Guarantee</td>
+								</tr>
+								<tr>
+									<td class="w-50">Integrated HRIS System</td>
+									<td class="cell-center adp-background"><i class="fas fa-check"></i></td>
+									<td class="cell-center tpg-background"><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<td class="w-50">Electronic On-Boarding for New Hires</td>
+									<td class="cell-center adp-background"><i class="fas fa-check"></i></td>
+									<td class="cell-center tpg-background"><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<td class="w-50">New Hire Reporting</td>
+									<td class="cell-center adp-background"><i class="fas fa-check"></i></td>
+									<td class="cell-center tpg-background"><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<td class="w-50">Benefits Administration</td>
+									<td class="cell-center adp-background"><i class="fas fa-check"></i></td>
+									<td class="cell-center tpg-background"><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<td class="w-50">Live HR Support + Online Document Storage</td>
+									<td class="cell-center adp-background"><i class="fas fa-check"></i></td>
+									<td class="cell-center tpg-background"><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<td class="w-50">Mobile Processing 24/7 w/Employee on-line Access</td>
+									<td class="cell-center adp-background"><i class="fas fa-check"></i></td>
+									<td class="cell-center tpg-background"><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<td class="w-50">Timeclock & Scheduling Platform w/Integration</td>
+									<td class="cell-center adp-background"><i class="fas fa-check"></i></td>
+									<td class="cell-center tpg-background"><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<td class="w-50">Performance Management w/ Compensation</td>
+									<td class="cell-center adp-background"><i class="fas fa-check"></i></td>
+									<td class="cell-center tpg-background"><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<td class="w-50">300+ Online Training Courses (English & Spanish)</td>
+									<td class="cell-center adp-background">Not Offered</td>
+									<td class="cell-center tpg-background">Included</td>
+								</tr>
+								<tr>
+									<td class="w-50">PayGo Workers Comp w/ On & Off-Site Audit Support</td>
+									<td class="cell-center adp-background">Not Offered</td>
+									<td class="cell-center tpg-background">Included</td>
+								</tr>
+								<tr>
+									<td class="w-50">Annual Labor Law Poster Delivery</td>
+									<td class="cell-center adp-background">Not Included</td>
+									<td class="cell-center tpg-background">English & Spanish</td>
+								</tr>
+								<tr>
+									<td class="w-50">Simplified Certified Payroll</td>
+									<td class="cell-center adp-background">Not Included</td>
+									<td class="cell-center tpg-background">Included</td>
+								</tr>
+								<tr>
+									<td class="w-50">Employee Handbook - (Annual Review & Build)</td>
+									<td class="cell-center adp-background">You Build</td>
+									<td class="cell-center tpg-background">TPG Builds</td>
+								</tr>
+								<tr>
+									<td class="w-50">Accounting Integration (i.e. QuickBooks)
+(Complete by TPG's Chart of Accounts Specialist)</td>
+									<td class="cell-center adp-background">Not Included</td>
+									<td class="cell-center tpg-background">Included</td>
+								</tr>
+							</tbody>
+						</table>
+						<p>*Pricing based on proposals dated 01/15/2019. ADP offers additional add-ons to their Workforce Now platform at an additional cost for each item. TPG compared Platform for Platform solutions.</p>
+					</div>
 
 				</div>
+				<!---End of Content Section --->
 			</div>
+			<!---End of Page Wrap --->
 		</section>
 	</div>
 </div>

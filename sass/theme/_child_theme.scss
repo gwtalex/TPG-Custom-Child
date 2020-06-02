@@ -1162,6 +1162,8 @@
 	}
 
 	#payroll-mid-accordion{
+		margin-bottom: 50px;
+
 		.card-header{
 			background-color: #45525f;
 
@@ -1182,6 +1184,52 @@
 
 		.check-green {
 			color: #00a65c;
+		}
+	}
+
+	.you-judge {
+		.cell-center {
+			text-align: center
+		}
+
+		.adp-background {
+			background: #fba489;
+		}
+
+		.tpg-background {
+			background: #e1eef7;
+		}
+		.row-one {
+			background: white;
+			font-size: 25px;
+			font-weight: bold;
+			text-align: center;
+			.adp {
+				color: #f55a5e;
+			}
+
+			.tpg {
+				color: #09a2de;
+			}
+		}
+
+		.row-two {
+			text-align: center;
+			.compare {
+				font-weight: bold;
+				background: #fff8ca;
+			}
+			.adp {
+				background: #fba489;
+			}
+			.tpg {
+				background: #e1eef7;
+			}
+		}
+		.row-three {
+			background: #aee17c;
+			color: white;
+			text-align: center;
 		}
 	}
 }
