@@ -12413,17 +12413,17 @@ figure.woocommerce-product-gallery__wrapper {
         #payroll-footer .container-fluid .container p {
           font-size: 25px;
           color: white; }
-        #payroll-footer .container-fluid .container .btn-success {
+        #payroll-footer .container-fluid .container .btn-outline-success {
           font-size: 25px;
           color: #fff;
           border-radius: 0;
           border: 5px solid;
           background-color: #00a65c;
           border-color: #00a65c; }
-          #payroll-footer .container-fluid .container .btn-success:focus {
+          #payroll-footer .container-fluid .container .btn-outline-success:focus {
             background-color: Transparent;
             border: 5px solid #00a65c; }
-          #payroll-footer .container-fluid .container .btn-success:hover {
+          #payroll-footer .container-fluid .container .btn-outline-success:hover {
             background-color: Transparent;
             border: 5px solid #00a65c; } }
       @media all and (max-width: 700px) {
@@ -12434,16 +12434,16 @@ figure.woocommerce-product-gallery__wrapper {
           text-transform: capitalize; }
         #payroll-footer .container-fluid .container p {
           color: white; }
-        #payroll-footer .container-fluid .container .btn-success {
+        #payroll-footer .container-fluid .container .btn-outline-success {
           color: #fff;
           border-radius: 0;
           border: 5px solid;
           background-color: #00a65c;
           border-color: #00a65c; }
-          #payroll-footer .container-fluid .container .btn-success:focus {
+          #payroll-footer .container-fluid .container .btn-outline-success:focus {
             background-color: Transparent;
             border: 5px solid #00a65c; }
-          #payroll-footer .container-fluid .container .btn-success:hover {
+          #payroll-footer .container-fluid .container .btn-outline-success:hover {
             background-color: Transparent;
             border: 5px solid #00a65c; } }
 

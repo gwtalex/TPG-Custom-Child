@@ -34,6 +34,7 @@ Template Post Type: payroll
 				<div class="col content-right" id="payroll-midsize">
 
 					<div class="container">
+						<h1 class="entry-title-payroll"> Pricing </h1>
 						<table class="table table-top">
 							<thead>
 								<tr>
@@ -553,7 +554,7 @@ Template Post Type: payroll
 					}
 					</script> -->
 
-					
+
 
 				</div>
 				<!---End of Content Section --->

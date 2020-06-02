@@ -34,6 +34,7 @@ Template Post Type: payroll
 				<div class="col content-right" id="payroll-midsize">
 
 					<div class="container">
+						<h1 class="entry-title-payroll"> Pricing </h1>
 						<table class="table table-top">
 							<thead>
 								<tr>
@@ -489,6 +490,7 @@ Template Post Type: payroll
 					</script> -->
 
 					<div class="container you-judge">
+						<a href="#you-be-the-judge"></a>
 						<h5 class="text-center">Why Pay 40+% More for Less Service...</h5>
 						<h2 style="color:#ffe04a; font-size: 50px; text-align: center;">You Be The Judge !!!</h2>
 						<h1 style="color:#009fd9; font-size: 40px; text-align: center;"><b>TPG vs. <span style="color:#f2575b;">ADP</span></b></h1>
