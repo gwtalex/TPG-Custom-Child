@@ -16,7 +16,15 @@ Template Post Type: payroll
 		<div class="container">
 			<h1><?php the_field('banner_title'); ?></h1>
 			<p><?php the_field('banner_text'); ?></p>
-			<a href="/payroll/schedule-live-demo/"><button type="button" class="btn btn-outline-success btn-lg">Schedule Live Demo</button></a>		</div>
+			<a href="<?php if ( get_field( 'cta-page' ) ): ?>
+
+				<?php the_field('cta-page'); ?>
+
+			<?php else: // field_name returned false ?>
+
+				<?php echo "/payroll/schedule-live-demo/"; ?>
+
+			<?php endif; // end of if field_name logic ?>"><button type="button" class="btn btn-outline-success btn-lg">Schedule Live Demo</button></a>		</div>
 	</div>
 </div>
 
@@ -57,7 +65,15 @@ Template Post Type: payroll
 		<div class="container">
 			<h1><?php the_field('footer_title'); ?></h1>
 			<p><?php the_field('footer_text'); ?></p>
-			<a href="/payroll/schedule-live-demo/"><button type="button" class="btn btn-outline-success btn-lg">Schedule Live Demo</button></a>
+			<a href="<?php if ( get_field( 'cta-page' ) ): ?>
+
+				<?php the_field('cta-page'); ?>
+
+			<?php else: // field_name returned false ?>
+
+				<?php echo "/payroll/schedule-live-demo/"; ?>
+
+			<?php endif; // end of if field_name logic ?>"><button type="button" class="btn btn-outline-success btn-lg">Schedule Live Demo</button></a>
 		</div>
 	</div>
 </div>
