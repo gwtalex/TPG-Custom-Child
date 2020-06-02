@@ -16,9 +16,9 @@ Template Post Type: payroll
 		<div class="container">
 			<h1><?php the_field('banner_title'); ?></h1>
 			<p><?php the_field('banner_text'); ?></p>
-			<a href="<?php if ( get_field( 'cta-page' ) ): ?>
+			<a href="<?php if ( get_field( 'cta_page' ) ): ?>
 
-				<?php the_field('cta-page'); ?>
+				<?php the_field('cta_page'); ?>
 
 			<?php else: // field_name returned false ?>
 
@@ -74,9 +74,9 @@ Template Post Type: payroll
 		<div class="container">
 			<h1><?php the_field('footer_title'); ?></h1>
 			<p><?php the_field('footer_text'); ?></p>
-			<a href="<?php if ( get_field( 'cta-page' ) ): ?>
+			<a href="<?php if ( get_field( 'cta_page' ) ): ?>
 
-				<?php the_field('cta-page'); ?>
+				<?php the_field('cta_page'); ?>
 
 			<?php else: // field_name returned false ?>
 
