@@ -37,7 +37,7 @@ Template Post Type: payroll
 				</div>
 			</div>
 		</section>
-		<section class="content-main">
+		<div class="content-main container-fluid">
 			<div class="row">
 				<div class="col-sm-12">
 					<?php while (have_posts()) : the_post();/* Start loop */ ?>
@@ -46,7 +46,7 @@ Template Post Type: payroll
 				</div>
 
 			</div>
-		</section>
+		</div>
 	</div>
 </div>
 

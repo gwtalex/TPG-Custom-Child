@@ -27,7 +27,7 @@ Template Post Type: insurance
 
 
 <!--- Main Content --->
-<div id="insurance-content-container"class="container-fluid">
+<div id="insurance-content-container" class="container-fluid">
 	<section class="page-wrap">
 		<div class="row">
 			<div class="col-md-3">

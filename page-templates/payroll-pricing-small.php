@@ -15,7 +15,7 @@ Template Post Type: payroll
 
 
 <!--- Main Content --->
-		<div id="payroll-content-container"class="container-fluid">
+		<div id="payroll-content-container" class="container-fluid">
 			<section class="page-wrap">
 				<div class="row">
 				<div class="col-md-3">
@@ -484,7 +484,7 @@ Template Post Type: payroll
 							<form action="#" method="post" class="demoForm" id="demoForm">
 								<fieldset>
 
-
+									<h2>Choose a plan to calculate your total payroll price </h2>
 									<div class="row pricing-card">
 											<div class="col-md-4">
 												<div class="card card-1">
@@ -530,12 +530,14 @@ Template Post Type: payroll
 												</div>
 											</div>
 											<div class="container">
+												<h2>Drag slider below to indicate total employees</h2>
+												<span class="total-employees">Total Employees: <span id="employees"></span></br></span>
+
 												<div class="slidecontainer">
 
 												   <input type="range" min="1" max="99" class="slider" id="myRange">
 
-												   <p>Drag slider to calculate your payroll price.</p>
-												   <p>*To receive a customized business proposal for more than 500 employees, please Contact Us</p>
+												   <p>*To receive a customized business proposal for more than 500 employees, please <a href="/contact-us/">Contact Us</a></p>
 											   </div>
 											</div>
 
@@ -543,9 +545,8 @@ Template Post Type: payroll
 												<div class="displayPrice">
 
 												   <p class="text-center">
-													   <span class="total-employees">Total Employees: <span id="employees"></span></br></span>
 													   <label>
-														  <b> $25</b> Base Price + <b>$<span id="planPrice"></span></b> Per Person <i class="fa-equal"> = <b>$<span type="text" name="total" class="num" value="1000" readonly="readonly" id="finalPrice" /></span></b>
+														  <b> $25</b> Base Price + <b>$<span id="planPrice"></span></b> Per Person = <b>$<span type="text" name="total" class="num" value="1000" readonly="readonly" id="finalPrice" /></span></b>
 													   </label>
 												   </p>
 											   </div>
@@ -582,12 +583,12 @@ Template Post Type: payroll
 						for (var i=0, len=plan.length; i<len; i++) {
 						plan[i].onclick = function() { // assign onclick handler function to each
 							// put clicked radio button's value in total field
-							finalPrice.innerHTML = this.value * slider.value;
+							finalPrice.innerHTML = this.value * slider.value + 25;
 							planPrice.innerHTML = this.value;
 
 							slider.oninput = function() {
 								output.innerHTML = this.value;
-								finalPrice.innerHTML = this.value * plan.value;
+								finalPrice.innerHTML = this.value * plan.value + 25;
 							};
 						};
 

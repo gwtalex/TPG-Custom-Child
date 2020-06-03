@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 
 
 
-	<div id="main-footer" class="container-fluid">
+	<div id="main-footer" class="container-fluid p-0">
 
 		<div id="footer-before" class="row">
 

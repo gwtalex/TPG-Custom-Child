@@ -12489,6 +12489,8 @@ figure.woocommerce-product-gallery__wrapper {
 
 #payroll-midsize #payroll-mid-accordion {
   margin-bottom: 50px; }
+  #payroll-midsize #payroll-mid-accordion td {
+    padding-left: 30px; }
   #payroll-midsize #payroll-mid-accordion .card-header {
     background-color: #45525f; }
     #payroll-midsize #payroll-mid-accordion .card-header button {
@@ -12591,13 +12593,17 @@ figure.woocommerce-product-gallery__wrapper {
   background: #efefef;
   margin: 10px 0px 25px 0px;
   padding: 50px 0px 50px 0px;
-  font-size: 25px; }
+  font-size: 40px; }
 
 /*
 * ====================================
 * Insurance Template Styling
 * ====================================
 */
+.row {
+  margin-left: 0px  !important;
+  margin-right: 0px  !important; }
+
 #insurance-header {
   margin: 0;
   padding: 0;
@@ -12719,6 +12725,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 0px 0px 0px 0px;
     /* For overlay if image used*/
     background-color: rgba(0, 0, 0, 0.5); }
     #insurance-footer .container-fluid .row {

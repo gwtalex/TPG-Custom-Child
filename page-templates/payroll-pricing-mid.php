@@ -15,7 +15,7 @@ Template Post Type: payroll
 
 
 <!--- Main Content --->
-		<div id="payroll-content-container"class="container-fluid">
+		<div id="payroll-content-container" class="container-fluid">
 			<section class="page-wrap">
 				<div class="row">
 				<div class="col-md-3">
@@ -69,61 +69,61 @@ Template Post Type: payroll
 									<table class="table table-striped">
 										<tbody>
 											<tr>
-												<td class="w-75">Flat Pricing with No Hidden Costs</td>
+												<td class="w-50">Flat Pricing with No Hidden Costs</td>
 												<td><i class="fas fa-check check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-75">Mobile Processing 24/7</td>
+												<td class="w-50">Mobile Processing 24/7</td>
 												<td><i class="fas fa-check check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-75">Detailed Payroll Reports</td>
+												<td class="w-50">Detailed Payroll Reports</td>
 												<td><i class="fas fa-check check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-75">Vacation & Sick Time Tracking</td>
+												<td class="w-50">Vacation & Sick Time Tracking</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
 											<tr>
-												<td class="w-75">Direct Deposit / Live Checks / Cash Cards</td>
+												<td class="w-50">Direct Deposit / Live Checks / Cash Cards</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
-											<td class="w-75">Garnishments & Reimbursements</td>
+											<td class="w-50">Garnishments & Reimbursements</td>
 											<td><i class="fas fa-check check-red check-red"></i></td>
 											<td><i class="fas fa-check check-yellow"></i></td>
 											<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-75">Employee Portal with Online Access</td>
+												<td class="w-50">Employee Portal with Online Access</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-75">Online Paystubs / W-2's & more</td>
+												<td class="w-50">Online Paystubs / W-2's & more</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-75">Simplified Certified Payroll</td>
+												<td class="w-50">Simplified Certified Payroll</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-75">Job Costing / Labor Center Reporting</td>
+												<td class="w-50">Job Costing / Labor Center Reporting</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
@@ -419,7 +419,7 @@ Template Post Type: payroll
 						<form action="#" method="post" class="demoForm" id="demoForm">
 							<fieldset>
 
-
+								<h2>Choose a plan to calculate your total payroll price </h2>
 								<div class="row pricing-card">
 
 
@@ -467,12 +467,14 @@ Template Post Type: payroll
 											</div>
 										</div>
 										<div class="container">
+											<h2>Drag slider below to indicate total employees</h2>
+											<span class="total-employees">Total Employees: <span id="employees"></span></br></span>
 											<div class="slidecontainer">
 
 											   <input type="range" min="100" max="500" class="slider" id="myRange">
 
-											   <p>Drag slider to calculate your payroll price.</p>
-											   <p>*To receive a customized business proposal for more than 500 employees, please Contact Us</p>
+
+											   <p>*To receive a customized business proposal for more than 500 employees, please <a href="/contact-us/">Contact Us</a></p>
 										   </div>
 										</div>
 
@@ -480,7 +482,7 @@ Template Post Type: payroll
 											<div class="displayPrice">
 
 		 									   <p class="text-center">
-												   <span class="total-employees">Total Employees: <span id="employees"></span></br></span>
+
 		 										   <label>
 		 											   <span class="updatePrice">Total </span> = <b>$<span type="text" name="total" class="num" value="1000" readonly="readonly"id="finalPrice" /></span></b>
 		 										   </label>

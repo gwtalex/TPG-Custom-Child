@@ -1162,6 +1162,9 @@
 	}
 
 	#payroll-mid-accordion{
+		td {
+			padding-left: 30px;
+		}
 		margin-bottom: 50px;
 
 		.card-header{
@@ -1309,7 +1312,7 @@
 		background: #efefef;
 		margin: 10px 0px 25px 0px;
 		padding: 50px 0px 50px 0px;
-		font-size: 25px;
+		font-size: 40px;
 	}
 }
 
@@ -1319,6 +1322,11 @@
 * Insurance Template Styling
 * ====================================
 */
+
+.row {
+	margin-left: 0px  !important;
+	margin-right: 0px  !important;
+}
 //insurance Hero
 #insurance-header {
 	margin: 0;
@@ -1463,6 +1471,7 @@
 		/* Flexbox stuff */
 		display: flex;
 		align-items: center;
+		padding: 0px 0px 0px 0px;
 		/* For overlay if image used*/
 		background-color: rgba(0, 0, 0, 0.5);
 
@@ -1627,6 +1636,8 @@
 }
 
 #footer-after {
+	.container-fluid {
+	}
 	// Gray "Site Info" Section
 	background-color: #C0C0C0;
 	align-items: center;
