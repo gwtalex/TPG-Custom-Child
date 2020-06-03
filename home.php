@@ -15,7 +15,15 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <!--- Blog Header --->
-<?php get_template_part( 'partials/blog', 'banner' ); ?>
+<div id="blog-header" class="container-fluid" style="background-image:url('https://www.mytpg.com/wp-content/uploads/2020/06/working-man-is-typing-on-black-frame-laptop-3774082-scaled.jpg'">
+   <div class="container-fluid">
+	   <div class="container">
+		   <h1 class="page-title">MyTPG.com Blog</h1>
+		   <p>At TPG we equip our clients with information you need to be successful in your business.</p>
+	   </div>
+   </div>
+</div>
+
 <div class="wrapper" id="archive-wrapper">
 
 	<div class="container-fluid" id="blog-content" tabindex="-1">

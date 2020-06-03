@@ -15,7 +15,16 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <!--- Blog Header --->
-<?php get_template_part( 'partials/blog', 'banner' ); ?>
+<div id="blog-header" class="container-fluid" style="background-image:url('https://www.mytpg.com/wp-content/uploads/2020/06/working-man-is-typing-on-black-frame-laptop-3774082-scaled.jpg'">
+   <div class="container-fluid">
+	   <div class="container">
+		   <?php
+			the_archive_title( '<h1 class="page-title">', '</h1>' );
+			the_archive_description( '<div class="taxonomy-description">', '</div>' );
+			?>
+	   </div>
+   </div>
+</div>
 
 <div class="wrapper" id="archive-wrapper">
 
