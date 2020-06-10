@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Risk Elementor Bottom
+Template Name: Risk Elementor Right
 Template Post Type: risk
 */
 ?>
@@ -18,7 +18,6 @@ Template Post Type: risk
 
 <!--- Main Content --->
 		<div id="risk-content-container"class="container-fluid">
-			<section class="page-wrap">
 				<div class="row">
 				<div class="col-md-3">
 					    <!-- Risk Menu -->
@@ -34,20 +33,15 @@ Template Post Type: risk
 							</div>
 					</div>
 				<div class="col content-right">
-					<?php the_field('content_right'); ?>
-				</div>
-			</div>
-		</section>
-		<section class="content-main">
-			<div class="row">
-				<div class="col-sm-12">
-					<?php while (have_posts()) : the_post();/* Start loop */ ?>
-	        			<?php the_content(); ?>
-					<?php endwhile; /* End loop */ ?>
-				</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<?php while (have_posts()) : the_post();/* Start loop */ ?>
+								<?php the_content(); ?>
+							<?php endwhile; /* End loop */ ?>
+						</div>
 
+					</div>				</div>
 			</div>
-		</section>
 	</div>
 </div>
 
