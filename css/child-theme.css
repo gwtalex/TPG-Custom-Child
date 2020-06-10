@@ -13037,6 +13037,8 @@ figure.woocommerce-product-gallery__wrapper {
       display: none; }
   #blog-articles .card-title a {
     color: #54595f; }
+  #blog-articles .updated {
+    display: none; }
 
 @media all and (min-width: 700px) {
   #blog-main {
