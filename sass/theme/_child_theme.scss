@@ -646,6 +646,35 @@
 		}
 	}
 }
+
+#testimonials {
+	background: #6EC1E4;
+	@media all and (min-width:400px) {
+		.col {
+			margin: 75px 50px 75px 50px;
+
+			h2 {
+				font-size: 40px;
+			}
+			p {
+				font-size: 25px;
+			}
+		}
+	}
+
+	h2 {
+		color: white;
+	}
+
+	p {
+		color: white;
+	}
+}
+
+#testimonials-banner {
+	margin: 20px 0px 0px 0px;
+}
+
 /*
 * ====================================
 * Risk Template Styling

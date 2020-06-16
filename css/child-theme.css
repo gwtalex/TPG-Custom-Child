@@ -12086,6 +12086,23 @@ figure.woocommerce-product-gallery__wrapper {
     .tab-content .tab-pane ul {
       margin-bottom: 30px; }
 
+#testimonials {
+  background: #6EC1E4; }
+  @media all and (min-width: 400px) {
+    #testimonials .col {
+      margin: 75px 50px 75px 50px; }
+      #testimonials .col h2 {
+        font-size: 40px; }
+      #testimonials .col p {
+        font-size: 25px; } }
+  #testimonials h2 {
+    color: white; }
+  #testimonials p {
+    color: white; }
+
+#testimonials-banner {
+  margin: 20px 0px 0px 0px; }
+
 /*
 * ====================================
 * Risk Template Styling

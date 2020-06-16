@@ -1,3 +1,22 @@
+
+<div class="container-fluid" id="testimonials">
+	<a name="testimonials-section"></a>
+	<div class="row">
+		<div class="col">
+			<h2>RECOMMENDED BY THE PEOPLE WHO MATTER MOST: OUR CUSTOMERS</h4>
+			<div id='RRTestimonials'></div>
+			<script async src='https://cf.rocketreferrals.com/jsloader/v2?c_id=HM2keU0jjLM84zGE_pPOPw'></script>
+			<script>
+				window.RRLoader = window.RRLoader || [];
+				window.rrcall = window.rrcall || function(){RRLoader.push(arguments);}
+				rrcall('load_testimonials', 'RRTestimonials');
+			</script>
+			<a href="https://cf.rocketreferrals.com/testimonialwidget/HM2keU0jjLM84zGE_pPOPw
+"><p>Click here for more testimonials</p></a>
+		</div>
+	</div>
+</div>
+
 <?php if ( $image = get_field( 'footer_image' ) ): ?>
 
 	<div id="insurance-footer" class="container-fluid" style="background-image:url('<?php echo $image['url']; ?>')">
