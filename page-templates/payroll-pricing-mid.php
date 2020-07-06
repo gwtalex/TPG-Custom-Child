@@ -535,7 +535,7 @@ Template Post Type: payroll
 
 				<!-- You Be The Judge Chart -->
 					<div class="container you-judge">
-						<a id="#why"></a>
+						<a id="why"></a>
 						<h5 class="text-center">Why Pay 40+% More for Less Service...</h5>
 						<h2 style="color:#ffe04a; font-size: 50px; text-align: center;">You Be The Judge !!!</h2>
 						<h1 style="color:#009fd9; font-size: 40px; text-align: center;"><b>TPG vs. <span style="color:#f2575b;">ADP</span></b></h1>
