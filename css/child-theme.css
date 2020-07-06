@@ -13040,6 +13040,9 @@ figure.woocommerce-product-gallery__wrapper {
     text-align: center;
     margin-left: 0; } }
 
+#blog-category-buttons a {
+  margin: 5px 5px 10px 5px; }
+
 #blog-articles {
   min-width: 300px;
   max-width: 450px;
