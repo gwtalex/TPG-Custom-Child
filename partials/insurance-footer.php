@@ -3,7 +3,7 @@
 	<a name="testimonials-section"></a>
 	<div class="row">
 		<div class="col">
-			<h2>RECOMMENDED BY THE PEOPLE WHO MATTER MOST: OUR CUSTOMERS</h4>
+			<h2>WHAT OUR CUSTOMERS SAY</h4>
 			<div id='RRTestimonials'></div>
 			<script async src='https://cf.rocketreferrals.com/jsloader/v2?c_id=HM2keU0jjLM84zGE_pPOPw'></script>
 			<script>

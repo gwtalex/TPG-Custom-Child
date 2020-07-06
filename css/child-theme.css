@@ -12101,7 +12101,16 @@ figure.woocommerce-product-gallery__wrapper {
     color: white; }
 
 #testimonials-banner {
-  margin: 20px 0px 0px 0px; }
+  margin: 50px 0px 0px 0px; }
+  #testimonials-banner a {
+    color: white; }
+
+#RRTestimonials cite {
+  color: black;
+  font-size: 25px; }
+
+#RRTestimonials p {
+  color: white font-size 25px; }
 
 /*
 * ====================================

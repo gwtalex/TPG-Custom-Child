@@ -16,8 +16,7 @@
 				<button type="button" class="btn btn-outline btn-lg">Get A Quote</button>
 			</a>
 
-			<p id="testimonials-banner">RECOMMENDED BY THE PEOPLE WHO MATTER MOST: OUR CUSTOMERS
-				CLICK <a href="#testimonials-section">HERE</a> TO READ WHAT THEY HAVE TO SAY</p>
+			<p id="testimonials-banner"><a href="#testimonials-section">READ CUSTOMER TESTIMONIALS</a></p>
 		</div>
 	</div>
 </div>
