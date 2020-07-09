@@ -1,4 +1,7 @@
 
+
+<?php // Testimonials for Personal Insurance
+if(has_term('personal','insurance-category')) { ?>
 <div class="container-fluid" id="testimonials">
 	<a name="testimonials-section"></a>
 	<div class="row">
@@ -16,6 +19,7 @@
 		</div>
 	</div>
 </div>
+<?php } ?>
 
 <?php if ( $image = get_field( 'footer_image' ) ): ?>
 

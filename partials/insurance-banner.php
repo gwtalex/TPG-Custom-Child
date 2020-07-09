@@ -16,7 +16,12 @@
 				<button type="button" class="btn btn-outline btn-lg">Get A Quote</button>
 			</a>
 
-			<p id="testimonials-banner"><a href="#testimonials-section">READ CUSTOMER TESTIMONIALS</a></p>
+			<?php // Testimonials for Personal Insurance
+			if(has_term('personal','insurance-category')) { ?>
+				<p id="testimonials-banner">
+					<a href="#testimonials-section">READ CUSTOMER TESTIMONIALS</a>
+				</p>
+			<?php } ?>
 		</div>
 	</div>
 </div>
