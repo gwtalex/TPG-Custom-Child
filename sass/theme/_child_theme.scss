@@ -929,11 +929,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-bottom: 8px solid $payroll-primary;
-	height: 518px;
+	height: 600px;
 
 	.container-fluid {
 		/* Sizing */
-		height: 510px;
+		height: 592px;
 		/* Flexbox stuff */
 		display: flex;
 		align-items: center;
@@ -942,8 +942,8 @@
 		.container {
 			flex-direction: column;
 			padding: 0;
-			margin-left: 60px;
-			@media all and (min-width: 700px) {
+			@media all and (min-width: 800px) {
+				margin-left: 60px;
 				h1 {
 					font-size: 60px;
 					color: white;
@@ -977,7 +977,7 @@
 					}
 				}
 			}
-			@media all and (max-width: 700px) {
+			@media all and (max-width: 800px) {
 				h1 {
 					font-size: 40px;
 					color: white;
@@ -1009,6 +1009,25 @@
 				}
 			}
 		}
+	}
+}
+
+// Payroll Banner Forms
+.payroll-banner-form {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 25px;
+	h3 {
+		color: $payroll-primary;
+		text-align: center;
+	}
+	h4 {
+		color: $blog-primary;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.super-button-wrap {
+		background-color: $payroll-primary !important;
 	}
 }
 //Payroll content container

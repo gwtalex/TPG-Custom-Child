@@ -12307,10 +12307,10 @@ figure.woocommerce-product-gallery__wrapper {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 8px solid #00a65c;
-  height: 518px; }
+  height: 600px; }
   #payroll-header .container-fluid {
     /* Sizing */
-    height: 510px;
+    height: 592px;
     /* Flexbox stuff */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12324,35 +12324,36 @@ figure.woocommerce-product-gallery__wrapper {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      padding: 0;
-      margin-left: 60px; }
-      @media all and (min-width: 700px) {
-        #payroll-header .container-fluid .container h1 {
-          font-size: 60px;
-          color: white;
-          font-weight: 800;
-          text-transform: uppercase; }
-        #payroll-header .container-fluid .container p {
-          font-size: 25px;
-          color: white;
-          max-width: 75%; }
-        #payroll-header .container-fluid .container .btn,
-        #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
-          padding: 0px 10px 0px 10px;
-          font-size: 40px;
-          color: #fff;
-          border-radius: 0;
-          border: 5px solid;
-          background-color: #00a65c;
-          border-color: #00a65c; }
-          #payroll-header .container-fluid .container .btn:focus,
-          #payroll-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #payroll-header .container-fluid .container input:focus[type=submit] {
-            background-color: Transparent;
-            border: 5px solid #00a65c; }
-          #payroll-header .container-fluid .container .btn:hover, #payroll-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #payroll-header .container-fluid .container input:hover[type=submit] {
-            background-color: Transparent;
-            border: 5px solid #00a65c; } }
-      @media all and (max-width: 700px) {
+      padding: 0; }
+      @media all and (min-width: 800px) {
+        #payroll-header .container-fluid .container {
+          margin-left: 60px; }
+          #payroll-header .container-fluid .container h1 {
+            font-size: 60px;
+            color: white;
+            font-weight: 800;
+            text-transform: uppercase; }
+          #payroll-header .container-fluid .container p {
+            font-size: 25px;
+            color: white;
+            max-width: 75%; }
+          #payroll-header .container-fluid .container .btn,
+          #payroll-header .container-fluid .container .wpcf7 input[type=submit], .wpcf7 #payroll-header .container-fluid .container input[type=submit] {
+            padding: 0px 10px 0px 10px;
+            font-size: 40px;
+            color: #fff;
+            border-radius: 0;
+            border: 5px solid;
+            background-color: #00a65c;
+            border-color: #00a65c; }
+            #payroll-header .container-fluid .container .btn:focus,
+            #payroll-header .container-fluid .container .wpcf7 input:focus[type=submit], .wpcf7 #payroll-header .container-fluid .container input:focus[type=submit] {
+              background-color: Transparent;
+              border: 5px solid #00a65c; }
+            #payroll-header .container-fluid .container .btn:hover, #payroll-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #payroll-header .container-fluid .container input:hover[type=submit] {
+              background-color: Transparent;
+              border: 5px solid #00a65c; } }
+      @media all and (max-width: 800px) {
         #payroll-header .container-fluid .container h1 {
           font-size: 40px;
           color: white;
@@ -12375,6 +12376,19 @@ figure.woocommerce-product-gallery__wrapper {
           #payroll-header .container-fluid .container .btn:hover, #payroll-header .container-fluid .container .wpcf7 input:hover[type=submit], .wpcf7 #payroll-header .container-fluid .container input:hover[type=submit] {
             background-color: Transparent;
             border: 5px solid #00a65c; } }
+
+.payroll-banner-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 25px; }
+  .payroll-banner-form h3 {
+    color: #00a65c;
+    text-align: center; }
+  .payroll-banner-form h4 {
+    color: #54595f;
+    font-size: 15px;
+    text-align: center; }
+  .payroll-banner-form .super-button-wrap {
+    background-color: #00a65c !important; }
 
 #payroll-content-container {
   padding: 0px;
