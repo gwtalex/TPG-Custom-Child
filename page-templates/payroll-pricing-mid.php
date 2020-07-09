@@ -57,10 +57,10 @@ Template Post Type: payroll
 						<p class="table-bottom">Lifetime Pricing $$$ <br> TPG will lock in your PEPM Pricing for life!!!</p>
 
 						<div class="accordion" id="payroll-mid-accordion">
-							<div class="card">
+							<div class="card" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 								<div class="card-header">
 									<h2 class="mb-0">
-										<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										<button class="btn btn-link" >
 											Payroll Management
 										</button>
 									</h2>
@@ -133,10 +133,10 @@ Template Post Type: payroll
 									</table>
 								</div>
 							</div>
-							<div class="card">
+							<div class="card"  type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
 								<div class="card-header">
 									<h2 class="mb-0">
-										<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+										<button class="btn btn-link">
 											Tax Management
 										</button>
 									</h2>
@@ -184,10 +184,10 @@ Template Post Type: payroll
 									</table>
 								</div>
 							</div>
-							<div class="card">
+							<div class="card"  type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
 								<div class="card-header">
 									<h2 class="mb-0">
-										<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+										<button class="btn btn-link">
 											Accounting & CPA Support
 										</button>
 									</h2>
@@ -217,10 +217,10 @@ Template Post Type: payroll
 									</table>
 								</div>
 							</div>
-							<div class="card">
+							<div class="card"  type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
 								<div class="card-header">
 									<h2 class="mb-0">
-										<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+										<button class="btn btn-link">
 											Time Management
 										</button>
 									</h2>
@@ -262,10 +262,10 @@ Template Post Type: payroll
 									</table>
 								</div>
 							</div>
-							<div class="card">
+							<div class="card"  type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
 								<div class="card-header">
 									<h2 class="mb-0">
-										<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+										<button class="btn btn-link">
 											Human Capital Management
 										</button>
 									</h2>
@@ -332,10 +332,10 @@ Template Post Type: payroll
 								</div>
 							</div>
 
-							<div class="card">
+							<div class="card"  type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
 								<div class="card-header">
 									<h2 class="mb-0">
-										<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+										<button class="btn btn-link">
 											Benefits Management
 										</button>
 									</h2>
@@ -378,10 +378,10 @@ Template Post Type: payroll
 								</div>
 							</div>
 
-							<div class="card">
+							<div class="card"  type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
 								<div class="card-header">
 									<h2 class="mb-0">
-										<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+										<button class="btn btn-link">
 											Workers' Compensation
 										</button>
 									</h2>
