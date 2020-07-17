@@ -55,7 +55,43 @@
 
 
  			<div class="col w-100">
+                <div class="row" id="blog-category-buttons" >
+                    <div class="col-sm-12">
+                        <div class="d-flex flex-column">
+                            <a href="/category/personal-lines-insurance/" class="btn btn-covid">
+                                COVID-19
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex flex-column" >
+                            <a href="/category/personal-lines-insurance/" class="btn btn-blog-category">
+                                Personal Insurance
+                            </a>
+                            <a href="/category/health-benefits/" class="btn btn-blog-category">
+                                Health & Benefits
+                            </a>
+                            <a href="/category/commercial-insurance/" class="btn btn-blog-category">
+                                Commerical Insurance
+                            </a>
 
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex flex-column" >
+                            <a href="/category/risk-management/" class="btn btn-blog-category">
+                                Risk Management
+                            </a>
+                            <a href="/category/payroll/" class="btn btn-blog-category">
+                                Payroll
+                            </a>
+                            <a href="/category/human-resources/" class="btn btn-blog-category">
+                                Human Resources
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
 				<h3 class="page-title">
 					<?php
 					printf(

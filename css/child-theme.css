@@ -13066,6 +13066,40 @@ figure.woocommerce-product-gallery__wrapper {
 #blog-category-buttons a {
   margin: 5px 5px 10px 5px; }
 
+#blog-category-buttons .btn-covid {
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0;
+  border: 5px solid;
+  background-color: #EC6969;
+  border-color: #EC6969;
+  padding: 10px; }
+  #blog-category-buttons .btn-covid:focus {
+    background-color: Transparent;
+    border: 5px solid #EC6969;
+    color: #EC6969; }
+  #blog-category-buttons .btn-covid:hover {
+    background-color: Transparent;
+    border: 5px solid #EC6969;
+    color: #EC6969; }
+
+#blog-category-buttons .btn-blog-category {
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0;
+  border: 5px solid;
+  background-color: #67B4E3;
+  border-color: #67B4E3;
+  padding: 10px; }
+  #blog-category-buttons .btn-blog-category:focus {
+    background-color: Transparent;
+    border: 5px solid #67B4E3;
+    color: #67B4E3; }
+  #blog-category-buttons .btn-blog-category:hover {
+    background-color: Transparent;
+    border: 5px solid #67B4E3;
+    color: #67B4E3; }
+
 #blog-articles {
   min-width: 300px;
   max-width: 450px;
@@ -13073,6 +13107,17 @@ figure.woocommerce-product-gallery__wrapper {
   margin-right: 15px;
   margin-bottom: 10px;
   padding: 15px; }
+  #blog-articles .entry-meta {
+    width: 40%;
+    margin: 0px 0px 10px 0px;
+    text-align: left;
+    font-size: 20px;
+    -webkit-clip-path: polygon(100% 0, 85% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+            clip-path: polygon(100% 0, 85% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+    background-color: #54595f;
+    /* styles for demo */
+    padding: 5px 0px 5px 5px;
+    color: #fff; }
   #blog-articles .entry-header {
     margin-top: 10px;
     margin-bottom: 10px; }
