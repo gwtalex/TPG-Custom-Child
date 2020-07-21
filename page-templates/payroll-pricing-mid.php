@@ -69,61 +69,61 @@ Template Post Type: payroll
 									<table class="table table-striped">
 										<tbody>
 											<tr>
-												<td class="w-50">Flat Pricing with No Hidden Costs</td>
+												<td class="w-75">Flat Pricing with No Hidden Costs</td>
 												<td><i class="fas fa-check check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-50">Mobile Processing 24/7</td>
+												<td class="w-75">Mobile Processing 24/7</td>
 												<td><i class="fas fa-check check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-50">Detailed Payroll Reports</td>
+												<td class="w-75">Detailed Payroll Reports</td>
 												<td><i class="fas fa-check check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-50">Vacation & Sick Time Tracking</td>
+												<td class="w-75">Vacation & Sick Time Tracking</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
 											<tr>
-												<td class="w-50">Direct Deposit / Live Checks / Cash Cards</td>
+												<td class="w-75">Direct Deposit / Live Checks / Cash Cards</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
-											<td class="w-50">Garnishments & Reimbursements</td>
+											<td class="w-75">Garnishments & Reimbursements</td>
 											<td><i class="fas fa-check check-red check-red"></i></td>
 											<td><i class="fas fa-check check-yellow"></i></td>
 											<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-50">Employee Portal with Online Access</td>
+												<td class="w-75">Employee Portal with Online Access</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-50">Online Paystubs / W-2's & more</td>
+												<td class="w-75">Online Paystubs / W-2's & more</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-50">Simplified Certified Payroll</td>
+												<td class="w-75">Simplified Certified Payroll</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>
 											</tr>
 											<tr>
-												<td class="w-50">Job Costing / Labor Center Reporting</td>
+												<td class="w-75">Job Costing / Labor Center Reporting</td>
 												<td><i class="fas fa-check check-red check-red"></i></td>
 												<td><i class="fas fa-check check-yellow"></i></td>
 												<td><i class="fas fa-check check-green"></i></td>

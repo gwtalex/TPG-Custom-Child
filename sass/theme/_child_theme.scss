@@ -685,8 +685,8 @@
 	}
 
 	p {
-		color: white
-		font-size 25px;
+		color: white;
+		font-size: 25px;
 	}
 }
 
@@ -1019,6 +1019,7 @@
 	h3 {
 		color: $payroll-primary;
 		text-align: center;
+		font-weight: bold;
 	}
 	h4 {
 		color: $blog-primary;
@@ -1941,12 +1942,17 @@
 // Blog Category Buttons
 
 #blog-category-buttons {
+	h2 {
+		font-size: 25px;
+		text-align: center;
+	}
 	a {
 		margin: 5px 5px 10px 5px;
+		font-weight: bold;
 	}
 
 	.btn-covid {
-		font-size: 20px;
+		font-size: 25px;
 		color: #fff;
 		border-radius: 0;
 		border: 5px solid;
@@ -1968,7 +1974,7 @@
 	}
 
 	.btn-blog-category {
-		font-size: 20px;
+		font-size: 25px;
 		color: #fff;
 		border-radius: 0;
 		border: 5px solid;
@@ -2002,13 +2008,18 @@
 	padding: 15px;
 
 	.entry-meta {
-		width: 40%;
+		width: 25%;
 		margin: 0px 0px 10px 0px;
 		text-align: left;
-		font-size: 20px;
 		clip-path: polygon(100% 0, 85% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
 		background-color: $blog-primary;
 
+		.day-date {
+			font-size: 25px;
+		}
+		.month {
+			font-size: 15px;
+		}
 		/* styles for demo */
 		padding: 5px 0px 5px 5px;
 		color: #fff;
@@ -2025,6 +2036,7 @@
 	.card-title {
 		a {
 			color: $blog-primary;
+			font-size: 25px;
 		}
 	}
 

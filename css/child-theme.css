@@ -12110,7 +12110,8 @@ figure.woocommerce-product-gallery__wrapper {
   font-size: 25px; }
 
 #RRTestimonials p {
-  color: white font-size 25px; }
+  color: white;
+  font-size: 25px; }
 
 /*
 * ====================================
@@ -12382,7 +12383,8 @@ figure.woocommerce-product-gallery__wrapper {
   padding: 25px; }
   .payroll-banner-form h3 {
     color: #00a65c;
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
   .payroll-banner-form h4 {
     color: #54595f;
     font-size: 15px;
@@ -13063,11 +13065,16 @@ figure.woocommerce-product-gallery__wrapper {
     text-align: center;
     margin-left: 0; } }
 
+#blog-category-buttons h2 {
+  font-size: 25px;
+  text-align: center; }
+
 #blog-category-buttons a {
-  margin: 5px 5px 10px 5px; }
+  margin: 5px 5px 10px 5px;
+  font-weight: bold; }
 
 #blog-category-buttons .btn-covid {
-  font-size: 20px;
+  font-size: 25px;
   color: #fff;
   border-radius: 0;
   border: 5px solid;
@@ -13084,7 +13091,7 @@ figure.woocommerce-product-gallery__wrapper {
     color: #EC6969; }
 
 #blog-category-buttons .btn-blog-category {
-  font-size: 20px;
+  font-size: 25px;
   color: #fff;
   border-radius: 0;
   border: 5px solid;
@@ -13108,23 +13115,27 @@ figure.woocommerce-product-gallery__wrapper {
   margin-bottom: 10px;
   padding: 15px; }
   #blog-articles .entry-meta {
-    width: 40%;
+    width: 25%;
     margin: 0px 0px 10px 0px;
     text-align: left;
-    font-size: 20px;
     -webkit-clip-path: polygon(100% 0, 85% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
             clip-path: polygon(100% 0, 85% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
     background-color: #54595f;
     /* styles for demo */
     padding: 5px 0px 5px 5px;
     color: #fff; }
+    #blog-articles .entry-meta .day-date {
+      font-size: 25px; }
+    #blog-articles .entry-meta .month {
+      font-size: 15px; }
   #blog-articles .entry-header {
     margin-top: 10px;
     margin-bottom: 10px; }
     #blog-articles .entry-header .byline {
       display: none; }
   #blog-articles .card-title a {
-    color: #54595f; }
+    color: #54595f;
+    font-size: 25px; }
   #blog-articles .updated {
     display: none; }
 

@@ -52,8 +52,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col w-100">
 
                 <div class="row" id="blog-category-buttons" >
+
                     <div class="col-sm-12">
                         <div class="d-flex flex-column">
+                            <h2>Select A Category Below</h2>
                             <a href="/category/personal-lines-insurance/" class="btn btn-covid">
                                 COVID-19
                             </a>
@@ -62,13 +64,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="col-sm-6">
                         <div class="d-flex flex-column" >
                             <a href="/category/personal-lines-insurance/" class="btn btn-blog-category">
-                                Personal Insurance
+                                PERSONAL INSURANCE
                             </a>
                             <a href="/category/health-benefits/" class="btn btn-blog-category">
-                                Health & Benefits
+                                HEALTH & BENEFITS
                             </a>
                             <a href="/category/commercial-insurance/" class="btn btn-blog-category">
-                                Commerical Insurance
+                                COMMERCIAL INSURNACE
                             </a>
 
                         </div>
@@ -76,13 +78,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="col-sm-6">
                         <div class="d-flex flex-column" >
                             <a href="/category/risk-management/" class="btn btn-blog-category">
-                                Risk Management
+                                RISK MANAGEMENT
                             </a>
                             <a href="/category/payroll/" class="btn btn-blog-category">
-                                Payroll
+                                PAYROLL
                             </a>
                             <a href="/category/human-resources/" class="btn btn-blog-category">
-                                Human Resources
+                                HUMAN RESOURCES
                             </a>
 
                         </div>

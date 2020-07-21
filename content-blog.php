@@ -11,9 +11,9 @@ defined( 'ABSPATH' ) || exit;
 
 <div id="blog-articles" class="shadow card text-center">
 	<div class="entry-meta">
-		<?php echo get_the_date( 'l' ); ?>
-	</br>
-		<?php echo get_the_date( 'M j' ); ?>
+		<span class="day-date"><?php echo get_the_date( 'j' ); ?></span>
+		<br>
+		<span class="month"><?php echo get_the_date( 'M ' ); ?></span>
 	</div><!-- .entry-meta -->
 	<img class="card-img-top" src="<?php the_post_thumbnail_url(); ?>">
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
