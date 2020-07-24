@@ -54,7 +54,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="row" id="blog-category-buttons" >
                     <div class="col-sm-12">
                         <div class="d-flex flex-column">
-                            <a href="/category/personal-lines-insurance/" class="btn btn-covid">
+                            <a href="/category/covid-19/" class="btn btn-covid">
                                 COVID-19
                             </a>
                         </div>
