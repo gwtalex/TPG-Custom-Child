@@ -13116,7 +13116,7 @@ figure.woocommerce-product-gallery__wrapper {
   padding: 15px; }
   #blog-articles .entry-meta {
     width: 25%;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px -25px -5px;
     text-align: left;
     -webkit-clip-path: polygon(100% 0, 85% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
             clip-path: polygon(100% 0, 85% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
